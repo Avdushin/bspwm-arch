@@ -1,7 +1,7 @@
 
 
 # reloads sxhkd configuration:
-super + Escape + r
+super + shift + y
     pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config' -t 1500
 
 # Launch Terminal
@@ -28,18 +28,29 @@ super + {d,x}
     {rofi -show drun,sh $HOME/bin/powermenu}
 
 # Launch Applications
-super + shift + {f,n,p,t,c,v,i,x,q,k,l}
+super + shift + {f,p,t,v,i,x,k,l}
 	{firefox, \
-	thunar, \
 	pavucontrol, \
-	telegram-desktop, \
+	Telegram, \
 	code, \
-	virtualbox, \
 	firefox --private-window, \
 	sh $HOME/bin/xcolor-pick, \
-	sh $HOME/bin/bible, \
 	alacritty -e calcurse, \
 	sh $HOME/bin/screen-lock}
+
+
+super + t
+	Telegram
+
+# Launch Applications
+super + {e,t,x}
+	{thunar, \
+	Telegram, \
+	sh $HOME/bin/xcolor-pick, \}
+
+# lock screen
+super + l
+	sh $HOME/bin/screen-lock
      
 # Select window to close
 ctrl + super + alt + k
@@ -54,21 +65,25 @@ XF86MonBrightness{Up,Down}
     sh $HOME/bin/brightness{ --up, --down}
 
 # screenshot
+
+
+## Скриншот выделенной области (Flameshot GUI)
 Print
     flameshot gui
 
-#
+super + shift + s
+    flameshot gui
 #
 # BSPWM HOTKEYS
 #
 #
 
 # quit/restart bspwm
-ctrl + shift + {q,r}
+super + shift + {q,r}
     bspc {quit,wm -r}
 
 # close and kill
-super + c
+super + q
     bspc node -c
 
 # alternate between the tiled and monocle layout

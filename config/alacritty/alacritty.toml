@@ -1,4 +1,3 @@
-import = ["/home/user/.config/alacritty/themes/custom.toml"]
 
 [colors]
 draw_bold_text_with_bright_colors = true
@@ -48,14 +47,20 @@ multiplier = 6
 save_to_clipboard = true
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/fish"
 
 [window]
 dynamic_title = true
-opacity = 1
+opacity = 0.87
 title = "Alacritty"
 
 [window.class]
 general = "Alacritty"
 instance = "Alacritty"
+
+[general]
+#import = ["/home/user/.config/alacritty/themes/custom.toml"]
+import = ["/home/user/.config/alacritty/iris.toml"]
+
+[terminal]

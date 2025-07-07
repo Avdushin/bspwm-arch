@@ -1,4 +1,7 @@
-<h1 align="center"> :herb: ZProger Build :herb: </h1>
+<h1 align="center"> :herb: Arch BSPWM Build :herb: </h1>
+<p>
+   forked from <a href="https://github.com/Zproger/bspwm-dotfiles" target="blank">Zproger/bspwm-dotfiles </a>
+</p>
 
 <!-- BADGES -->
 </br>
@@ -38,7 +41,10 @@
 ![gallery](demonstration/4.png)
 ![gallery](demonstration/5.png)
 ![gallery](demonstration/6.png)
-![gallery](demonstration/7.png)
+
+## Two monitors example
+![gallery](demonstration/empty_screen.png)
+![gallery](demonstration/tiling-full.png)
 
 
 <!-- FEATURES -->

@@ -6,9 +6,20 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 # fix some Java applications
 # wmname LG3D
 
+#xrandr --output DP-3 --primary --mode 2560x1440 --pos 0x0 \
+ #                       --output DP-1 --mode 1920x1080 --rotate left --pos 2560x0 &
+
 # workspaces
-bspc monitor primary -d 1 2 3 4 5 6 7
-bspc monitor LVDS-1 -d 7  # TODO: multiple monitors
+# bspc monitor primary -d 1 2 3 4 5 6 7
+# bspc monitor LVDS-1 -d 7  # TODO: multiple monitors
+
+# Автонастройка мониторов
+sleep 1
+~/.config/bspwm/monitor_setup.sh
+
+# Настройка мониторов
+bspc monitor DP-0 -d 1 2 3 4 5 6 7
+bspc monitor DP-4 -d 8 9
 
 bspc config focus_follows_pointer true
 
