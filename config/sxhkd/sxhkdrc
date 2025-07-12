@@ -1,5 +1,3 @@
-
-
 # reloads sxhkd configuration:
 super + shift + y
     pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config' -t 1500
@@ -8,6 +6,9 @@ super + shift + y
 super + Return
     alacritty
 
+super + shift +Return
+    /opt/sublime_text/sublime_text
+
 # Hide or Unhide Polybar
 super + p
 	sh $HOME/bin/toggle-polybar
@@ -15,6 +16,9 @@ super + p
 # Set random wallpaper
 super + w
 	sh $HOME/bin/random_wallpaper
+
+super + shift + w
+	feh --bg-fill  /home/user/Images/walls.png
 
 # Change language
 Alt_L + shift
@@ -28,8 +32,9 @@ super + {d,x}
     {rofi -show drun,sh $HOME/bin/powermenu}
 
 # Launch Applications
-super + shift + {f,p,t,v,i,x,k,l}
+super + shift + {f,z,p,t,v,i,x,k,l}
 	{firefox, \
+	zen-browser, \
 	pavucontrol, \
 	Telegram, \
 	code, \
@@ -38,13 +43,13 @@ super + shift + {f,p,t,v,i,x,k,l}
 	alacritty -e calcurse, \
 	sh $HOME/bin/screen-lock}
 
-
 super + t
 	Telegram
 
 # Launch Applications
-super + {e,t,x}
+super + {e,o,t,x}
 	{thunar, \
+	obsidian, \
 	Telegram, \
 	sh $HOME/bin/xcolor-pick, \}
 
@@ -56,6 +61,30 @@ super + l
 ctrl + super + alt + k
 	{xkill}
 
+# mine headphones settings
+# Model: Sony
+# Следующий трек
+"xte 'key XF86AudioNext'"
+  XF86AudioNext
+
+# Предыдущий трек
+"xte 'key XF86AudioPrev'"
+  XF86AudioPrev
+
+# Воспроизведение/пауза
+"playerctl play-pause"
+  XF86AudioPlay
+
+# Громкость вверх
+"pactl set-sink-volume @DEFAULT_SINK@ +5%"
+  XF86AudioRaiseVolume
+
+# Громкость вниз
+"pactl set-sink-volume @DEFAULT_SINK@ -5%"
+  XF86AudioLowerVolume
+
+
+# ===========================
 # Volume controls
 XF86Audio{RaiseVolume,LowerVolume,Mute}
     sh $HOME/bin/volume{ --up, --down, --toggle}
@@ -65,8 +94,6 @@ XF86MonBrightness{Up,Down}
     sh $HOME/bin/brightness{ --up, --down}
 
 # screenshot
-
-
 ## Скриншот выделенной области (Flameshot GUI)
 Print
     flameshot gui
