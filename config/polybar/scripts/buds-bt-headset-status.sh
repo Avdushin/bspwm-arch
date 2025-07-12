@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MAC="00:A4:1C:84:4B:27"  # MAC твоих наушников
+MAC="6C:DD:BC:1E:BC:3E"
 
 STATUS=$(bluetoothctl info "$MAC" 2>/dev/null)
 
