@@ -46,6 +46,41 @@
 ![gallery](demonstration/empty_screen.png)
 ![gallery](demonstration/tiling-full.png)
 
+## Custom process monitoring scripts for fish shell
+![](./demonstration/custom_monitoring.png)
+
+#### `procstats` (алиасы: `psf`, `prs`)
+**Описание**: Детальная статистика по конкретному процессу  
+**Формат вывода**:
+```
+PID     USER    %CPU    %MEM    RAM(GB) COMMAND
+1234    user    45.2    6.7     1.23    firefox
+```
+
+**Примеры**:
+```fish
+procstats firefox      # Все процессы Firefox
+psf chrome --mem      # Chrome, сортировка по RAM
+prs steam -cpu        # Steam, сортировка по CPU
+```
+
+#### `topprocs` с сортировкой (топ процессов (от самого тяжелого к более легковесным))
+**Алиасы**:
+- `topcpu` - сортировка по CPU (по умолчанию)
+- `topmem` - сортировка по памяти
+
+**Особенности вывода**:
+- Автоматически выбирает MB/GB для RAM
+- Цветовая подсветка колонок
+- Заголовок указывает параметр сортировки
+
+**Пример вывода**:
+```
+    PID       USER   %CPU   %MEM       RAM (Сортировка по MEM)
+146495       user   11.8    5.2    0.81 GB firefox
+665273       user   20.7    2.1    0.33 GB Web Content
+```
+
 
 <!-- FEATURES -->
 ## 🚀 Features
@@ -112,6 +147,3 @@ Complete instructions for corrections: https://youtu.be/9zewiGf7j-A
 
 The other hotkeys are in `~/.config/sxhkd/sxhkdrc`.
 
-#
-
-The project is actively developing, so you can offer your ideas for improvements and visit our [YouTube channel](https://youtube.com/@zproger) and [Telegram](https://t.me/codeblog8). Go to the `Projects` tab to keep track of current shell updates and future improvements.
