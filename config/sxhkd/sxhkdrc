@@ -20,6 +20,9 @@ super + w
 super + shift + w
 	feh --bg-fill  /home/user/Images/walls.png
 
+super + v
+    rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+
 # Change language
 Alt_L + shift
 	sh $HOME/bin/change_language.sh

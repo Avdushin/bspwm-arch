@@ -7,7 +7,7 @@ BASE_PACKAGES = [
     "mat2", "mpd", "mpv", "thunar", "ncmpcpp", "neofetch", "network-manager-applet", "nitrogen",
     "pamixer", "papirus-icon-theme", "pavucontrol", "polybar", "autoconf", "mpc", "pulseaudio",
     "pulseaudio-alsa", "python-pyalsa", "ranger", "redshift", "reflector", "rofi", "rofi-calc", "calcurse",
-    "rofi-emoji", "scrot", "sudo", "slop", "tree", "unrar", "zip", "unzip", "uthash", "xarchiver",
+    "rofi-emoji", "greenclip", "scrot", "sudo", "slop", "tree", "unrar", "zip", "unzip", "uthash", "xarchiver",
     "xfce4-power-manager", "xfce4-settings", "xorg-xbacklight", "zathura", "zathura-djvu", "zathura-pdf-mupdf",
     "cmake", "clang", "gzip", "imagemagick", "make", "openssh", "pulseaudio-bluetooth", "shellcheck",
     "vlc", "usbutils", "picom", "networkmanager-openvpn", "alsa-plugins", "alsa-tools", "alsa-utils", "ffmpeg",

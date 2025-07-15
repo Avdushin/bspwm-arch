@@ -80,3 +80,4 @@ picom --config $HOME/.config/bspwm/picom_configurations/1.conf &
 # autostart
 flameshot &
 sh ~/bin/bt-media-keys-listener.sh &
+greenclip daemon &
