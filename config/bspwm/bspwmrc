@@ -9,27 +9,33 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 #xrandr --output DP-3 --primary --mode 2560x1440 --pos 0x0 \
  #                       --output DP-1 --mode 1920x1080 --rotate left --pos 2560x0 &
 
-# workspaces
-# bspc monitor primary -d 1 2 3 4 5 6 7
-# bspc monitor LVDS-1 -d 7  # TODO: multiple monitors
-
 # Автонастройка мониторов
 sleep 1
 ~/.config/bspwm/monitor_setup.sh
 
 # Настройка мониторов
-#bspc monitor DP-0 -d 1 2 3 4 5 6 7
-#bspc monitor DP-4 -d 8 9
-
+# workspaces
 bspc monitor DP-0 -d 1 2 3 4 5 6 7
 bspc monitor DP-4 -d 8 9
+
+# --- вертикальный монитор DP-4 -----------------
+# # первое разделение — вниз
+bspc config -m DP-4 split_dir south
+# новое окно встаёт под текущим
+bspc config -m DP-4 initial_polarity second_child
+
+# --- правила для мессенджеров на DP-4, desktop 8 -----------------
+bspc rule -a Discord            monitor=DP-4 desktop=8 state=tiled follow=on split_dir=south
+bspc rule -a TelegramDesktop    monitor=DP-4 desktop=8 state=tiled follow=on split_dir=south
+bspc rule -a spotify            monitor=DP-4 desktop=8 state=tiled follow=on split_dir=south
+bspc rule -a deltachat-desktop  monitor=DP-4 desktop=8 state=tiled follow=on split_dir=south
 
 bspc config focus_follows_pointer true
 
 # Window borders (Auto-Generate)
 bspc config focused_border_color "#7899FA"
 bspc config normal_border_color "#1f222b"
-bspc config border_width 4
+bspc config border_width 5
 bspc config borderless_monocle true
 
 bspc config active_border_color "#bd93f9"
@@ -40,7 +46,7 @@ xsetroot -cursor_name left_ptr
 
 # gaps
 bspc config gapless_monocle false
-bspc config window_gap 13
+bspc config window_gap 17
 
 # moving floating windows and resize them with mouse, hold alt key
 bspc config pointer_modifier mod4
@@ -65,19 +71,12 @@ xrdb merge ~/.Xresources
 dunst -config $HOME/.config/bspwm/dunstrc &
 
 # launch battery tracker and redshift
-#pkill battery-alert; ~/bin/battery-alert &
-#pgrep -x redshift > /dev/null || redshift &
-
-bspc subscribe node_add | while read -r _; do ~/bin/float-arrange.sh; done &
-bspc rule -a Telegram state=floating
-bspc rule -a Discord state=floating
-bspc rule -a Spotify state=floating
-
+pkill battery-alert; ~/bin/battery-alert &
+pgrep -x redshift > /dev/null || redshift &
 
 # start compositor
 picom --config $HOME/.config/bspwm/picom_configurations/1.conf &
 
 # autostart
 flameshot &
-sh ~/bin/bt-media-keys-listener.sh &
-greenclip daemon &
+greenclip &

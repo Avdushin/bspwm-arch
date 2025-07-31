@@ -1,0 +1,36 @@
+#!/bin/bash
+# Диалог выбора формата архива
+format=$(zenity --list --title="Создать архив" --text="Выберите формат:" \
+--column="Формат" "ZIP" "7Z" "TAR" "TAR.GZ" "TAR.XZ" --width=300 --height=250)
+
+if [ -z "$format" ]; then
+    exit 0
+fi
+
+# Диалог ввода имени архива
+archive_name=$(zenity --entry --title="Имя архива" --text="Введите имя архива (без расширения):")
+
+if [ -z "$archive_name" ]; then
+    exit 0
+fi
+
+# Создание архива в зависимости от формата
+case $format in
+    "ZIP")
+        zip -r "$archive_name.zip" "$@"
+        ;;
+    "7Z")
+        7z a "$archive_name.7z" "$@"
+        ;;
+    "TAR")
+        tar -cvf "$archive_name.tar" "$@"
+        ;;
+    "TAR.GZ")
+        tar -czvf "$archive_name.tar.gz" "$@"
+        ;;
+    "TAR.XZ")
+        tar -cJvf "$archive_name.tar.xz" "$@"
+        ;;
+esac
+
+notify-send "Архив создан" "$archive_name.$format"
