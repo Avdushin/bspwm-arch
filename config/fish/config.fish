@@ -1,9 +1,11 @@
 
 # Create aliases
 alias cls="clear"
+alias ls="lsd"
+alias md="mkdir"
 alias g="git"
 alias n="nvim"
-alias v="vin"
+alias v="vim"
 alias m="micro"
 
 # Display critical errors
@@ -41,6 +43,32 @@ set -gx EDITOR vim
 set -gx VISUAL vim
 set -gx BROWSER /usr/bin/firefox
 
+
+# Places
+function pr
+    switch $argv[1]
+        case go-bot
+            cd /home/user/pr/CRAB@v0.1.0/core/go-spreads-bot@v0.1.0
+        case rtw
+            cd /home/user/pr/CRAB@v0.1.0/core/rtw@v0.1.0
+        case spreads
+            cd /home/user/pr/CRAB@v0.1.0/core/spreads-consumer@v0.1.0
+        case db
+            cd /home/user/pr/CRAB@v0.1.0/core/spreads-consumer@v0.1.0/db_rework
+        case log
+            cd /home/user/pr/CRAB@v0.1.0/utils/log_cleaner
+        case ob_streamer
+            cd /home/user/pr/CRAB@v0.1.0/utils/orderbook-streamer
+        case '*'
+            echo "Unknown project. Available options:"
+            echo "  go-bot    → ~/pr/CRAB@v0.1.0/core/go-spreads-bot@v0.1.0"
+            echo "  rtw       → ~/pr/CRAB@v0.1.0/core/rtw@v0.1.0"
+            echo "  spreads   → ~/pr/CRAB@v0.1.0/core/spreads-consumer@v0.1.0"
+            echo "  db        → ~/pr/CRAB@v0.1.0/core/spreads-consumer@v0.1.0/db_rework"
+            echo "  log       → ~/pr/CRAB@v0.1.0/utils/log_cleaner"
+            echo "  ob-streamer → ~/pr/CRAB@v0.1.0/utils/orderbook-streamer"
+    end
+end
 
 if status is-interactive
     # Commands to run in interactive sessions can go here

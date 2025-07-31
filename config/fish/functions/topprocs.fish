@@ -26,7 +26,7 @@ function topprocs -d "Топ процессов с выбором сортиро
     set -l yellow (set_color -o yellow)
 
     # Динамический заголовок
-    echo -e $yellow"    PID       USER   %CPU   %MEM       RAM (Сортировка по $header)"$reset
+    echo -e $yellow"    PID       USER   %CPU   %MEM  RAM (Сортировка по $header)"$reset
 
     # Основной вывод
     ps -eo pid,user,%cpu,%mem,rss,comm --sort=-$sort_key | head -n 11 | tail -n +2 | \
