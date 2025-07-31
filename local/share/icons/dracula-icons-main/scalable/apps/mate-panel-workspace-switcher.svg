@@ -1,1 +1,73 @@
-workspace-overview.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-15486" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAaUlEQVR4nO3QIQ4CARAEwT6CwaDQPInv8wIkGoNAnOcEIRtIlV7RO0t1qs69d60eGzc/ad/6/GXj7tafDrCbDphmgOmAaQaYDphmgOmAaUt1qI4bd/fq+f0cAAAAAAAAAAAAAAAAAPjEC072Bl3djWAlAAAAAElFTkSuQmCC"/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-15486"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-15485" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(97.647059%, 97.647059%, 97.647059%)" fill-opacity="1" d="M 8.464844 1.324219 C 4.519531 1.324219 1.324219 4.519531 1.324219 8.464844 L 8.464844 8.464844 Z M 8.464844 1.324219 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-15488" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-15485"/>
+</g>
+</g>
+<image id="source-15502" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAZUlEQVR4nO3YwQ2DQBAEwYVgyD8fB2M+ZHDILUOVtN/TqJ+3zcwx6z4z873hnZ/b6wE1AeoBNQHqATUB6gE1AeoBNQHqATUB6gE1AeoBtdcH2K5b9ZefIQAAAAAAAAAAAAAAPNUJjqkDI/iHJOUAAAAASUVORK5CYII="/>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-15502"/>
+</g>
+</mask>
+<clipPath id="clip-2">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-15501" clip-path="url(#clip-2)">
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 8.464844 1.324219 L 8.464844 8.464844 L 1.324219 8.464844 C 1.324219 8.554688 1.328125 8.644531 1.332031 8.730469 L 8.464844 8.730469 L 8.464844 15.609375 C 8.554688 15.609375 8.644531 15.605469 8.730469 15.601562 L 8.730469 8.730469 L 15.597656 8.730469 C 15.601562 8.644531 15.605469 8.554688 15.609375 8.464844 L 8.730469 8.464844 L 8.730469 1.335938 C 8.644531 1.332031 8.554688 1.324219 8.464844 1.324219 Z M 8.464844 1.324219 "/>
+</g>
+<clipPath id="clip-3">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-15504" clip-path="url(#clip-3)">
+<g mask="url(#mask-1)">
+<use xlink:href="#source-15501"/>
+</g>
+</g>
+<image id="source-15519" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAZElEQVR4nO3VOwqAQAwE0PFzA+9/yi0EK0+wsOBiEN9rk2IyTRIA4K+WgZ0jydaZtSTnvDjv2wd2tvQLWCdmKfH5A55SQHWAagqoDlBt5Au09Iu6JmYBAAAAAAAAAAAAAACY4gaUIwQLdkLV9gAAAABJRU5ErkJggg=="/>
+<mask id="mask-2">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-15519"/>
+</g>
+</mask>
+<clipPath id="clip-4">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-15518" clip-path="url(#clip-4)">
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 8.730469 14.816406 C 12.09375 14.816406 14.816406 12.089844 14.816406 8.730469 L 8.730469 8.730469 Z M 8.730469 14.816406 "/>
+</g>
+<clipPath id="clip-5">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-15521" clip-path="url(#clip-5)">
+<g mask="url(#mask-2)">
+<use xlink:href="#source-15518"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(38.823529%, 55.294118%, 96.078431%)" fill-opacity="1" d="M 8.464844 1.324219 L 8.464844 8.464844 L 1.324219 8.464844 C 1.324219 12.410156 4.519531 15.609375 8.464844 15.609375 C 12.410156 15.609375 15.609375 12.410156 15.609375 8.464844 C 15.609375 4.519531 12.410156 1.324219 8.464844 1.324219 Z M 8.464844 1.324219 "/>
+<use xlink:href="#source-15488"/>
+<use xlink:href="#source-15504"/>
+<path fill-rule="nonzero" fill="rgb(97.647059%, 97.647059%, 97.647059%)" fill-opacity="1" d="M 8.464844 2.382812 C 5.105469 2.382812 2.382812 5.105469 2.382812 8.464844 L 8.464844 8.464844 Z M 8.464844 2.382812 "/>
+<use xlink:href="#source-15521"/>
+</svg>

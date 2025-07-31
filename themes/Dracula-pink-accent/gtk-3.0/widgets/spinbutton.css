@@ -1,6 +1,4 @@
-/**************
- * spinbutton *
- **************/
+
 .spinbutton.entry {
     border: solid 1px mix(@bg_color,black, 0.2);
 }

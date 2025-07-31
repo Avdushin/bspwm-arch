@@ -1,13 +1,41 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient id="a" x1="49.571" x2="51.714" y1="52.714" y2="54.857" gradientTransform="matrix(2.3333,0,0,2.3333,-68.667,-72.001)" gradientUnits="userSpaceOnUse">
-   <stop offset="0"/>
-   <stop stop-opacity="0" offset="1"/>
-  </linearGradient>
- </defs>
- <g transform="scale(1)">
-  <rect x="8" y="4" width="48" height="56" ry="5" fill="#fa4b2d" style="paint-order:stroke fill markers"/>
-  <path d="m56 46-14 14h9c2.77 0 5-2.23 5-5z" fill="url(#a)" fill-rule="evenodd" opacity=".15" stroke-width="8.8191" style="paint-order:stroke fill markers"/>
- </g>
- <path d="m41.25 26-6.454 1.118c0.093 4.223-4.186 7.158-8.201-0.798l-7.593 1.119c1.182 4.302 5.425 4.832 8.255 7.095-1.415 2.122-7.843 0.844-7.671 7.467l6.454-1.119c-0.093-4.223 7.355-7.78 11.369 0.177l7.593-1.119c-1.184-4.313-5.693-4.723-8.523-7 1.402-3.083 6.04-0.31 4.77-6.94" color="#000000" color-rendering="auto" fill="#fff" image-rendering="auto" opacity=".75" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.15"/>
+</g>
+</mask>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="49.570999" y1="52.714001" x2="51.714001" y2="54.856998" gradientTransform="matrix(2.3333, 0, 0, 2.3333, -68.667, -72.000999)">
+<stop offset="0" stop-color="rgb(0%, 0%, 0%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(0%, 0%, 0%)" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-87" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="url(#linear-pattern-0)" d="M 56 46 L 42 60 L 51 60 C 53.769531 60 56 57.769531 56 55 Z M 56 46 "/>
+</g>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.75"/>
+</g>
+</mask>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-91" clip-path="url(#clip-1)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 41.25 26 L 34.796875 27.117188 C 34.890625 31.339844 30.609375 34.277344 26.59375 26.320312 L 19.003906 27.4375 C 20.183594 31.742188 24.425781 32.269531 27.257812 34.535156 C 25.84375 36.65625 19.414062 35.378906 19.585938 42 L 26.039062 40.882812 C 25.945312 36.660156 33.394531 33.101562 37.410156 41.058594 L 45.003906 39.941406 C 43.816406 35.628906 39.308594 35.21875 36.480469 32.941406 C 37.882812 29.855469 42.519531 32.628906 41.25 26 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(98.039216%, 29.411765%, 17.647059%)" fill-opacity="1" d="M 13 4 L 51 4 C 53.761719 4 56 6.238281 56 9 L 56 55 C 56 57.761719 53.761719 60 51 60 L 13 60 C 10.238281 60 8 57.761719 8 55 L 8 9 C 8 6.238281 10.238281 4 13 4 Z M 13 4 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-87"/>
+</g>
+<g mask="url(#mask-1)">
+<use xlink:href="#source-91"/>
+</g>
 </svg>

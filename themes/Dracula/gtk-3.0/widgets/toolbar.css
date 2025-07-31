@@ -1,6 +1,4 @@
-/***********
- * toolbar *
- ***********/
+
 .toolbar {
     padding: 5px;
     border-style: none;
@@ -8,7 +6,7 @@
     background-image: none;
 }
 
-/* primary-toolbar */
+
 .primary-toolbar.toolbar {
     padding: 4px;
     background-color: @header_bg_color;
@@ -43,7 +41,7 @@
     color: shade(@selected_bg_color, 0.9);
 }
 
-/* inline-toolbar */
+
 .inline-toolbar.toolbar {
     -GtkToolbar-button-relief: normal;
 

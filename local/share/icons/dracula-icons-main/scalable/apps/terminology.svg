@@ -1,1 +1,42 @@
-terminal.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-13.2" y="-13.2" width="86.4" height="86.4" fill="rgb(0%, 0%, 0%)" fill-opacity="0.99"/>
+</g>
+</mask>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<rect x="-21.84" y="-21.84" width="103.68" height="103.68" fill="rgb(0%, 0%, 0%)" fill-opacity="0.99"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="48" height="48"/>
+</clipPath>
+<g id="source-12448" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 47.058824%, 49.411765%)" fill-opacity="0.7" d="M 47.203125 24.46875 C 47.203125 37.320312 36.785156 47.734375 23.9375 47.734375 C 11.085938 47.734375 0.667969 37.320312 0.667969 24.46875 C 0.667969 11.617188 11.085938 1.199219 23.9375 1.199219 C 36.785156 1.199219 47.203125 11.617188 47.203125 24.46875 Z M 47.203125 24.46875 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="48" height="48"/>
+</clipPath>
+<g id="source-12450" clip-path="url(#clip-1)">
+<g mask="url(#mask-1)">
+<use xlink:href="#source-12448"/>
+</g>
+</g>
+<clipPath id="clip-2">
+<rect x="0" y="0" width="48" height="48"/>
+</clipPath>
+<g id="source-12453" clip-path="url(#clip-2)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-12450"/>
+</g>
+<path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 15.351562 18.125 C 14.96875 18.132812 14.628906 18.378906 14.511719 18.742188 C 14.390625 19.109375 14.511719 19.507812 14.816406 19.742188 L 20.78125 24.464844 L 14.816406 29.1875 C 14.554688 29.382812 14.414062 29.707031 14.460938 30.03125 C 14.503906 30.359375 14.722656 30.632812 15.03125 30.753906 C 15.339844 30.867188 15.683594 30.808594 15.933594 30.597656 L 22.792969 25.167969 C 23.007812 24.996094 23.136719 24.738281 23.136719 24.464844 C 23.136719 24.1875 23.007812 23.925781 22.792969 23.757812 L 15.933594 18.328125 C 15.769531 18.195312 15.5625 18.121094 15.351562 18.125 Z M 24.234375 29.011719 C 23.738281 29.011719 23.335938 29.414062 23.335938 29.910156 C 23.335938 30.40625 23.738281 30.8125 24.234375 30.8125 L 32.519531 30.8125 C 33.015625 30.8125 33.421875 30.40625 33.421875 29.910156 C 33.421875 29.414062 33.015625 29.011719 32.519531 29.011719 Z M 24.234375 29.011719 "/>
+</g>
+</defs>
+<use xlink:href="#source-12453"/>
+</svg>

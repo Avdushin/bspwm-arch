@@ -1,7 +1,24 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <circle cx="8.4665" cy="8.4665" r="7.1436" fill="#498cd8" style="paint-order:stroke fill markers"/>
- <g transform="translate(0 -280.07)">
-  <path d="m8.467 285.6-1.06 2.874h2.123zm-0.441-0.77h0.886l2.2 5.775h-0.812l-0.526-1.482h-2.603l-0.526 1.482h-0.825z" fill="#fff" font-size="7.922" font-weight="400" letter-spacing="0" stroke-width=".198" word-spacing="0" aria-label="A"/>
- </g>
- <path transform="scale(.26458)" d="m17.16 46.84-2.8262 2.8262a25 25 0 0 0 17.666 7.334 25 25 0 0 0 17.666-7.334l-2.8262-2.8262a21 21 0 0 1-14.84 6.1602 21 21 0 0 1-14.84-6.1602z" opacity=".15" stroke-width="3.4996" style="paint-order:stroke fill markers"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.15"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-5985" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 4.539062 12.394531 L 3.792969 13.140625 C 5.03125 14.382812 6.710938 15.078125 8.464844 15.082031 C 10.21875 15.078125 11.902344 14.382812 13.140625 13.140625 L 12.394531 12.394531 C 11.351562 13.433594 9.941406 14.019531 8.464844 14.023438 C 6.992188 14.019531 5.582031 13.433594 4.539062 12.394531 Z M 4.539062 12.394531 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(28.627451%, 54.901961%, 84.705882%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 12.410156 12.410156 15.609375 8.464844 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.324219 8.464844 1.324219 C 12.410156 1.324219 15.609375 4.519531 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 8.46875 5.53125 L 7.40625 8.402344 L 9.53125 8.402344 Z M 8.027344 4.761719 L 8.910156 4.761719 L 11.113281 10.535156 L 10.300781 10.535156 L 9.773438 9.054688 L 7.171875 9.054688 L 6.644531 10.535156 L 5.820312 10.535156 Z M 8.027344 4.761719 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-5985"/>
+</g>
 </svg>

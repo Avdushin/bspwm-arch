@@ -1,13 +1,41 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient id="a" x1="49.571" x2="51.714" y1="52.714" y2="54.857" gradientTransform="matrix(2.3333,0,0,2.3333,-68.667,-72.001)" gradientUnits="userSpaceOnUse">
-   <stop offset="0"/>
-   <stop stop-opacity="0" offset="1"/>
-  </linearGradient>
- </defs>
- <g transform="scale(1)">
-  <rect x="8" y="4" width="48" height="56" ry="5" fill="#5f6c79" style="paint-order:stroke fill markers"/>
-  <path d="m56 46-14 14h9c2.77 0 5-2.23 5-5z" fill="url(#a)" fill-rule="evenodd" opacity=".15" stroke-width="8.8191" style="paint-order:stroke fill markers"/>
- </g>
- <path d="m21 22v22h22v-22zm1 1h20v20h-20zm2 3v2h16v-2zm0 4v1h7v-1zm9 0v1h7v-1zm-9 3v1h7v-1zm9 0v1h7v-1zm-9 3v1h7v-1zm9 0v1h7v-1zm-9 3v1h7v-1zm9 0v1h7v-1z" color="#000000" color-rendering="auto" fill="#fff" image-rendering="auto" opacity=".9" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.15"/>
+</g>
+</mask>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="49.570999" y1="52.714001" x2="51.714001" y2="54.856998" gradientTransform="matrix(2.3333, 0, 0, 2.3333, -68.667, -72.000999)">
+<stop offset="0" stop-color="rgb(0%, 0%, 0%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(0%, 0%, 0%)" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-15400" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="url(#linear-pattern-0)" d="M 56 46 L 42 60 L 51 60 C 53.769531 60 56 57.769531 56 55 Z M 56 46 "/>
+</g>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.9"/>
+</g>
+</mask>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-15404" clip-path="url(#clip-1)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 21 22 L 21 44 L 43 44 L 43 22 Z M 22 23 L 42 23 L 42 43 L 22 43 Z M 24 26 L 24 28 L 40 28 L 40 26 Z M 24 30 L 24 31 L 31 31 L 31 30 Z M 33 30 L 33 31 L 40 31 L 40 30 Z M 24 33 L 24 34 L 31 34 L 31 33 Z M 33 33 L 33 34 L 40 34 L 40 33 Z M 24 36 L 24 37 L 31 37 L 31 36 Z M 33 36 L 33 37 L 40 37 L 40 36 Z M 24 39 L 24 40 L 31 40 L 31 39 Z M 33 39 L 33 40 L 40 40 L 40 39 Z M 33 39 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(37.254902%, 42.352941%, 47.45098%)" fill-opacity="1" d="M 13 4 L 51 4 C 53.761719 4 56 6.238281 56 9 L 56 55 C 56 57.761719 53.761719 60 51 60 L 13 60 C 10.238281 60 8 57.761719 8 55 L 8 9 C 8 6.238281 10.238281 4 13 4 Z M 13 4 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-15400"/>
+</g>
+<g mask="url(#mask-1)">
+<use xlink:href="#source-15404"/>
+</g>
 </svg>

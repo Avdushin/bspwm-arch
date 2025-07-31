@@ -1,1 +1,5 @@
-emblem-unreadable.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+<path fill-rule="nonzero" fill="rgb(82.745098%, 18.431373%, 18.431373%)" fill-opacity="1" d="M 5.027344 2.910156 C 5.027344 1.742188 4.078125 0.792969 2.910156 0.792969 C 1.742188 0.792969 0.792969 1.742188 0.792969 2.910156 C 0.792969 4.078125 1.742188 5.027344 2.910156 5.027344 C 4.078125 5.027344 5.027344 4.078125 5.027344 2.910156 Z M 5.027344 2.910156 "/>
+<path fill="none" stroke-width="0.661" stroke-linecap="square" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="4" d="M -1.587272 292.766953 L 0.528947 294.883172 M 0.528947 292.766953 L -1.587272 294.883172 " transform="matrix(0.72727, 0, 0, 0.72727, 3.295, -210.779999)"/>
+</svg>

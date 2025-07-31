@@ -1,13 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1" viewBox="0 0 16 16">
- <defs>
-  <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#727272; } .ColorScheme-Highlight { color:#5294e2; }
-  </style>
- </defs>
- <g style="fill:currentColor;opacity:0.5" class="ColorScheme-Text" transform="rotate(90,8,8)">
-  <rect width="2" height="16" x="4" y="0"/>
-  <rect width="2" height="16" x="7" y="0"/>
-  <rect width="2" height="16" x="10" y="0"/>
- </g>
- <rect style="fill:currentColor" class="ColorScheme-Text" width="12" height="12" x="2" y="2" rx=".8" ry=".8"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-1.6" y="-1.6" width="19.2" height="19.2" fill="rgb(0%, 0%, 0%)" fill-opacity="0.5"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="16" height="16"/>
+</clipPath>
+<g id="source-10284" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 16 4 L 16 6 L 0 6 L 0 4 Z M 16 4 "/>
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 16 7 L 16 9 L 0 9 L 0 7 Z M 16 7 "/>
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 16 10 L 16 12 L 0 12 L 0 10 Z M 16 10 "/>
+</g>
+</defs>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-10284"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 2.800781 2 L 13.199219 2 C 13.640625 2 14 2.359375 14 2.800781 L 14 13.199219 C 14 13.640625 13.640625 14 13.199219 14 L 2.800781 14 C 2.359375 14 2 13.640625 2 13.199219 L 2 2.800781 C 2 2.359375 2.359375 2 2.800781 2 Z M 2.800781 2 "/>
 </svg>

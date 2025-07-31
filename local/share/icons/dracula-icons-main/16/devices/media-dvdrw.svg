@@ -1,1 +1,4 @@
-media-optical.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 8 1 C 4.132812 1 1 4.132812 1 8 C 1 11.867188 4.132812 15 8 15 C 11.867188 15 15 11.867188 15 8 C 15 4.132812 11.867188 1 8 1 Z M 8 6 C 9.105469 6 10 6.894531 10 8 C 10 9.105469 9.105469 10 8 10 C 6.894531 10 6 9.105469 6 8 C 6 6.894531 6.894531 6 8 6 Z M 8 6 "/>
+</svg>

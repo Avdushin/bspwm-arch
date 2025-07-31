@@ -1,6 +1,4 @@
-/*****************
- * color chooser *
- *****************/
+
 GtkColorSwatch,
 GtkColorSwatch:selected {
     border-width: 1px;

@@ -91,10 +91,8 @@
     background-image: -gtk-scaled(url("../assets/close_prelight.svg"));
 }
 
-/*******************
- * check and radio *
- *******************/
-/* draw regular check and radio items using our assets */
+
+
 
 .check,
 .check:focus {
@@ -233,9 +231,7 @@ GtkIconView.content-view.cell.check:checked {
     -gtk-icon-source: -gtk-scaled(url("../assets/grid-selection-checked.svg"),url("../assets/grid-selection-checked@2.svg"));
 }
 
-/******************
- * pane separator *
- ******************/
+
 .pane-separator.horizontal {
     background-image: -gtk-scaled(url("../assets/pane-handle.png"),url("../assets/pane-handle@2.png"));
     background-repeat: no-repeat;
@@ -248,9 +244,7 @@ GtkIconView.content-view.cell.check:checked {
     background-position: center center;
 }
 
-/*************
- * GtkSwitch *
- *************/
+
 GtkSwitch.trough {
     background-image: -gtk-scaled(url("../assets/switch-off.svg"),url("../assets/switch-off@2.svg"));
 }
@@ -277,9 +271,7 @@ GtkSwitch.slider:active:insensitive {
     background-image: -gtk-scaled(url("../assets/switch-slider-insensitive.svg"),url("../assets/switch-slider-insensitive@2.svg"));
 }
 
-/*******************
- * GtkScale slider *
- *******************/
+
 .scale.slider {
     background: -gtk-scaled(url("../assets/scale-slider.svg"),url("../assets/scale-slider@2.png"));
 }

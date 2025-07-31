@@ -1,4 +1,4 @@
-/* Ant palet */
+
 @define-color lime #50fa7a;
 @define-color cyan #8be9fd;
 @define-color yellow #f1fa8c;
@@ -6,7 +6,7 @@
 @define-color purple #bd93f9;
 @define-color red #ff5555;
 
-/* default color scheme */
+
 @define-color bg_color #1e1f29;
 @define-color fg_color #f8f8f2;
 @define-color base_color #282a36;
@@ -14,14 +14,13 @@
 @define-color borders transparent;
 @define-color header_bg_color #1e1f29;
 @define-color header_fg_color #f8f8f2;
-/*@define-color selected_bg_color #00b0ff;*/
+
 @define-color selected_bg_color #ff79c6;
-/*@define-color selected_bg_color #33CBBF;
-*/@define-color selected_fg_color #f8f8f8;
+@define-color selected_fg_color #f8f8f8;
 @define-color tooltip_bg_color #f8f8f8;
 @define-color tooltip_fg_color #2d2d2d;
 
-/* colormap actually used by the theme, to be overridden in other css files */
+
 @define-color theme_bg_color @bg_color;
 @define-color theme_fg_color @fg_color;
 @define-color theme_base_color @base_color;
@@ -31,11 +30,11 @@
 @define-color theme_tooltip_bg_color @tooltip_bg_color;
 @define-color theme_tooltip_fg_color @tooltip_fg_color;
 
-/* shadow effects */
+
 @define-color light_shadow #fff;
 @define-color dark_shadow #000;
 
-/* misc colors used by gtk+ */
+
 @define-color info_fg_color #31363D;
 @define-color info_bg_color #f3f3f3;
 @define-color warning_fg_color #fefefe;
@@ -50,7 +49,7 @@
 @define-color error_color @red;
 @define-color light_grey #dedede;
 
-/* widget colors */
+
 @define-color button_bg_color @theme_base_color;
 @define-color menubar_bg_color @theme_bg_color;
 @define-color menubar_fg_color @theme_fg_color;
@@ -65,12 +64,12 @@
 @define-color titlebar_bg_color @theme_bg_color;
 @define-color titlebar_fg_color @theme_fg_color;
 
-/* osd */
+
 @define-color osd_base @base_color;
 @define-color osd_fg @fg_color;
 @define-color osd_bg @bg_color;
 
-/* window manager colors */
+
 @define-color wm_bg @header_bg_color;
 @define-color wm_border_focused @header_bg_color;
 @define-color wm_border_unfocused @header_bg_color;
@@ -124,4 +123,4 @@
 @import url("apps/gnome-applications.css");
 @import url("apps/unity.css");
 @import url("apps/mate-applications.css");
-/*@import url("widgets/gnome-software.css");*/
+

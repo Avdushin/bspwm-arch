@@ -1,6 +1,4 @@
-/*********************
- * app notifications *
- *********************/
+
 .app-notification {
     border-style: solid;
     border-color: shade(@header_bg_color, 0.9);

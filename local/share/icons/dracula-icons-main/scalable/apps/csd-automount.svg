@@ -1,4 +1,5 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <circle cx="8.4665" cy="8.4665" r="7.1436" fill="#2196f3" style="paint-order:stroke fill markers"/>
- <path d="m5.292 10.054h6.35v1.36h-6.35zm3.175-4.536 3.175 3.175h-6.35z" fill="#fff"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<path fill-rule="nonzero" fill="rgb(12.941176%, 58.823529%, 95.294118%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 12.410156 12.410156 15.609375 8.464844 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.324219 8.464844 1.324219 C 12.410156 1.324219 15.609375 4.519531 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 10.054688 L 11.640625 10.054688 L 11.640625 11.414062 L 5.292969 11.414062 Z M 8.46875 5.519531 L 11.640625 8.691406 L 5.292969 8.691406 Z M 8.46875 5.519531 "/>
 </svg>

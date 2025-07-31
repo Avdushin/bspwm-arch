@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 5.821 5.821"><g transform="translate(0 -291.18)"><rect ry="2.117" rx="2.117" y="-5.027" x="-296.206" height="4.233" width="4.233" transform="matrix(0 -1 -1 0 0 0)" fill="#4caf50"/><path d="M1.919 294.281l.595.595 1.389-1.587" fill="none" stroke="#fff" stroke-width=".529" stroke-linecap="square"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+<path fill-rule="nonzero" fill="rgb(29.803922%, 68.627451%, 31.372549%)" fill-opacity="1" d="M 5.027344 2.910156 C 5.027344 1.742188 4.078125 0.792969 2.910156 0.792969 C 1.742188 0.792969 0.792969 1.742188 0.792969 2.910156 C 0.792969 4.078125 1.742188 5.027344 2.910156 5.027344 C 4.078125 5.027344 5.027344 4.078125 5.027344 2.910156 Z M 5.027344 2.910156 "/>
+<path fill="none" stroke-width="0.529" stroke-linecap="square" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="4" d="M 1.917969 294.281555 L 2.515625 294.875305 L 3.902344 293.289368 " transform="matrix(1, 0, 0, 1, 0, -291.179993)"/>
+</svg>

@@ -1,10 +1,19 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <filter id="filter906" x="-.10493" y="-.11125" width="1.2099" height="1.2225" color-interpolation-filters="sRGB">
-   <feGaussianBlur stdDeviation="0.39246294"/>
-  </filter>
- </defs>
- <rect x="1.3229" y="1.3229" width="14.287" height="14.287" rx="7.1436" ry="7.1436" fill="#263541" stroke-width=".96429"/>
- <text x="3.7172852" y="13.053593" fill="#000000" filter="url(#filter906)" font-family="'URW Bookman'" font-size="12.432px" font-style="italic" font-weight="300" opacity=".15" stroke-width=".31081" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="3.7172852" y="13.053593" fill="#000000" font-family="'URW Bookman'" font-style="italic" font-weight="300" stroke-width=".31081">F</tspan></text>
- <text x="3.7172852" y="12.699766" fill="#ffffff" font-family="'URW Bookman'" font-size="12.432px" font-style="italic" font-weight="300" stroke-width=".31081" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="3.7172852" y="12.699766" fill="#ffffff" font-family="'URW Bookman'" font-style="italic" font-weight="300" stroke-width=".31081">F</tspan></text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.15"/>
+</g>
+</mask>
+<image id="source-16912" x="0" y="0" width="17" height="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABmJLR0QA/wD/AP+gvaeTAAAApUlEQVQ4je3SPw4BcRDF8Q8hoaRXqygoOIRC4gRat5Ao3UCcQavTajT+JC6h0AgaCr9iI7uyq5P4JpO8mcy8vGL4804uYd4OFcca2zTmBaxwRAt1DLDHLEvKFcZBF1FGBcssJif0gx6iEXQ1rUEND0wxxzmkyUQvHOZQwuLTcj5h3sQupLli8o1JB4dIv/lkEscId69f6KY5iHu2SkTfcMma4sd5Av1dGKSQmBRnAAAAAElFTkSuQmCC"/>
+</defs>
+<path fill-rule="nonzero" fill="rgb(14.901961%, 20.784314%, 25.490196%)" fill-opacity="1" d="M 8.464844 1.324219 C 12.410156 1.324219 15.609375 4.519531 15.609375 8.464844 C 15.609375 12.410156 12.410156 15.609375 8.464844 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.324219 8.464844 1.324219 Z M 8.464844 1.324219 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-16912"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 12.40625 4.234375 L 5.515625 4.234375 L 5.453125 4.59375 L 5.640625 4.625 C 6.125 4.6875 6.359375 4.890625 6.359375 5.296875 C 6.359375 5.40625 6.328125 5.71875 6.3125 5.828125 L 5.34375 11.109375 C 5.171875 11.96875 4.9375 12.234375 4.25 12.3125 L 4.046875 12.34375 L 3.984375 12.703125 L 7.5625 12.703125 L 7.625 12.34375 L 7.359375 12.3125 C 6.796875 12.265625 6.546875 12.0625 6.546875 11.640625 C 6.546875 11.5 6.5625 11.28125 6.59375 11.109375 L 7.0625 8.53125 L 8 8.53125 C 8.453125 8.53125 8.8125 8.65625 8.984375 8.828125 C 9.140625 9.015625 9.265625 9.390625 9.265625 9.734375 C 9.265625 9.78125 9.25 9.875 9.234375 9.984375 L 9.234375 10.09375 L 9.640625 10.09375 L 10.296875 6.484375 L 9.890625 6.484375 L 9.859375 6.546875 L 9.65625 7.140625 C 9.625 7.25 9.53125 7.421875 9.390625 7.578125 C 9.09375 7.921875 8.765625 8.03125 8.15625 8.03125 L 7.15625 8.03125 L 7.5 6.09375 C 7.59375 5.546875 7.71875 5.203125 7.828125 5.09375 C 8.09375 4.84375 8.421875 4.765625 9.265625 4.765625 C 10.828125 4.765625 11.796875 5.40625 12.484375 6.84375 L 12.953125 6.703125 Z M 3.71875 3.8125 "/>
 </svg>

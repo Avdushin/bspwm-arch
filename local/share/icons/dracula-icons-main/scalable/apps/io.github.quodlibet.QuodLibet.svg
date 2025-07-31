@@ -1,1 +1,31 @@
-quodlibet.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-7328" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAuElEQVR4nO3bsQoCMRRFwafIgv7/vy5sZauwlUVG9EwZUpzcPjNJ/tnl5Ow+M9vqkEWOmdlfD24nl7aZeSzJMd4GuKqKb9EAOkBrAB2gNYAO0BpAB2gNoAO0BtABWgPoAK0BdIDWADpAawAdoDWADtAaQAdoDaADtAbQAVoD6ACtAXSA1gA6QGsAHaA1gA7QGkAHaA2gA7QG0AFaA+gArQF0gNYAOkBrAB2gnf0aO5ZXrPPLb0vygSc0JwVvuSQM/AAAAABJRU5ErkJggg=="/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-7328"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-7327" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 32 9 C 44.703125 9 55 19.296875 55 32 C 55 44.703125 44.703125 55 32 55 C 19.296875 55 9 44.703125 9 32 C 9 19.296875 19.296875 9 32 9 Z M 32 9 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-7330" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-7327"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(10.588235%, 20%, 25.490196%)" fill-opacity="1" d="M 32 5 C 46.910156 5 59 17.085938 59 32 C 59 46.910156 46.910156 59 32 59 C 17.085938 59 5 46.910156 5 32 C 5 17.085938 17.085938 5 32 5 Z M 32 5 "/>
+<use xlink:href="#source-7330"/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 24.34375 12.058594 C 20.796875 11.894531 18.542969 15.71875 20.789062 18.214844 C 23.015625 21.339844 28.339844 23.253906 31.953125 20.914062 C 31.953125 31.5 32 43.414062 32 54 C 34.148438 54.527344 33.15625 51.054688 33.664062 49.835938 C 34.671875 45.242188 39.601562 42.851562 42.777344 39.5625 C 45.375 36.878906 45.71875 32.78125 43.441406 29.808594 C 42.796875 28.96875 40.707031 25.515625 41.023438 26.171875 C 42.429688 28.863281 44.230469 31.886719 43.378906 34.941406 C 42.300781 38.601562 38.375 40.941406 34.347656 41.507812 C 33.320312 41.648438 33.386719 41.367188 33.285156 39.84375 L 33.285156 17.140625 C 31.9375 14.050781 28.007812 11.957031 24.34375 12.058594 Z M 24.769531 13.039062 C 28.179688 12.890625 32.289062 15.34375 31.859375 18.667969 C 30.976562 21.609375 26.472656 21.390625 24.183594 19.945312 C 21.640625 18.847656 19.761719 15.039062 22.84375 13.507812 C 23.429688 13.21875 24.101562 13.078125 24.769531 13.035156 Z M 24.769531 13.039062 "/>
+</svg>

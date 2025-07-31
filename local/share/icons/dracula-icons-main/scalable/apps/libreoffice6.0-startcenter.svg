@@ -1,1 +1,31 @@
-libreoffice-startcenter.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-14852" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAaElEQVR4nO3UsQ2DMBRF0UdEQZFZMgZrshgrUKKkpHdlCSu/4Jzy6RdXLpzwbFPn3Zrk02xHkm1szv/NnXdLknez/Qa3lHhVB1TzANUB1Xr/gD3Jt9nOwS0AAAAAAAAAAAAAAAAAALdcWMoF5EYXuQkAAAAASUVORK5CYII="/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-14852"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-14851" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 9.847656 2.546875 L 14.386719 7.085938 C 13.859375 4.832031 12.101562 3.074219 9.847656 2.546875 Z M 9.847656 2.546875 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-14854" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-14851"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(30.196078%, 30.196078%, 30.196078%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 12.410156 12.410156 15.609375 8.464844 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.324219 8.464844 1.324219 C 12.410156 1.324219 15.609375 4.519531 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<use xlink:href="#source-14854"/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 8.195312 2.390625 C 4.945312 2.535156 2.382812 5.210938 2.382812 8.464844 C 2.382812 11.828125 5.105469 14.550781 8.464844 14.550781 C 11.71875 14.546875 14.394531 11.984375 14.539062 8.734375 Z M 8.195312 2.390625 "/>
+</svg>

@@ -1,7 +1,23 @@
-<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#FFFFFF; } .ColorScheme-Highlight { color:#5294e2; }</style>
- </defs>
- <rect class="ColorScheme-Highlight" fill="#363949" x=".9998" y="1" width="14" height="5" rx="1" ry="1" enable-background="new" opacity=".5" style="paint-order:stroke markers fill"/>
- <path class="ColorScheme-Highlight" fill="#363949" d="m8 3-1 2h-6c-0.554 0-1 0.446-1 1v8c0 0.554 0.446 1 1 1h14c0.554 0 1-0.446 1-1v-10c0-0.5-0.5-1-1-1z" enable-background="new"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-1.6" y="-1.6" width="19.2" height="19.2" fill="rgb(0%, 0%, 0%)" fill-opacity="0.5"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="16" height="16"/>
+</clipPath>
+<g id="source-11313" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(21.176471%, 22.352941%, 28.627451%)" fill-opacity="1" d="M 2 1 L 14 1 C 14.550781 1 15 1.449219 15 2 L 15 5 C 15 5.550781 14.550781 6 14 6 L 2 6 C 1.449219 6 1 5.550781 1 5 L 1 2 C 1 1.449219 1.449219 1 2 1 Z M 2 1 "/>
+</g>
+</defs>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-11313"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(21.176471%, 22.352941%, 28.627451%)" fill-opacity="1" d="M 8 3 L 7 5 L 1 5 C 0.445312 5 0 5.445312 0 6 L 0 14 C 0 14.554688 0.445312 15 1 15 L 15 15 C 15.554688 15 16 14.554688 16 14 L 16 4 C 16 3.5 15.5 3 15 3 Z M 8 3 "/>
 </svg>

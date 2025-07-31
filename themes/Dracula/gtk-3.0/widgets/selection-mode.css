@@ -1,6 +1,4 @@
-/******************
- * selection mode *
- ******************/
+
 .selection-mode.header-bar,
 .selection-mode.toolbar {
     border-style: solid;
@@ -18,7 +16,7 @@
     padding: 4px;
 }
 
-/* regular button */
+
 .selection-mode.header-bar .button,
 .selection-mode.toolbar .button,
 .selection-mode.toolbar GtkToolButton .button {
@@ -47,7 +45,7 @@
     color: @theme_selected_fg_color;
 }
 
-/* suggested button */
+
 .selection-mode.header-bar .suggested-action.button,
 .selection-mode.toolbar .suggested-action.button,
 .selection-mode.toolbar GtkToolButton.suggested-action .button {
@@ -71,7 +69,7 @@
     background-image: none;
 }
 
-/* menu button */
+
 .selection-mode.header-bar .selection-menu.button,
 .selection-mode.toolbar .selection-menu.button {
     border-style: none;

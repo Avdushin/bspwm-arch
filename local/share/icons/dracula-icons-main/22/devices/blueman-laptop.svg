@@ -1,1 +1,4 @@
-computer-laptop.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 5 4 C 4 4 4 5 4 5 L 4 15.003906 C 4 15 5 16.003906 5 16.003906 L 4 16.003906 C 4 16.003906 3 16.003906 3 17.003906 L 3 18 L 19 18 L 19 17.003906 C 19 16.003906 18.019531 16.003906 18.019531 16.003906 L 17 16.003906 L 18 15 L 18 5 C 18 5 18 4 17 4 Z M 6 6 L 16 6 L 16 13.976562 L 6 14.003906 Z M 6 6 "/>
+</svg>

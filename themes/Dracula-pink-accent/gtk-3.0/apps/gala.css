@@ -1,6 +1,4 @@
-/*******
-* Gala *
-*******/
+
 
 .gala-notification {
     border: none;
@@ -55,9 +53,7 @@
     text-shadow: 0 1px 1px alpha (#000, 0.6);
 }
 
-/*********
- * Panel *
- ********/
+
 
  .panel {
     background-color: transparent;

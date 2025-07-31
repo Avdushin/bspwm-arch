@@ -1,7 +1,24 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <g>
-  <circle cx="8.4665" cy="8.4665" r="7.1436" fill="#4d4d4d" style="paint-order:stroke fill markers"/>
-  <path transform="scale(.26458)" d="m37.219 9.625 17.152 17.152c-1.9927-8.5128-8.6396-15.16-17.152-17.152z" fill="#fff" opacity=".5" stroke-width="3.2197" style="paint-order:stroke fill markers"/>
-  <path transform="scale(.26458)" d="m30.975 9.0371c-12.286 0.54828-21.967 10.665-21.975 22.963-6e-7 12.703 10.297 23 23 23 12.298-0.01525 22.408-9.7021 22.949-21.988z" fill="#fff" stroke-width="3.2197" style="paint-order:stroke fill markers"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.5"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-12806" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 9.847656 2.546875 L 14.386719 7.085938 C 13.859375 4.832031 12.101562 3.074219 9.847656 2.546875 Z M 9.847656 2.546875 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(30.196078%, 30.196078%, 30.196078%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 12.410156 12.410156 15.609375 8.464844 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.324219 8.464844 1.324219 C 12.410156 1.324219 15.609375 4.519531 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-12806"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 8.195312 2.390625 C 4.945312 2.535156 2.382812 5.210938 2.382812 8.464844 C 2.382812 11.828125 5.105469 14.550781 8.464844 14.550781 C 11.71875 14.546875 14.394531 11.984375 14.539062 8.734375 Z M 8.195312 2.390625 "/>
 </svg>

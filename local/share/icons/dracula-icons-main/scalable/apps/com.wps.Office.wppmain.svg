@@ -1,1 +1,5 @@
-wps-office-wppmain.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<path fill-rule="nonzero" fill="rgb(94.901961%, 44.705882%, 23.529412%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 12.410156 12.410156 15.609375 8.464844 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.324219 8.464844 1.324219 C 12.410156 1.324219 15.609375 4.519531 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<path fill="none" stroke-width="0.995" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="4" d="M 4.738281 11.457031 L 4.738281 8.46875 L 10.710938 8.46875 C 10.710938 8.46875 12.203125 8.46875 12.203125 6.972656 C 12.203125 5.480469 10.710938 5.480469 10.710938 5.480469 L 4.738281 5.480469 "/>
+</svg>

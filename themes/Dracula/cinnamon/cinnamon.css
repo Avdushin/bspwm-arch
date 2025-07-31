@@ -812,7 +812,7 @@ StScrollBar {
     background: none;
     background-gradient-direction: none; }
 
-/* CinnamonMountOperation Dialogs */
+
 .cinnamon-mount-operation-icon {
   icon-size: 48px; }
 
@@ -993,7 +993,7 @@ StScrollBar {
   icon-size: 1em;
   color: #f8f8f2; }
 
-/* Context menu (at the moment only for favorites) */
+
 .info-osd {
   text-align: center;
   font-weight: bold;
@@ -1268,7 +1268,7 @@ StScrollBar {
   spacing: 0px;
   padding: 3px; }
 
-/* Controls the styling when using the "Simple buttons" option */
+
 .workspace-switcher {
   padding-left: 3px;
   padding-right: 3px; }
@@ -1285,7 +1285,7 @@ StScrollBar {
   .workspace-button:hover {
     color: rgba(189, 147, 249, 0.5); }
 
-/* Controls the style when using the "Visual representation" option */
+
 .workspace-graph {
   padding: 3px;
   spacing: 3px; }
@@ -1424,9 +1424,9 @@ StScrollBar {
   padding: 12px;
   padding-bottom: 16px; }
 
-/*FIXME*/
+
 .workspace-osd {
-  /*color: red;*/
+  
   text-shadow: black 5px 5px 5px;
   font-weight: bold;
   font-size: 48pt; }
@@ -1448,4 +1448,4 @@ StScrollBar {
   background-color: rgba(0, 0, 0, 0);
   border-radius: 0px; }
 
-/*# sourceMappingURL=cinnamon.css.map */
+

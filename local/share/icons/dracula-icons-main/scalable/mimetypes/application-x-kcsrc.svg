@@ -1,1 +1,55 @@
-application-vnd.iccprofile.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-16265" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAd0lEQVR4nO3YwQnDMBREwU0IBlWQ/stzBQGf3EAMBoGXxDNXwWd5RyUAAAAAAAAAAAAAwD96tAecsCQZkzc+SbZvD6/Jw1cYSd6TN9YcBHhOHv55ArQHtAnQHtAmQHtAmwDtAW0CtAe0CdAe0CZAe0Db7T9EuLsdEkkGKNH8woUAAAAASUVORK5CYII="/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-16265"/>
+</g>
+</mask>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="49.570999" y1="52.714001" x2="51.714001" y2="54.856998" gradientTransform="matrix(2.3333, 0, 0, 2.3333, -68.667, -72.000999)">
+<stop offset="0" stop-color="rgb(0%, 0%, 0%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(0%, 0%, 0%)" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-16264" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="url(#linear-pattern-0)" d="M 56 46 L 42 60 L 51 60 C 53.769531 60 56 57.769531 56 55 Z M 56 46 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-16267" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-16264"/>
+</g>
+</g>
+<image id="source-16281" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAkElEQVR4nO3ZsQ3CQBBE0QFRATEV0ZB7cBu0RkwNJITOzqcRuvcKWH1NugkAAAAAa7lMvn9P8hi88U7yOaHl0G3W4Z9nkn3wxpbkdULLoeusw//CAO2ANgO0A9oM0A5oM0A7oM0A7YA2A7QD2gzQDmgzQDugzQDtgDYDtAPaDNAOaDNAO6Bt+dcYAAAAAKv5Aq+CBicgOaOmAAAAAElFTkSuQmCC"/>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-16281"/>
+</g>
+</mask>
+<clipPath id="clip-2">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-16280" clip-path="url(#clip-2)">
+<path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 32 21 C 30.125 28 25 32.132812 25 36 C 25 39.867188 28.132812 43 32 43 C 35.867188 43 39 39.867188 39 36 C 39 32.132812 33.875 28 32 21 M 36.8125 32.429688 C 37.582031 33.460938 37.996094 34.714844 38 36 C 38 39.3125 35.3125 42 32 42 C 30.714844 41.996094 29.464844 41.582031 28.433594 40.816406 C 28.945312 40.9375 29.472656 41 30 41 C 33.867188 41 37 37.867188 37 34 C 36.996094 33.472656 36.933594 32.941406 36.8125 32.429688 "/>
+</g>
+<clipPath id="clip-3">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-16283" clip-path="url(#clip-3)">
+<g mask="url(#mask-1)">
+<use xlink:href="#source-16280"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(98.039216%, 83.921569%, 36.078431%)" fill-opacity="1" d="M 13 4 L 51 4 C 53.761719 4 56 6.238281 56 9 L 56 55 C 56 57.761719 53.761719 60 51 60 L 13 60 C 10.238281 60 8 57.761719 8 55 L 8 9 C 8 6.238281 10.238281 4 13 4 Z M 13 4 "/>
+<use xlink:href="#source-16267"/>
+<use xlink:href="#source-16283"/>
+</svg>

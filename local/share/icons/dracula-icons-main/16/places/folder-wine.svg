@@ -1,13 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1" viewBox="0 0 16 16">
- <defs>
-  <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#FFFFFF; } .ColorScheme-Highlight { color:#5294e2; }
-  </style>
- </defs>
- <g>
-  <rect style="fill:currentColor" class="ColorScheme-Text" width="6" height="6" x="2" y="2" rx="1" ry="1"/>
-  <rect style="fill:currentColor" class="ColorScheme-Text" width="6" height="6" x="9" y="2" rx="1" ry="1"/>
-  <rect style="fill:currentColor" class="ColorScheme-Text" width="6" height="6" x="9" y="9" rx="1" ry="1"/>
-  <rect style="fill:currentColor" class="ColorScheme-Text" width="6" height="6" x="2" y="9" rx="1" ry="1"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 3 2 L 7 2 C 7.550781 2 8 2.449219 8 3 L 8 7 C 8 7.550781 7.550781 8 7 8 L 3 8 C 2.449219 8 2 7.550781 2 7 L 2 3 C 2 2.449219 2.449219 2 3 2 Z M 3 2 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 10 2 L 14 2 C 14.550781 2 15 2.449219 15 3 L 15 7 C 15 7.550781 14.550781 8 14 8 L 10 8 C 9.449219 8 9 7.550781 9 7 L 9 3 C 9 2.449219 9.449219 2 10 2 Z M 10 2 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 10 9 L 14 9 C 14.550781 9 15 9.449219 15 10 L 15 14 C 15 14.550781 14.550781 15 14 15 L 10 15 C 9.449219 15 9 14.550781 9 14 L 9 10 C 9 9.449219 9.449219 9 10 9 Z M 10 9 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 3 9 L 7 9 C 7.550781 9 8 9.449219 8 10 L 8 14 C 8 14.550781 7.550781 15 7 15 L 3 15 C 2.449219 15 2 14.550781 2 14 L 2 10 C 2 9.449219 2.449219 9 3 9 Z M 3 9 "/>
 </svg>

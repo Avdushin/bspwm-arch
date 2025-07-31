@@ -1,1 +1,10 @@
-<svg height="22" viewBox="0 0 5.8208331 5.8208336" width="22" xmlns="http://www.w3.org/2000/svg"><style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#FFFFFF;}</style><g style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Text" transform="translate(0 -291.17915)"><path d="m3.96875 294.35415v-1.87482l-.6066814.60668-.1870686-.18707.9260416-.92604.9260417.92604-.1870686.18707-.6066814-.60668v1.87482z"/><path d="m.79374999 296.20623v-.26458h3.70416671v.26458z"/><path d="m.79374999 295.41248v-.26458h3.17500001v.26458z"/><path d="m.79374999 294.61873v-.26458h2.64583331v.26458z"/><path d="m.79375004 291.9729v.26458h1.05833326v-.26458z"/><path d="m.79375 292.76665v.26458h1.5875v-.26458z"/><path d="m.79375001 293.5604v.26458h2.11666669v-.26458z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 3.96875 3.175781 L 3.96875 1.300781 L 3.363281 1.90625 L 3.175781 1.71875 L 4.101562 0.792969 L 5.027344 1.71875 L 4.839844 1.90625 L 4.234375 1.300781 L 4.234375 3.175781 Z M 3.96875 3.175781 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 0.792969 5.027344 L 0.792969 4.761719 L 4.496094 4.761719 L 4.496094 5.027344 Z M 0.792969 5.027344 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 0.792969 4.234375 L 0.792969 3.96875 L 3.96875 3.96875 L 3.96875 4.234375 Z M 0.792969 4.234375 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 0.792969 3.441406 L 0.792969 3.175781 L 3.441406 3.175781 L 3.441406 3.441406 Z M 0.792969 3.441406 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 0.792969 0.792969 L 0.792969 1.058594 L 1.851562 1.058594 L 1.851562 0.792969 Z M 0.792969 0.792969 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 0.792969 1.585938 L 0.792969 1.851562 L 2.382812 1.851562 L 2.382812 1.585938 Z M 0.792969 1.585938 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 0.792969 2.382812 L 0.792969 2.644531 L 2.910156 2.644531 L 2.910156 2.382812 Z M 0.792969 2.382812 "/>
+</svg>

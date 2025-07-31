@@ -1,9 +1,6 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(0 -280.07)" paint-order="stroke markers fill">
-  <circle cx="8.4665" cy="288.54" r="7.1436" fill="#77cb75"/>
-  <g fill="#fff">
-   <rect x="7.408" y="285.1" width="2.117" height="4.4978" rx="0" ry="0" stroke-width="1.1902"/>
-   <path d="m5.292 289.07h6.35l-3.175 3.175z"/>
-  </g>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<path fill-rule="nonzero" fill="rgb(46.666667%, 79.607843%, 45.882353%)" fill-opacity="1" d="M 15.609375 8.46875 C 15.609375 12.414062 12.410156 15.613281 8.464844 15.613281 C 4.519531 15.613281 1.324219 12.414062 1.324219 8.46875 C 1.324219 4.523438 4.519531 1.328125 8.464844 1.328125 C 12.410156 1.328125 15.609375 4.523438 15.609375 8.46875 Z M 15.609375 8.46875 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 7.40625 5.03125 L 9.523438 5.03125 L 9.523438 9.527344 L 7.40625 9.527344 Z M 7.40625 5.03125 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 9 L 11.640625 9 L 8.46875 12.175781 Z M 5.292969 9 "/>
 </svg>

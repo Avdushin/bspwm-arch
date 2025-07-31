@@ -1,6 +1,4 @@
-/*************
- * separator *
- *************/
+
 .sidebar.view.separator,
 .view.separator,
 .separator,
@@ -64,7 +62,7 @@
 GtkComboBox .separator {
     border-style: none;
 
-    /* always disable separators */
+    
     -GtkWidget-wide-separators: true;
     -GtkWidget-horizontal-separator: 0;
     -GtkWidget-vertical-separator: 0;

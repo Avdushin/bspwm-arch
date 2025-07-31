@@ -51,7 +51,7 @@ UnityPanelWidget,
     border-width: 0 0 0 0;
     border-style: solid;
     border-color: @panel_bg_color;
-    background-color: @header_bg_color; /* the theme_bg_color of the dark theme */
+    background-color: @header_bg_color; 
     color: @theme_fg_color;
 }
 

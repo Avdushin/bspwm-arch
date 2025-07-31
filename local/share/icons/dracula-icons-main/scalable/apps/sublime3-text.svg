@@ -1,1 +1,40 @@
-sublime-text.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.99"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<path clip-rule="nonzero" d="M 0 0 L 64 0 L 64 64 L 0 64 Z M 0 0 "/>
+</clipPath>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="32" y1="4" x2="32" y2="60">
+<stop offset="0" stop-color="rgb(97.254902%, 59.607843%, 12.54902%)" stop-opacity="1"/>
+<stop offset="0.484375" stop-color="rgb(100%, 74.901961%, 43.529412%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(100%, 76.078431%, 46.27451%)" stop-opacity="1"/>
+</linearGradient>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-192" clip-path="url(#clip-1)">
+<path fill-rule="nonzero" fill="rgb(30.196078%, 30.196078%, 30.588235%)" fill-opacity="1" d="M 59 32 C 59 46.910156 46.910156 59 32 59 C 17.089844 59 5 46.910156 5 32 C 5 17.089844 17.089844 5 32 5 C 46.910156 5 59 17.089844 59 32 Z M 59 32 "/>
+<g clip-path="url(#clip-0)">
+<path fill="none" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke="url(#linear-pattern-0)" stroke-miterlimit="4" d="M 59 32 C 59 46.910156 46.910156 59 32 59 C 17.089844 59 5 46.910156 5 32 C 5 17.089844 17.089844 5 32 5 C 46.910156 5 59 17.089844 59 32 Z M 59 32 "/>
+</g>
+</g>
+<linearGradient id="linear-pattern-1" gradientUnits="userSpaceOnUse" x1="22.165899" y1="42.250099" x2="42.305401" y2="35.284801">
+<stop offset="0.233" stop-color="rgb(97.254902%, 59.607843%, 13.333333%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(76.078431%, 47.058824%, 9.411765%)" stop-opacity="1"/>
+</linearGradient>
+</defs>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-192"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(97.254902%, 59.607843%, 12.54902%)" fill-opacity="1" d="M 21.605469 24.519531 L 41.511719 18.199219 C 41.511719 18.199219 42.925781 17.457031 42.585938 18.832031 L 42.636719 24.921875 C 42.636719 24.921875 42.882812 25.816406 41.65625 26.035156 L 33.570312 28.566406 Z M 21.605469 24.519531 "/>
+<path fill-rule="nonzero" fill="rgb(97.254902%, 59.607843%, 12.54902%)" fill-opacity="1" d="M 21.605469 24.519531 C 21.605469 24.519531 20.824219 24.707031 21.050781 26.046875 L 21.011719 31.914062 C 21.011719 31.914062 20.941406 32.65625 22.347656 32.953125 L 42.074219 39.308594 C 42.074219 39.308594 42.738281 39.570312 42.664062 38.753906 L 42.671875 32.210938 C 42.671875 32.210938 42.859375 31.539062 41.632812 31.097656 L 33.570312 28.566406 Z M 21.605469 24.519531 "/>
+<path fill-rule="nonzero" fill="url(#linear-pattern-1)" d="M 30.300781 35.507812 L 21.902344 38.074219 C 21.902344 38.074219 20.890625 38.105469 21.007812 40.007812 C 21.128906 41.90625 21 45.730469 21 45.730469 C 21 45.730469 21.085938 46.4375 22.058594 46.027344 L 41.964844 39.675781 C 41.964844 39.675781 42.671875 39.496094 42.074219 39.300781 C 41.480469 39.113281 30.300781 35.507812 30.300781 35.507812 Z M 30.300781 35.507812 "/>
+</svg>

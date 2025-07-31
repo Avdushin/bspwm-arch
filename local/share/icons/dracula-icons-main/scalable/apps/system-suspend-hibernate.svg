@@ -1,6 +1,5 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(0 -280.07)">
-  <path d="m8.4665 281.39a7.1436 7.1436 0 1 1 0 14.287 7.1436 7.1436 0 0 1 0-14.287z" fill="#5c6bc0"/>
-  <rect x="4.762" y="287.74" width="7.408" height="1.587" rx="0" ry="0" fill="#fff" paint-order="stroke fill markers"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<path fill-rule="nonzero" fill="rgb(36.078431%, 41.960784%, 75.294118%)" fill-opacity="1" d="M 8.464844 1.320312 C 11.027344 1.304688 13.398438 2.664062 14.683594 4.878906 C 15.96875 7.097656 15.96875 9.832031 14.683594 12.046875 C 13.398438 14.261719 11.027344 15.621094 8.464844 15.605469 C 4.535156 15.585938 1.359375 12.394531 1.359375 8.464844 C 1.359375 4.53125 4.535156 1.339844 8.464844 1.320312 Z M 8.464844 1.320312 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 4.761719 7.671875 L 12.171875 7.671875 L 12.171875 9.257812 L 4.761719 9.257812 Z M 4.761719 7.671875 "/>
 </svg>

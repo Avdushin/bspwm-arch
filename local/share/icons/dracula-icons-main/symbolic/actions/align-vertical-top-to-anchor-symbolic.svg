@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.233 4.233" height="16" width="16"><path d="M4.233 1.323H3.97V.133A.132.132 0 0 0 3.836 0H2.778a.132.132 0 0 0-.132.132v1.19H0v.53h.53v2.249c0 .073.058.132.131.132H1.72a.132.132 0 0 0 .132-.132V1.852h.265v1.455c0 .074.059.133.132.133h1.058a.132.132 0 0 0 .133-.133V1.852h.793zM3.704.265v1.058H2.91V.265zm-.529 1.587v1.323h-.794V1.852zm-1.587 0V3.97H.794V1.852z" style="marker:none" fill="#363636"/><rect transform="rotate(90)" ry="0" rx="0" y="-3.704" x=".265" height=".794" width="1.323" style="marker:none" opacity=".3" fill="#363636" fill-opacity=".931"/><path d="M3.175 1.587h-.794v1.588h.794zm-1.587 0H.794V3.97h.794z" opacity=".1" fill="#363636" fill-opacity=".931"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-1.6" y="-1.6" width="19.2" height="19.2" fill="rgb(0%, 0%, 0%)" fill-opacity="0.3"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="5" height="5"/>
+</clipPath>
+<g id="source-12921" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(21.176471%, 21.176471%, 21.176471%)" fill-opacity="0.931" d="M 3.703125 0.265625 L 3.703125 1.589844 L 2.910156 1.589844 L 2.910156 0.265625 Z M 3.703125 0.265625 "/>
+</g>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<rect x="-1.6" y="-1.6" width="19.2" height="19.2" fill="rgb(0%, 0%, 0%)" fill-opacity="0.1"/>
+</g>
+</mask>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="5" height="5"/>
+</clipPath>
+<g id="source-12925" clip-path="url(#clip-1)">
+<path fill-rule="nonzero" fill="rgb(21.176471%, 21.176471%, 21.176471%)" fill-opacity="0.931" d="M 3.175781 1.585938 L 2.382812 1.585938 L 2.382812 3.175781 L 3.175781 3.175781 Z M 1.589844 1.585938 L 0.792969 1.585938 L 0.792969 3.96875 L 1.589844 3.96875 Z M 1.589844 1.585938 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(21.176471%, 21.176471%, 21.176471%)" fill-opacity="1" d="M 4.234375 1.324219 L 3.96875 1.324219 L 3.96875 0.132812 C 3.96875 0.0976562 3.957031 0.0625 3.929688 0.0390625 C 3.90625 0.0117188 3.871094 0 3.835938 0 L 2.777344 0 C 2.707031 0 2.644531 0.0585938 2.644531 0.132812 L 2.644531 1.320312 L 0 1.320312 L 0 1.851562 L 0.53125 1.851562 L 0.53125 4.101562 C 0.53125 4.175781 0.589844 4.234375 0.660156 4.234375 L 1.71875 4.234375 C 1.792969 4.234375 1.851562 4.175781 1.851562 4.101562 L 1.851562 1.851562 L 2.117188 1.851562 L 2.117188 3.308594 C 2.117188 3.382812 2.175781 3.441406 2.25 3.441406 L 3.308594 3.441406 C 3.34375 3.441406 3.375 3.425781 3.402344 3.402344 C 3.425781 3.375 3.441406 3.34375 3.441406 3.308594 L 3.441406 1.851562 L 4.234375 1.851562 Z M 3.703125 0.265625 L 3.703125 1.324219 L 2.910156 1.324219 L 2.910156 0.265625 Z M 3.175781 1.851562 L 3.175781 3.175781 L 2.382812 3.175781 L 2.382812 1.851562 Z M 1.589844 1.851562 L 1.589844 3.96875 L 0.792969 3.96875 L 0.792969 1.851562 Z M 1.589844 1.851562 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-12921"/>
+</g>
+<g mask="url(#mask-1)">
+<use xlink:href="#source-12925"/>
+</g>
+</svg>

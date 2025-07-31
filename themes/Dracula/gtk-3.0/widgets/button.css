@@ -1,14 +1,8 @@
-/**********
- * button *
- **********/
+
 .button {
     padding: 6px 8px;
     border-radius: 3px;
-   /* border-width: 1px;
-    border-style: solid;
-    border-color: transparent;
-    border-top-color: alpha(white,0.2);
-    border-bottom-color: alpha(black,0.2);*/
+   
     background-color: @base_color;
     background-image: none;
     color: @text_color;
@@ -47,9 +41,7 @@
     background-image: none;
 }
 
-/****************
-* "flat" button *
-*****************/
+
 .button.flat,
 .action-bar .button,
 .inline-toolbar .button,
@@ -91,10 +83,8 @@
     background-color: transparent;
 }
 
-/****************
-* linked button *
-*****************/
-/* middle button */
+
+
 .linked .entry,
 .linked .button,
 .linked .button:active,
@@ -108,7 +98,7 @@
 }
 
 
-/* leftmost button */
+
 .linked .entry:first-child,
 .linked .button:first-child,
 .linked .button:active:first-child,
@@ -124,7 +114,7 @@
     border-bottom-right-radius: 0;
 }
 
-/* rightmost button */
+
 .linked .entry:last-child,
 .linked .button:last-child,
 .linked .button:active:last-child,
@@ -140,7 +130,7 @@
     border-top-left-radius: 0;
 }
 
-/* linked single button */
+
 .linked .entry:only-child,
 .linked .button:only-child,
 .linked .button:active:only-child,
@@ -153,7 +143,7 @@
     border-radius: 3px;
 }
 
-/* middle button (vertical) */
+
 .linked.vertical .entry,
 .linked.vertical .button,
 .linked.vertical .button:active,
@@ -167,7 +157,7 @@
     border-radius: 0;
 }
 
-/* leftmost button (vertical) */
+
 .linked.vertical .entry:first-child,
 .linked.vertical .button:first-child,
 .linked.vertical .button:active:first-child,
@@ -183,7 +173,7 @@
     border-bottom-left-radius: 0;
 }
 
-/* rightmost button (vertical) */
+
 .linked.vertical .entry:last-child,
 .linked.vertical .button:last-child,
 .linked.vertical .button:active:last-child,
@@ -198,7 +188,7 @@
     border-top-right-radius: 0;
 }
 
-/* linked single button (vertical) */
+
 .linked.vertical .entry:only-child,
 .linked.vertical .button:only-child,
 .linked.vertical .button:active:only-child,
@@ -220,9 +210,7 @@
     border: 1px solid alpha(black,0.2);
 }
 
-/******************************
- * destructive action buttons *
- ******************************/
+
 .destructive-action.button,
 .titlebar .destructive-action.button {
     border-color: transparent;
@@ -255,9 +243,7 @@
     background-color: mix(@bg_color,@error,0.6);
 }
 
-/******************************
- * suggested action buttons *
- ******************************/
+
 .suggested-action.button,
 .list .suggested-action.button,
 .titlebar .suggested-action.button {
@@ -295,9 +281,7 @@
     background-color: mix(@bg_color,@cyan,0.6);
 }
 
-/********************
- * circular buttons *
- ********************/
+
 .circular-button.button {
     border: none;
     border-radius: 20px;

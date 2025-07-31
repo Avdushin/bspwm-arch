@@ -1,12 +1,8 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <circle cx="32" cy="32" r="27" fill="#eceff1" stroke-width="3.7796" style="paint-order:stroke fill markers"/>
- <g transform="translate(0 -1058.5)">
-  <path d="m22 1070.5v2h9v-2zm-6 4v2h22v-2zm0 6v2h31v-2zm0 4v2h31v-2zm0 4v2h31v-2zm0 6v2h31v-2zm0 4v2h31v-2zm0 4v2h15v-2zm19 7v2h7v-2z" fill="#90a4ae"/>
-  <path d="m47 1087.5a10 10 0 0 0-10 10 10 10 0 0 0 10 10h7c1.662 0 3-1.338 3-3v-7a10 10 0 0 0-10-10z" fill="#546e7a"/>
-  <circle cx="55" cy="1105.5" rx="1" ry="1" fill="#37474f"/>
-  <circle transform="scale(-1,1)" cx="-47" cy="1097.5" rx="8" ry="8" fill="#eceff1"/>
-  <circle transform="scale(-1,1)" cx="-47" cy="1097.5" rx="8" ry="8" fill="#d0eaf6"/>
-  <path d="m42.111 1092.5a7 7 0 0 0-2.0332 4h8.9219v-4h-6.8887z" fill="#8ab1c3"/>
-  <path d="m40.08 1098.5a7 7 0 0 0 2.0234 4h6.8965v-4h-8.9199z" fill="#8ab1c3"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<path fill-rule="nonzero" fill="rgb(92.54902%, 93.72549%, 94.509804%)" fill-opacity="1" d="M 59 32 C 59 46.910156 46.910156 59 32 59 C 17.089844 59 5 46.910156 5 32 C 5 17.089844 17.089844 5 32 5 C 46.910156 5 59 17.089844 59 32 Z M 59 32 "/>
+<path fill-rule="nonzero" fill="rgb(56.470588%, 64.313725%, 68.235294%)" fill-opacity="1" d="M 22 12 L 22 14 L 31 14 L 31 12 Z M 16 16 L 16 18 L 38 18 L 38 16 Z M 16 22 L 16 24 L 47 24 L 47 22 Z M 16 26 L 16 28 L 47 28 L 47 26 Z M 16 30 L 16 32 L 47 32 L 47 30 Z M 16 36 L 16 38 L 47 38 L 47 36 Z M 16 40 L 16 42 L 47 42 L 47 40 Z M 16 44 L 16 46 L 31 46 L 31 44 Z M 35 51 L 35 53 L 42 53 L 42 51 Z M 35 51 "/>
+<path fill-rule="nonzero" fill="rgb(32.941176%, 43.137255%, 47.843137%)" fill-opacity="1" d="M 47 29 C 41.476562 29 37 33.476562 37 39 C 37 44.523438 41.476562 49 47 49 L 54 49 C 55.660156 49 57 47.660156 57 46 L 57 39 C 57 33.476562 52.523438 29 47 29 Z M 47 29 "/>
+<path fill-rule="nonzero" fill="rgb(54.117647%, 69.411765%, 76.470588%)" fill-opacity="1" d="M 42.109375 34 C 41.011719 35.074219 40.296875 36.480469 40.078125 38 L 49 38 L 49 34 Z M 42.109375 34 "/>
+<path fill-rule="nonzero" fill="rgb(54.117647%, 69.411765%, 76.470588%)" fill-opacity="1" d="M 40.078125 40 C 40.296875 41.519531 41.007812 42.925781 42.101562 44 L 49 44 L 49 40 Z M 40.078125 40 "/>
 </svg>

@@ -1,6 +1,4 @@
-/************
- * nautilus *
- ************/
+
 .nautilus-canvas-item {
     border-radius: 0px;
 }
@@ -46,17 +44,13 @@ NautilusListView GtkTreeView {
     border-color: @borders;
 }
 
-/******************
- * gnome terminal *
- ******************/
+
 VteTerminal {
     background-color: @bg_color;
     color: @fg_color;
 }
 
-/*********
- * gedit *
- *********/
+
 GeditViewFrame .gedit-search-slider {
     padding: 4px;
     border-radius: 0 0 0 5px;
@@ -90,9 +84,7 @@ GdTaggedEntry *{
 	color: @fg_color;
 }
 
-/**************
- * Tweak Tool *
- **************/
+
 .tweak:hover{
     color: @text_color;
 }
@@ -107,9 +99,7 @@ GdTaggedEntry *{
     background-image: linear-gradient(to bottom,@base_color,@base_color);
 }
 
-/**************
- * geary *
- **************/
+
 .geary-titlebar-right GtkBox.left .button{
 
   background: transparent;

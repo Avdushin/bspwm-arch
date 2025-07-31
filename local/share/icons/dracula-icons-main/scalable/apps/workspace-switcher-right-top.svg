@@ -1,8 +1,38 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <g transform="rotate(90 8.4665 8.4665)">
-  <path d="m8.4665 1.3229v7.1436h-7.1436a7.1436 7.1436 0 0 0 7.1436 7.1436 7.1436 7.1436 0 0 0 7.1436-7.1436 7.1436 7.1436 0 0 0-7.1436-7.1436z" fill="#638df5" style="paint-order:stroke fill markers"/>
-  <path d="m8.4665 1.3229a7.1436 7.1436 0 0 0-7.1436 7.1436h7.1436z" fill="#f9f9f9" opacity=".5" style="paint-order:stroke fill markers"/>
-  <path d="m8.4665 1.3229v7.1436h-7.1436a7.1436 7.1436 0 0 0 0.0093 0.26458h7.1343v6.879a7.1436 7.1436 0 0 0 0.26458-0.0093v-6.8697h6.8656a7.1436 7.1436 0 0 0 0.01344-0.26458h-6.879v-7.1302a7.1436 7.1436 0 0 0-0.26458-0.013436z" opacity=".15" stroke-width=".11578" style="paint-order:stroke fill markers"/>
-  <path d="m8.4665 2.3812a6.0853 6.0853 0 0 0-6.0853 6.0853h6.0853z" fill="#f9f9f9" stroke-width=".85185" style="paint-order:stroke fill markers"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.5"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-6780" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(97.647059%, 97.647059%, 97.647059%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 4.519531 12.410156 1.324219 8.464844 1.324219 L 8.464844 8.464844 Z M 15.609375 8.464844 "/>
+</g>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.15"/>
+</g>
+</mask>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-6784" clip-path="url(#clip-1)">
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 15.609375 8.464844 L 8.464844 8.464844 L 8.464844 1.324219 C 8.378906 1.324219 8.289062 1.328125 8.203125 1.332031 L 8.203125 8.464844 L 1.324219 8.464844 C 1.324219 8.554688 1.328125 8.644531 1.332031 8.730469 L 8.203125 8.730469 L 8.203125 15.597656 C 8.289062 15.601562 8.378906 15.605469 8.464844 15.609375 L 8.464844 8.730469 L 15.597656 8.730469 C 15.601562 8.644531 15.605469 8.554688 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(38.823529%, 55.294118%, 96.078431%)" fill-opacity="1" d="M 15.609375 8.464844 L 8.464844 8.464844 L 8.464844 1.324219 C 4.519531 1.324219 1.324219 4.519531 1.324219 8.464844 C 1.324219 12.410156 4.519531 15.609375 8.464844 15.609375 C 12.410156 15.609375 15.609375 12.410156 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-6780"/>
+</g>
+<g mask="url(#mask-1)">
+<use xlink:href="#source-6784"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(97.647059%, 97.647059%, 97.647059%)" fill-opacity="1" d="M 14.550781 8.464844 C 14.550781 5.105469 11.828125 2.382812 8.464844 2.382812 L 8.464844 8.464844 Z M 14.550781 8.464844 "/>
 </svg>

@@ -1,6 +1,5 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <g transform="matrix(1.1739 0 0 1.1739 3.8261 3.8261)">
-  <circle cx="24" cy="24" r="23" fill="#ececec"/>
-  <path d="m24 12.461-15 9.7671v5.9473l15 7.3627 11.538-7.5v1.7308l3.4615-4.6154-3.4615-1.1538v1.7308l-11.538 7.5-12.692-6.4812v-3.2862l12.775-8.5165 12.609 5.5915-12.692 8.0769-10.385-5.2396v2.3077l10.385 5.2396 15-9.2308v-2.3077z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2a2a2a" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stroke-width="1.1538" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<path fill-rule="nonzero" fill="rgb(92.54902%, 92.54902%, 92.54902%)" fill-opacity="1" d="M 59 32 C 59 46.910156 46.910156 59 32 59 C 17.089844 59 5 46.910156 5 32 C 5 17.089844 17.089844 5 32 5 C 46.910156 5 59 17.089844 59 32 Z M 59 32 "/>
+<path fill-rule="nonzero" fill="rgb(16.470588%, 16.470588%, 16.470588%)" fill-opacity="1" d="M 32 18.453125 L 14.390625 29.917969 L 14.390625 36.902344 L 32 45.542969 L 45.542969 36.738281 L 45.542969 38.773438 L 49.609375 33.355469 L 45.542969 32 L 45.542969 34.03125 L 32 42.835938 L 17.101562 35.226562 L 17.101562 31.371094 L 32.097656 21.371094 L 46.898438 27.9375 L 32 37.417969 L 19.808594 31.265625 L 19.808594 33.976562 L 32 40.125 L 49.609375 29.289062 L 49.609375 26.582031 Z M 32 18.453125 "/>
 </svg>

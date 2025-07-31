@@ -1,12 +1,37 @@
-<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#727272; } .ColorScheme-Highlight { color:#5294e2; }</style>
- </defs>
- <g transform="translate(3,-3)" class="ColorScheme-Text" fill="currentColor">
-  <path d="m8 7a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7zm0 2v5h5a5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 0.025391-0.5 5 5 0 0 1 4.9746-4.5z"/>
-  <g transform="translate(0,6)">
-   <path d="m3 8a5 5 0 0 0 5 5v-5z" opacity=".35"/>
-   <path d="m13 8a5 5 0 0 1-5 5v-5z" opacity=".75"/>
-  </g>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-2.2" y="-2.2" width="26.4" height="26.4" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="22" height="22"/>
+</clipPath>
+<g id="source-2165" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 6 11 C 6 13.761719 8.238281 16 11 16 L 11 11 Z M 6 11 "/>
+</g>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<rect x="-2.2" y="-2.2" width="26.4" height="26.4" fill="rgb(0%, 0%, 0%)" fill-opacity="0.75"/>
+</g>
+</mask>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="22" height="22"/>
+</clipPath>
+<g id="source-2169" clip-path="url(#clip-1)">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 16 11 C 16 13.761719 13.761719 16 11 16 L 11 11 Z M 16 11 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 11 4 C 7.132812 4 4 7.132812 4 11 C 4 14.867188 7.132812 18 11 18 C 14.867188 18 18 14.867188 18 11 C 18 7.132812 14.867188 4 11 4 Z M 11 6 L 11 11 L 16 11 C 16 13.761719 13.761719 16 11 16 C 8.238281 16 6 13.761719 6 11 C 6 10.832031 6.007812 10.667969 6.027344 10.5 C 6.28125 7.945312 8.433594 6 11 6 Z M 11 6 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-2165"/>
+</g>
+<g mask="url(#mask-1)">
+<use xlink:href="#source-2169"/>
+</g>
 </svg>

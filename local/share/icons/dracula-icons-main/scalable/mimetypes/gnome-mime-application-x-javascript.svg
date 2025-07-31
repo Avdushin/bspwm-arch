@@ -1,1 +1,28 @@
-text-x-javascript.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.1"/>
+</g>
+</mask>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="46.997299" y1="50.996899" x2="51.997601" y2="55.9972">
+<stop offset="0" stop-color="rgb(0%, 0%, 0%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(0%, 0%, 0%)" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-7344" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="url(#linear-pattern-0)" d="M 56 46 L 42 60 L 51 60 C 53.769531 60 56 57.769531 56 55 Z M 56 46 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(95.686275%, 95.686275%, 95.686275%)" fill-opacity="1" d="M 51 4 L 13 4 C 10.238281 4 8 6.238281 8 9 L 8 55 C 8 57.761719 10.238281 60 13 60 L 51 60 C 53.761719 60 56 57.761719 56 55 L 56 9 C 56 6.238281 53.761719 4 51 4 Z M 51 4 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-7344"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(91.764706%, 70.196078%, 1.960784%)" fill-opacity="1" d="M 46.808594 15.238281 C 46.667969 15.085938 46.476562 15 46.269531 15 L 17.730469 15 C 17.523438 15 17.332031 15.085938 17.191406 15.238281 C 17.050781 15.394531 16.984375 15.597656 17.003906 15.804688 L 19.574219 44.945312 C 19.601562 45.25 19.8125 45.507812 20.101562 45.59375 L 31.796875 48.972656 C 31.859375 48.992188 31.929688 49 31.996094 49 C 32.0625 49 32.128906 48.992188 32.195312 48.972656 L 43.898438 45.59375 C 44.191406 45.507812 44.402344 45.25 44.425781 44.945312 L 46.996094 15.804688 C 47.015625 15.597656 46.945312 15.394531 46.808594 15.238281 Z M 22.503906 34.960938 L 27.617188 36.394531 L 27.617188 21.652344 L 30.539062 21.652344 L 30.539062 40.871094 L 22.503906 38.613281 Z M 41.535156 29.78125 L 40.765625 38.835938 L 33.460938 40.871094 L 33.460938 37.46875 L 38.390625 36.097656 L 38.574219 33.324219 L 33.460938 34.21875 L 33.460938 21.652344 L 42.226562 21.652344 L 41.972656 24.609375 L 36.382812 24.609375 L 36.382812 30.523438 Z M 41.535156 29.78125 "/>
+</svg>

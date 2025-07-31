@@ -1,41 +1,39 @@
-/* GTK NAMED COLORS
-   ----------------
-   use responsibly! */
-/* widget text/foreground color */
+
+
 @define-color theme_fg_color #f8f8f2;
-/* text color for entries, views and content in general */
+
 @define-color theme_text_color #f8f8f2;
-/* widget base background color */
+
 @define-color theme_bg_color #1e1f29;
-/* text widgets and the like base background color */
+
 @define-color theme_base_color #282a36;
-/* base background color of selections */
+
 @define-color theme_selected_bg_color #ff79c6;
-/* text/foreground color of selections */
+
 @define-color theme_selected_fg_color #f8f8f2;
-/* base background color of disabled widgets */
+
 @define-color insensitive_bg_color #22232e;
-/* text foreground color of disabled widgets */
+
 @define-color insensitive_fg_color #8b8c8e;
-/* disabled text widgets and the like base background color */
+
 @define-color insensitive_base_color #282a36;
-/* widget text/foreground color on backdrop windows */
+
 @define-color theme_unfocused_fg_color #8b8c8e;
-/* text color for entries, views and content in general on backdrop windows */
+
 @define-color theme_unfocused_text_color #f8f8f2;
-/* widget base background color on backdrop windows */
+
 @define-color theme_unfocused_bg_color #1e1f29;
-/* text widgets and the like base background color on backdrop windows */
+
 @define-color theme_unfocused_base_color #2a2c39;
-/* base background color of selections on backdrop windows */
+
 @define-color theme_unfocused_selected_bg_color #ff79c6;
-/* text/foreground color of selections on backdrop windows */
+
 @define-color theme_unfocused_selected_fg_color #f8f8f2;
-/* widgets main borders color */
+
 @define-color borders rgba(25, 26, 34, 0.9);
-/* widgets main borders color on backdrop windows */
+
 @define-color unfocused_borders rgba(26, 27, 35, 0.91);
-/* these are pretty self explicative */
+
 @define-color warning_color #ff9f39;
 @define-color error_color #ff3c3c;
 @define-color success_color #4caec3;
@@ -51,8 +49,7 @@
 @define-color unfocused_base_color #2a2c39;
 @define-color unfocused_selected_bg_color #ff79c6;
 @define-color unfocused_selected_fg_color #f8f8f2;
-/* these colors are exported for the window manager and shouldn't be used in applications,
-read if you used those and something break with a version upgrade you're on your own... */
+
 @define-color wm_title shade(#f8f8f2, 1.8);
 @define-color wm_unfocused_title #8b8c8e;
 @define-color wm_highlight rgba(0, 0, 0, 0);
@@ -130,12 +127,8 @@ read if you used those and something break with a version upgrade you're on your
 @define-color BLACK_500 #333;
 @define-color BLACK_700 #1a1a1a;
 @define-color BLACK_900 #000;
-/*****************
-* Drawing mixins *
-*****************/
-/*********
-* Common *
-*********/
+
+
 * {
   padding: 0;
   -GtkToolButton-icon-spacing: 4;
@@ -153,12 +146,8 @@ read if you used those and something break with a version upgrade you're on your
   -gtk-outline-radius: 2px;
   -gtk-secondary-caret-color: #ff79c6; }
 
-/***********
- * Widgets *
- ***********/
-/***************
-* Action bars *
-***************/
+
+
 .action-bar {
   background-color: #08090c;
   border: solid rgba(25, 26, 34, 0.9);
@@ -176,9 +165,7 @@ read if you used those and something break with a version upgrade you're on your
     border-radius: 0 0 6px 6px;
     border-width: 0px 1px 1px 1px; }
 
-/*********************
- * App Notifications *
- *********************/
+
 .app-notification,
 .app-notification.frame {
   padding: 10px;
@@ -194,9 +181,7 @@ read if you used those and something break with a version upgrade you're on your
   .app-notification.frame border {
     border: none; }
 
-/***************
- * Base States *
- ***************/
+
 .background {
   color: #f8f8f2;
   background-color: #1e1f29; }
@@ -208,12 +193,7 @@ read if you used those and something break with a version upgrade you're on your
   .background.chromium {
     background-color: #2f313f; }
 
-/*
-   These wildcard seems unavoidable, need to investigate.
-   Wildcards are bad and troublesome, use them with care,
-   or better, just don't.
-   Everytime a wildcard is used a kitten dies, painfully.
-*/
+
 selection {
   background-color: #ff79c6;
   color: #f8f8f2; }
@@ -326,9 +306,7 @@ assistant .sidebar label.highlight {
   background: #ff79c6;
   color: #f8f8f2; }
 
-/***********
- * Buttons *
- ***********/
+
 @keyframes needs_attention {
   from {
     background-image: -gtk-gradient(radial, center center, 0, center center, 0.01, to(#ffc6e7), to(transparent)); }
@@ -1042,7 +1020,7 @@ button:visited:checked, .scale-popup button:hover, .scale-popup button:backdrop:
   text-shadow: none;
   -gtk-icon-shadow: none; }
 
-/* menu buttons */
+
 modelbutton.flat, popover.background checkbutton,
 popover.background radiobutton,
 .menuitem.button.flat {
@@ -1097,9 +1075,7 @@ notebook button, list button, .view button, iconview button, popover button {
 notebook .linked > button, list .linked > button, .view .linked > button, iconview .linked > button, popover .linked > button {
   box-shadow: none; }
 
-/************
- * Calendar *
- ***********/
+
 calendar {
   color: #f8f8f2;
   border: 1px solid rgba(25, 26, 34, 0.9); }
@@ -1127,9 +1103,7 @@ calendar {
     color: #cfcfcd;
     border-color: rgba(26, 27, 35, 0.91); }
 
-/*************************
- * Check and Radio Items *
- *************************/
+
 check {
   -gtk-icon-source: -gtk-scaled(url("../assets/checkbox-unchecked.png"), url("../assets/checkbox-unchecked@2.png"));
   -gtk-icon-shadow: none; }
@@ -1521,9 +1495,7 @@ radio {
       border-color: currentColor;
       animation: none; }
 
-/*****************
- * Color Chooser *
- *****************/
+
 colorswatch, colorswatch:drop(active) {
   border-style: none; }
 colorswatch.top {
@@ -1617,9 +1589,7 @@ colorswatch#editor-color-sample {
 colorchooser .popover.osd {
   border-radius: 5px; }
 
-/**************
- * ComboBoxes *
- **************/
+
 combobox arrow {
   -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
   min-height: 16px;
@@ -1627,9 +1597,7 @@ combobox arrow {
 combobox:drop(active) {
   box-shadow: none; }
 
-/***********
- * Dialogs *
- ***********/
+
 messagedialog .titlebar:not(headerbar) {
   background-color: rgba(30, 31, 41, 0.95); }
 messagedialog .titlebar {
@@ -1672,9 +1640,7 @@ filechooserbutton:drop(active) {
   box-shadow: none;
   border-color: transparent; }
 
-/****************
- * Text Entries *
- ****************/
+
 spinbutton:not(.vertical), entry {
   min-height: 32px;
   padding-left: 8px;
@@ -1918,9 +1884,7 @@ treeview entry.flat, treeview entry {
   treeview entry.flat:focus, treeview entry:focus {
     border-color: #ff79c6; }
 
-/*************
- * Expanders *
- *************/
+
 expander arrow {
   min-width: 16px;
   min-height: 16px;
@@ -1932,9 +1896,7 @@ expander arrow {
   expander arrow:checked {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
 
-/****************
- * Floating Bar *
- ****************/
+
 .floating-bar {
   background-color: #1e1f29;
   border-width: 1px;
@@ -1954,9 +1916,7 @@ expander arrow {
     background-color: #1e1f29;
     border-color: rgba(26, 27, 35, 0.91); }
 
-/**********
- * Frames *
- **********/
+
 frame > border,
 .frame {
   box-shadow: none;
@@ -2097,9 +2057,7 @@ scrolledwindow junction {
 separator {
   background: rgba(0, 0, 0, 0.1); }
 
-/************
- * Popovers *
- ************/
+
 GraniteWidgetsPopOver {
   -GraniteWidgetsPopOver-arrow-width: 21;
   -GraniteWidgetsPopOver-arrow-height: 10;
@@ -2130,9 +2088,7 @@ GraniteWidgetsStaticNotebook .frame {
   border: 1px solid #282a36;
   color: #f8f8f2; }
 
-/***********
- * Welcome *
- **********/
+
 GraniteWidgetsWelcome {
   background-color: #282a36; }
   GraniteWidgetsWelcome GtkLabel {
@@ -2140,9 +2096,7 @@ GraniteWidgetsWelcome {
   GraniteWidgetsWelcome .h1, GraniteWidgetsWelcome .h3 {
     color: rgba(248, 248, 242, 0.8); }
 
-/**************
-* Source List *
-***************/
+
 .source-list {
   -GtkTreeView-horizontal-separator: 1px;
   -GtkTreeView-vertical-separator: 6px;
@@ -2174,9 +2128,7 @@ GraniteWidgetsWelcome {
       padding-left: 6px;
       padding-right: 6px; }
 
-/**************
-* Text Styles *
-**************/
+
 .h1 {
   font-size: 24px; }
 
@@ -2195,9 +2147,7 @@ GraniteWidgetsWelcome {
   font-weight: bold;
   text-shadow: 0 1px rgba(255, 255, 255, 0.2); }
 
-/**************
-* Storage Bar *
-**************/
+
 .storage-bar .trough {
   border: none;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
@@ -2233,9 +2183,7 @@ GraniteWidgetsWelcome {
     padding: 12px;
     border-radius: 4px; }
 
-/***************
- * Header bars *
- ***************/
+
 .titlebar:not(headerbar), headerbar {
   padding: 0 6px;
   min-height: 34px;
@@ -2698,9 +2646,7 @@ window.csd > .titlebar:not(headerbar) {
 .titlebar:not(headerbar) > separator, .titlebar:not(headerbar) > separator:backdrop {
   background: #1e1f29; }
 
-/**************
- * GtkInfoBar *
- **************/
+
 .info, .warning, .question, .error,
 infobar {
   text-shadow: none;
@@ -2772,9 +2718,7 @@ infobar {
     background-color: #ff6f6f;
     color: rgba(248, 248, 242, 0.5); }
 
-/*************
- * Level Bar *
- *************/
+
 levelbar block {
   min-width: 32px;
   min-height: 6px; }
@@ -2815,9 +2759,7 @@ levelbar block {
     background-color: rgba(0, 0, 0, 0.14);
     box-shadow: none; }
 
-/*********
- * Links *
- *********/
+
 *:link, button:link,
 button:visited {
   color: #13b1d5; }
@@ -2863,9 +2805,7 @@ button:visited {
   button:visited > label {
     text-decoration-line: underline; }
 
-/*********
- * Lists *
- *********/
+
 list {
   color: #f8f8f2;
   background-color: #282a36;
@@ -2896,9 +2836,7 @@ row {
   row.activatable:selected:backdrop {
     background-color: rgba(255, 121, 198, 0.6); }
 
-/*********
- * Menus *
- *********/
+
 menubar,
 .menubar {
   background-color: #1e1f29;
@@ -2998,9 +2936,7 @@ menuitem radio {
   menuitem radio:dir(rtl) {
     margin-left: 7px; }
 
-/********
- * Misc *
- ********/
+
 .content-view {
   background-color: #0f0f14; }
   .content-view:hover {
@@ -3015,9 +2951,7 @@ menuitem radio {
   background-color: rgba(248, 248, 242, 0.1);
   border-radius: 5px; }
 
-/************
-* Assistant *
-*************/
+
 assistant {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px; }
@@ -3037,9 +2971,7 @@ assistant {
   assistant .sidebar label.highlight {
     background-color: #4a4a51; }
 
-/*************
- * Notebooks *
- *************/
+
 notebook > header {
   padding: 1px;
   border-color: rgba(25, 26, 34, 0.9);
@@ -3215,9 +3147,7 @@ notebook > stack:not(:only-child) {
   notebook > stack:not(:only-child):backdrop {
     background-color: #2a2c39; }
 
-/*********
- * Paned *
- *********/
+
 paned > separator {
   min-width: 1px;
   min-height: 1px;
@@ -3265,9 +3195,7 @@ paned.vertical > separator {
     background-repeat: repeat-x, repeat-x;
     background-position: bottom, top; }
 
-/************
- * Pathbars *
- ************/
+
 .path-bar button.text-button, .path-bar button.image-button, .path-bar button {
   padding-left: 4px;
   padding-right: 4px; }
@@ -3285,9 +3213,7 @@ paned.vertical > separator {
   padding-left: 0;
   padding-right: 0; }
 
-/***************
- * Popovers   *
- ***************/
+
 popover.background {
   padding: 2px;
   border-radius: 5px;
@@ -3311,9 +3237,7 @@ popover.background {
   popover.background list separator {
     margin: 0px; }
 
-/*****************
- * Progress bars *
- *****************/
+
 progressbar {
   font-size: smaller;
   color: rgba(248, 248, 242, 0.4); }
@@ -3343,9 +3267,7 @@ progressbar {
       border-style: none;
       border-radius: 0; }
 
-/************
- * GtkScale *
- ************/
+
 progressbar trough, scale trough, scale fill {
   background-color: rgba(140, 143, 171, 0.14);
   border: none;
@@ -3833,9 +3755,7 @@ scale {
         margin-right: -15px;
         margin-left: 6px; }
 
-/**************
- * Scrollbars *
- **************/
+
 scrollbar {
   background-color: #232530;
   transition: 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
@@ -3980,9 +3900,7 @@ treeview ~ scrollbar.vertical {
   border-top: 1px solid rgba(25, 26, 34, 0.9);
   margin-top: -1px; }
 
-/***********
- * Sidebar *
- ***********/
+
 .sidebar {
   border-style: none;
   border-width: 0;
@@ -4054,9 +3972,7 @@ placessidebar row:drop(active):not(:disabled) {
     placessidebar row:drop(active):not(:disabled):selected, placessidebar row:drop(active):not(:disabled):selected label, placessidebar row:drop(active):not(:disabled):selected image {
       color: #f8f8f2; }
 
-/*****************
- * GtkSpinButton *
- *****************/
+
 spinbutton:not(.vertical) {
   padding: 0; }
   spinbutton:not(.vertical) entry {
@@ -4232,15 +4148,11 @@ treeview spinbutton:not(.vertical) {
     min-height: 0;
     padding: 1px 2px; }
 
-/***********
- * Spinner *
- ***********/
+
 menu spinner {
   color: #ff79c6; }
 
-/*********************
- * Spinner Animation *
- *********************/
+
 @keyframes spin {
   to {
     -gtk-icon-transform: rotate(1turn); } }
@@ -4254,9 +4166,7 @@ spinner {
     spinner:checked:disabled {
       opacity: 0.5; }
 
-/**********
- * Switch *
- **********/
+
 switch {
   font-size: 1px;
   font-weight: bold;
@@ -4300,9 +4210,7 @@ switch {
     switch trough:active:backdrop, switch trough:checked:backdrop {
       background-color: rgba(255, 121, 198, 0.6); }
 
-/************
- * Toolbars *
- ************/
+
 toolbar, .inline-toolbar, searchbar,
 .location-bar {
   -GtkWidget-window-dragging: true;
@@ -4357,12 +4265,10 @@ searchbar,
 searchbar {
   background: #282a36; }
 
-/************
- * Tooltips *
- ************/
+
 tooltip {
   padding: 4px;
-  /* not working */
+  
   border-radius: 5px;
   box-shadow: none;
   text-shadow: 0 1px black; }
@@ -4377,9 +4283,7 @@ tooltip {
     background-color: transparent;
     color: white; }
 
-/**************
- * Tree Views *
- **************/
+
 treeview.view {
   border-left-color: #909194;
   border-top-color: #1e1f29; }
@@ -4512,9 +4416,7 @@ treeview.view header button, treeview.view header button:hover, treeview.view he
       border-color: #1e1f29;
       background-image: none; }
 
-/**********************
- * Window Decorations *
- *********************/
+
 decoration {
   border-radius: 4px 4px 0 0;
   border-width: 0px;
@@ -4639,12 +4541,8 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
 .monospace {
   font-family: Monospace; }
 
-/**********************
- * DE-Specific Styles *
- **********************/
-/*********
-* Budgie *
-*********/
+
+
 .budgie-container {
   background-color: transparent; }
   .budgie-container:backdrop {
@@ -5456,9 +5354,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   padding: 0;
   border-radius: 2px; }
 
-/************
- * Nautilus *
- ************/
+
 .nautilus-window paned > separator {
   background-image: none; }
 .nautilus-window .sidebar {
@@ -5585,18 +5481,14 @@ headerbar .nautilus-window .path-buttons-box button:focus .subtitle {
   headerbar .nautilus-desktop .nautilus-list .subtitle:selected {
     color: #f8f8f2; }
 
-/*********
- * Gedit *
- *********/
+
 .gedit-search-slider {
   padding: 4px;
   border-radius: 0 0 3px 3px;
   border: 0;
   background-color: #1e1f29; }
 
-/*********
- * Gnucash *
-*********/
+
 #gnc-id-main-window entry.gnc-class-register-foreground {
   background: transparent;
   border: none;
@@ -5607,9 +5499,7 @@ headerbar .nautilus-window .path-buttons-box button:focus .subtitle {
   #gnc-id-main-window .arrow.button.toggle:hover {
     border-color: #ff79c6; }
 
-/********
- * Gala *
- *******/
+
 .gala-notification {
   border-width: 0;
   border-radius: 2px;
@@ -5629,25 +5519,19 @@ headerbar .nautilus-window .path-buttons-box button:focus .subtitle {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.98), inset 0 1px 0 0 rgba(255, 255, 255, 0.93), inset 0 -1px 0 0 rgba(255, 255, 255, 0.99), 0 0 0 1px rgba(0, 0, 0, 0.6), 0 3px 6px rgba(0, 0, 0, 0.84), 0 3px 6px rgba(0, 0, 0, 0.77);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
 
-/**********
- * Notify *
- *********/
+
 .notify {
-  /*-notify-shadow: 0px 2px 18px transparentize(black, 0.60);*/
+  
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.7);
   background-color: rgba(40, 42, 54, 0.05); }
 
-/***************
- * SwitchBoard *
- ***************/
+
 .category-label {
   font-weight: bold;
   color: #f8f8f2; }
 
-/*************
- * Slingshot *
- ************/
+
 .button.app {
   border: none;
   border-radius: 0;
@@ -5659,7 +5543,7 @@ headerbar .nautilus-window .path-buttons-box button:focus .subtitle {
     background-color: rgba(255, 121, 198, 0.3);
     color: white; }
   .button.app .app:focus {
-    /*background-color: transparentize(black, 0.20);*/ }
+     }
 
 .search-item {
   border-radius: 0;
@@ -5685,9 +5569,7 @@ headerbar .nautilus-window .path-buttons-box button:focus .subtitle {
   font-weight: bold;
   color: #f8f8f2; }
 
-/*********
- * Panel *
- ********/
+
 .panel {
   background-color: transparent;
   transition: all 100ms ease-in-out;
@@ -5724,17 +5606,13 @@ menubar.panel,
   text-shadow: 0 1px rgba(255, 255, 255, 0.1);
   -gtk-icon-shadow: 0 1px rgba(255, 255, 255, 0.1); }
 
-/**************
- * Calculator *
- **************/
+
 PantheonCalculatorMainWindow {
   border-radius: 0 0 4px 4px; }
   PantheonCalculatorMainWindow .window-frame {
     border-radius: 3px; }
 
-/*********
- * Cards *
- *********/
+
 .deck {
   background-color: #0d0d11; }
 
@@ -5748,9 +5626,7 @@ PantheonCalculatorMainWindow {
   background-color: #1d1f27;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.2); }
 
-/*********
- * Noise *
- *********/
+
 NoiseLibraryWindow {
   border-radius: 0 0 4px 4px; }
   NoiseLibraryWindow .action-bar {
@@ -5758,16 +5634,12 @@ NoiseLibraryWindow {
   NoiseLibraryWindow .window-frame {
     border-radius: 3px; }
 
-/********
- * Snap *
- ********/
+
 SnapMainWindow .take-button,
 SnapSnapWindow .take-button {
   border-radius: 0; }
 
-/*******************
- * Photos/Shotwell *
- *******************/
+
 DirectWindow .the-button-in-the-combobox,
 LibraryWindow .the-button-in-the-combobox {
   background: none; }
@@ -5781,15 +5653,13 @@ LibraryWindow .the-button-in-the-combobox {
 .checkboard-layout .item {
   background-color: #f8f8f2; }
 
-/*********
-* Avatar *
-*********/
+
 .avatar {
   border: 1px solid rgba(0, 0, 0, 0.23);
   border-radius: 50%;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), inset 0 1px 0 0 rgba(255, 255, 255, 0.45), inset 0 -1px 0 0 rgba(255, 255, 255, 0.15), 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.23); }
 
-/**level bars**/
+
 .sidebar.source-list.view.level-bar, iconview.sidebar.source-list.level-bar, .sidebar.source-list.view.level-bar:selected, iconview.sidebar.source-list.level-bar:selected, .sidebar.source-list.view.level-bar:selected:focus, iconview.sidebar.source-list.level-bar:selected:focus {
   background: linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14));
   border: 1px solid rgba(0, 0, 0, 0.14);
@@ -5800,9 +5670,7 @@ LibraryWindow .the-button-in-the-combobox {
   .sidebar.source-list.view.fill-block, iconview.sidebar.source-list.fill-block, .sidebar.source-list.view.fill-block:hover, iconview.sidebar.source-list.fill-block:hover, .sidebar.source-list.view.fill-block:selected, iconview.sidebar.source-list.fill-block:selected, .sidebar.source-list.view.fill-block:selected:focus, iconview.sidebar.source-list.fill-block:selected:focus {
     background: linear-gradient(#ff79c6, #ff79c6); }
 
-/**************************
- * Colors in context menu *
-**************************/
+
 checkbutton.color-button {
   border: 1px solid rgba(25, 26, 34, 0.9);
   border-radius: 100px;
@@ -5910,44 +5778,42 @@ radiobutton.color-button:active > radio {
     .xfce4-panel.background button.flat:active label, .xfce4-panel.background button.flat:active image, .xfce4-panel.background button.flat:checked label, .xfce4-panel.background button.flat:checked image {
       color: inherit; }
 
-/********
-* Unity *
-*********/
-/* Unity window border color */
-/* Unity window text color */
-/* Backdrop Unity window text color */
-/* Unity panel color #454D50 */
+
+
+
+
+
 UnityDecoration {
-  /* Border properties (top, right, bottom, left) */
+  
   -UnityDecoration-extents: 28px 1px 1px 1px;
-  /* the size of the decorations  */
+  
   -UnityDecoration-input-extents: 10px;
-  /* the extra size of the input areas */
-  /* Shadows settings */
+  
+  
   -UnityDecoration-shadow-offset-x: 1px;
-  /* Size property, the shadow x offset */
+  
   -UnityDecoration-shadow-offset-y: 1px;
-  /* Size property, the shadow y offset */
+  
   -UnityDecoration-active-shadow-color: rgba 0, 0, 0, 0.647;
-  /* Color property, active window shadow color */
+  
   -UnityDecoration-active-shadow-radius: 8px;
-  /* Size property, active window shadow radius */
+  
   -UnityDecoration-inactive-shadow-color: rgba 0, 0, 0, 0.647;
-  /* Color property, inactive windows shadow color */
+  
   -UnityDecoration-inactive-shadow-radius: 5px;
-  /* Size property, inactive windows shadow radius */
-  /* Glow applied to the selected scaled window */
+  
+  
   -UnityDecoration-glow-size: 8px;
-  /* Size property, size of glow */
+  
   -UnityDecoration-glow-color: #ff79c6;
-  /* Color property of the glow */
-  /* Title settings */
+  
+  
   -UnityDecoration-title-indent: 10px;
-  /* Size property, left indent of the title */
+  
   -UnityDecoration-title-fade: 35px;
-  /* Size property, space of the title that can be faded */
+  
   -UnityDecoration-title-alignment: 0.0;
-  /* Float from 0.0 to 1.0, to align the title */
+  
   background-color: #31363D;
   color: #fefefe; }
   UnityDecoration .top {
@@ -5987,9 +5853,7 @@ UnityDecoration.bottom:backdrop {
   background-size: 1px;
   background-repeat: repeat-x; }
 
-/**************
-* Unity Panel *
-***************/
+
 UnityPanelWidget,
 .unity-panel {
   background-color: #1a1d21;
@@ -6043,7 +5907,7 @@ UnityPanelWidget:backdrop,
   border: none;
   color: rgba(25, 26, 34, 0.9); }
 
-/* Force Quit */
+
 SheetStyleDialog.unity-force-quit {
   background-color: #282a36; }
 
@@ -6068,12 +5932,8 @@ MsdOsdWindow.background.osd {
     border: none;
     border-radius: 5px; }
 
-/***********************
- * App-Specific Styles *
- ***********************/
-/*********
- * Geary *
- *********/
+
+
 .geary-titlebar-left .separator,
 .geary-titlebar-right .separator {
   opacity: 0; }
@@ -6093,9 +5953,7 @@ ConversationListView {
       color: #f8f8f2;
       border: 0px solid #ff46b0; }
 
-/***********
- * LightDm *
- ***********/
+
 #panel_window {
   background-color: #1e1f29;
   color: white;
@@ -6225,11 +6083,11 @@ ConversationListView {
   border-bottom-width: 0;
   font-weight: bold; }
 
-/* thunar */
+
 .thunar toolbar {
   background-color: #1e1f29; }
 
-/* buttons in toolbar */
+
 .thunar toolbar.horizontal button image {
   -gtk-icon-transform: scale(0.72); }
 
@@ -6242,7 +6100,7 @@ scrolledwindow.sidebar treeview.view, scrollbar.right {
 scrolledwindow.standard-view scrollbar.right {
   background-color: #282a36; }
 
-/* path-bar of thunar */
+
 window.thunar toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:hover, window.thunar toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:checked, window.thunar toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:selected, .thunar scrolledwindow.sidebar treeview.view:hover, .thunar scrolledwindow.sidebar treeview.view:checked, .thunar scrolledwindow.sidebar treeview.view:selected, .thunar toolbar.horizontal button:hover, .thunar toolbar.horizontal button:checked, .thunar toolbar.horizontal button:selected {
   color: #ff79c6;
   background-color: rgba(255, 121, 198, 0.1);
@@ -6331,9 +6189,7 @@ window.thunar toolbar > toolitem > widget > widget.linked.path-bar > button.path
     background: #ff79c6;
     color: #f8f8f2; }
 
-/**************
-* Caja sidebar *
-**************/
+
 .caja-side-pane {
   background: #1e1f29; }
   .caja-side-pane .frame {
@@ -6361,9 +6217,7 @@ window.thunar toolbar > toolitem > widget > widget.linked.path-bar > button.path
       .caja-side-pane widget .vertical:selected:hover {
         background-color: rgba(255, 121, 198, 0.2); }
 
-/**************
-* Caja pathbar *
-**************/
+
 .caja-navigation-window paned {
   background: #282a36; }
 
@@ -6395,4 +6249,4 @@ window.thunar toolbar > toolitem > widget > widget.linked.path-bar > button.path
   .caja-pathbar button:hover, .caja-pathbar button:hover label, .caja-pathbar button:active, .caja-pathbar button:active label, .caja-pathbar button:checked, .caja-pathbar button:checked label, .caja-pathbar button:backdrop:active, .caja-pathbar button:backdrop:active label, .caja-pathbar button:backdrop:checked, .caja-pathbar button:backdrop:checked label {
     color: #ff79c6; }
 
-/*# sourceMappingURL=gtk.css.map */
+

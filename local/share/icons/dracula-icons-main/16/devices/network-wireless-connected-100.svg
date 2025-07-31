@@ -1,1 +1,4 @@
-network-wireless.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 8.03125 2 C 4.996094 2 2.261719 3.078125 0 4.75 L 8.03125 13.5 L 16 4.71875 C 13.738281 3.070312 11.039062 2 8.03125 2 Z M 8.03125 2 "/>
+</svg>

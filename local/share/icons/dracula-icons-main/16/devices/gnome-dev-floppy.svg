@@ -1,1 +1,4 @@
-media-floppy.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 2 1 C 1.445312 1 1 1.445312 1 2 L 1 13 L 3 15 L 14 15 C 14.554688 15 15 14.554688 15 14 L 15 2 C 15 1.445312 14.554688 1 14 1 Z M 3 3 L 13 3 L 13 13 L 12 13 L 12 8 L 4 8 L 4 13 L 3 13 Z M 8 9 L 10 9 L 10 13 L 8 13 Z M 8 9 "/>
+</svg>

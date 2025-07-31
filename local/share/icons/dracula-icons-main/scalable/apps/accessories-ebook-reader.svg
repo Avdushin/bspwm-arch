@@ -1,1 +1,31 @@
-gnome-books.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-9295" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAd0lEQVR4nO3XsQnDMABE0UtiApkk+4+TPVwYArEbBTyA8RV+r5FQ9blOycXdxvna3Zckv07O+aZxvpM8xv2TZO7knO/eDmgzQDugzQDtgDYDtAPaDNAOaDNAO6Dt8gP8f4DP3ds3yVpoAQAAAAAAAAAAAAAAOMQGovUGFgjG3kQAAAAASUVORK5CYII="/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-9295"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-9294" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 3.96875 2.921875 C 2.296875 4.277344 1.324219 6.3125 1.324219 8.464844 C 1.324219 10.617188 2.296875 12.65625 3.96875 14.007812 Z M 3.96875 2.921875 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-9297" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-9294"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(0%, 58.431373%, 46.666667%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 12.410156 12.410156 15.609375 8.464844 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.324219 8.464844 1.324219 C 12.410156 1.324219 15.609375 4.519531 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 6.613281 1.570312 C 5.859375 1.773438 5.144531 2.097656 4.496094 2.535156 L 4.496094 7.671875 L 5.558594 6.613281 L 6.613281 7.671875 Z M 6.613281 1.570312 "/>
+<use xlink:href="#source-9297"/>
+</svg>

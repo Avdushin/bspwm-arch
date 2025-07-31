@@ -1,1 +1,4 @@
-drive-removable-media-usb-pendrive.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 8.84375 5.003906 C 8.5625 5.050781 8 5.253906 8 6.003906 L 8 15.003906 C 8 15.003906 8 16.003906 9 16.003906 L 15 16.003906 C 16 16.003906 16 15.003906 16 15.003906 L 16 6.003906 C 16 5.003906 15 5.003906 15 5.003906 L 9 5.003906 C 9 5.003906 8.9375 4.988281 8.84375 5.003906 Z M 9 17.003906 L 9 19.003906 L 15 19.003906 L 15 17.003906 Z M 9 17.003906 "/>
+</svg>

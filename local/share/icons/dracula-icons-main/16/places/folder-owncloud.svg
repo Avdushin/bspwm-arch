@@ -1,15 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1" viewBox="0 0 16 16">
- <defs>
-  <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#FFFFFF; } .ColorScheme-Highlight { color:#5294e2; }
-  </style>
- </defs>
- <g>
-  <circle style="fill:currentColor" class="ColorScheme-Text" cx="10.5" cy="6.5" r="2.5"/>
-  <circle style="fill:currentColor" class="ColorScheme-Text" cx="12" cy="10" r="3"/>
-  <circle style="fill:currentColor" class="ColorScheme-Text" cx="2.5" cy="10.5" r="2.5"/>
-  <circle style="fill:currentColor" class="ColorScheme-Text" cx="3.5" cy="7.5" r="2.5"/>
-  <circle style="fill:currentColor" class="ColorScheme-Text" cx="6.5" cy="5.5" r="2.5"/>
-  <circle style="fill:currentColor" class="ColorScheme-Text" cx="7" cy="9" r="4"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 13 6.5 C 13 7.878906 11.878906 9 10.5 9 C 9.121094 9 8 7.878906 8 6.5 C 8 5.121094 9.121094 4 10.5 4 C 11.878906 4 13 5.121094 13 6.5 Z M 13 6.5 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 15 10 C 15 11.65625 13.65625 13 12 13 C 10.34375 13 9 11.65625 9 10 C 9 8.34375 10.34375 7 12 7 C 13.65625 7 15 8.34375 15 10 Z M 15 10 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5 10.5 C 5 11.878906 3.878906 13 2.5 13 C 1.121094 13 0 11.878906 0 10.5 C 0 9.121094 1.121094 8 2.5 8 C 3.878906 8 5 9.121094 5 10.5 Z M 5 10.5 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 6 7.5 C 6 8.878906 4.878906 10 3.5 10 C 2.121094 10 1 8.878906 1 7.5 C 1 6.121094 2.121094 5 3.5 5 C 4.878906 5 6 6.121094 6 7.5 Z M 6 7.5 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 9 5.5 C 9 6.878906 7.878906 8 6.5 8 C 5.121094 8 4 6.878906 4 5.5 C 4 4.121094 5.121094 3 6.5 3 C 7.878906 3 9 4.121094 9 5.5 Z M 9 5.5 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 11 9 C 11 11.210938 9.210938 13 7 13 C 4.789062 13 3 11.210938 3 9 C 3 6.789062 4.789062 5 7 5 C 9.210938 5 11 6.789062 11 9 Z M 11 9 "/>
 </svg>

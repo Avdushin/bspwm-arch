@@ -1,5 +1,5 @@
 
-/* default */
+
 * {
     engine: none;
     -GtkArrow-arrow-scaling: 0.55;
@@ -46,16 +46,14 @@
     outline-offset: 0;
 }
 
-/***************
- * base states *
- ***************/
+
 .background {
     background-color: @bg_color;
     color: @fg_color;
 }
 
 * {
-    /* inherit colors from parent */
+    
     background-color: inherit;
     color: inherit;
 }
@@ -71,7 +69,7 @@
     color: mix(@fg_color, @bg_color, 0.3);
 }
 
-/* apply effects to insensitive and prelit images */
+
 *:insensitive {
     -gtk-image-effect: dim;
 }
@@ -117,17 +115,13 @@ GtkGrid:insensitive {
     background-color: transparent;
 }
 
-/***********
- * gtkhtml *
- ***********/
+
 GtkHTML {
     background-color: @base_color;
     color: @text_color;
 }
 
-/************
- * expander *
- ************/
+
 .expander {
     color: alpha(@fg_color, 0.7);
 }
@@ -141,9 +135,7 @@ GtkHTML {
 }
 
 
-/*********
- * frame *
- *********/
+
 .frame {
     border-color: shade(@theme_bg_color, 0.8);
 }
@@ -153,9 +145,7 @@ GtkHTML {
 	border: none;
 }
 
-/*******************
- * scrolled window *
- *******************/
+
 GtkScrolledWindow.frame {
     border-width: 1px;
     border-style: solid;
@@ -163,15 +153,12 @@ GtkScrolledWindow.frame {
     border-radius: 0;
 }
 
-/* avoid double borders when a viewport is 
- * packed into a GtkScrolledWindow */
+
 GtkScrolledWindow GtkViewport.frame {
     border-style: none;
 }
 
-/************
- * iconview *
- ************/
+
 GtkIconView.view.cell:hover {
     border: none;
     border-radius: 5px;
@@ -200,9 +187,7 @@ GtkIconView.view.cell:selected:focus {
     border-radius: 0;
     background-color: alpha(@selected_fg_color, 0.3);
 }
-/*****************
- * miscellaneous *
- *****************/
+
 .floating-bar {
     border-width: 1px;
     border-style: solid;
@@ -265,9 +250,7 @@ GtkIconView.view.cell:selected:focus {
     color: alpha(@fg_color, 0.9);
 }
 
-/*************
- * statusbar *
- *************/
+
 GtkStatusbar {
     padding: 4px;
     color: @fg_color;
@@ -286,17 +269,13 @@ GtkStatusbar .button:active:hover {
     background-color: @bg_color;
 }
 
-/************
- * textview *
- ************/
+
 GtkTextView {
     background-color: @base_color;
     color: @text_color;
 }
 
-/***********
- * tooltip *
- ***********/
+
 .tooltip {
     border-width: 1px;
     border-style: solid;
@@ -324,9 +303,7 @@ GtkTextView {
     color: inherit;
 }
 
-/************
- * treeview *
- ************/
+
 GtkTreeView {
     -GtkTreeView-vertical-separator: 6;
     -GtkWidget-focus-line-width: 1;
@@ -356,9 +333,7 @@ GtkTreeView .entry {
     background-image: none;
 }
 
-/************
- * viewport *
- ************/
+
 GtkViewport.frame {
     border-width: 0;
 }
@@ -376,12 +351,10 @@ GtkViewport.frame {
 .view:selected,
 .view:selected:focus {
     background-color: @selected_bg_color; 
-    color: @selected_fg_color; /*TreeView selected for dconf and sidebars and stuff*/
+    color: @selected_fg_color; 
 }
 
-/*************************
- * touch text selections *
- *************************/
+
 GtkBubbleWindow {
     border-radius: 0px;
     background-clip: border-box;

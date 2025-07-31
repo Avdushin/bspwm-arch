@@ -1,6 +1,4 @@
-/******************
- * combobox entry *
- ******************/
+
 GtkComboBox*:hover {
 color: @selected_fg_color;
 }

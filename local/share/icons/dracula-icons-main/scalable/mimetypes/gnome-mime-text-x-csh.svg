@@ -1,1 +1,41 @@
-text-x-script.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-7889" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAZElEQVR4nO3UsQmAQBAEwPXRCuy/QztQ0PwFQZB/1JnwuGDvgk0AAOCXhpu7YzXbkuzPxWmvPujKlGSuZkuS9bk47ZXeAXrzgN4BertTgiXnzljz8hIEAAAAAAAAAAAAAIAPOgAqJQYMcQtPkAAAAABJRU5ErkJggg=="/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-7889"/>
+</g>
+</mask>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="49.570999" y1="52.714001" x2="51.714001" y2="54.856998" gradientTransform="matrix(0.617345, 0, 0, 0.617345, -18.167915, -19.050026)">
+<stop offset="0" stop-color="rgb(0%, 0%, 0%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(0%, 0%, 0%)" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-7888" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="url(#linear-pattern-0)" d="M 14.816406 12.171875 L 11.113281 15.875 L 13.492188 15.875 C 14.226562 15.875 14.816406 15.285156 14.816406 14.550781 Z M 14.816406 12.171875 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-7891" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-7888"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(95.686275%, 95.686275%, 95.686275%)" fill-opacity="1" d="M 3.441406 1.058594 L 13.492188 1.058594 C 14.222656 1.058594 14.816406 1.652344 14.816406 2.382812 L 14.816406 14.550781 C 14.816406 15.28125 14.222656 15.875 13.492188 15.875 L 3.441406 15.875 C 2.707031 15.875 2.117188 15.28125 2.117188 14.550781 L 2.117188 2.382812 C 2.117188 1.652344 2.707031 1.058594 3.441406 1.058594 Z M 3.441406 1.058594 "/>
+<use xlink:href="#source-7891"/>
+<path fill-rule="nonzero" fill="rgb(34.509804%, 51.764706%, 95.686275%)" fill-opacity="1" d="M 4.761719 4.367188 L 4.761719 4.628906 L 9.523438 4.628906 L 9.523438 4.367188 Z M 4.761719 5.160156 L 4.761719 5.425781 L 12.171875 5.425781 L 12.171875 5.160156 Z M 4.761719 5.953125 L 4.761719 6.21875 L 8.464844 6.21875 L 8.464844 5.953125 Z M 4.761719 5.953125 "/>
+<path fill-rule="nonzero" fill="rgb(70.196078%, 70.196078%, 70.196078%)" fill-opacity="1" d="M 4.761719 11.507812 L 4.761719 11.773438 L 12.171875 11.773438 L 12.171875 11.507812 Z M 4.761719 12.304688 L 4.761719 12.566406 L 8.464844 12.566406 L 8.464844 12.304688 Z M 4.761719 12.304688 "/>
+<path fill-rule="nonzero" fill="rgb(76.862745%, 22.745098%, 76.862745%)" fill-opacity="1" d="M 7.410156 6.746094 L 7.410156 7.011719 L 11.773438 7.011719 L 11.773438 6.746094 Z M 7.410156 7.539062 L 7.410156 7.804688 L 12.171875 7.804688 L 12.171875 7.539062 Z M 7.410156 8.335938 L 7.410156 8.597656 L 11.113281 8.597656 L 11.113281 8.335938 Z M 7.410156 8.335938 "/>
+<path fill-rule="nonzero" fill="rgb(54.901961%, 34.901961%, 85.098039%)" fill-opacity="1" d="M 4.761719 6.746094 L 4.761719 7.011719 L 6.878906 7.011719 L 6.878906 6.746094 Z M 4.761719 7.539062 L 4.761719 7.804688 L 6.878906 7.804688 L 6.878906 7.539062 Z M 4.761719 8.335938 L 4.761719 8.597656 L 6.878906 8.597656 L 6.878906 8.335938 Z M 4.761719 8.335938 "/>
+<path fill-rule="nonzero" fill="rgb(46.27451%, 76.078431%, 16.862745%)" fill-opacity="1" d="M 7.410156 9.128906 L 7.410156 9.390625 L 12.171875 9.390625 L 12.171875 9.128906 Z M 7.410156 9.921875 L 7.410156 10.1875 L 11.113281 10.1875 L 11.113281 9.921875 Z M 7.410156 9.921875 "/>
+<path fill-rule="nonzero" fill="rgb(94.901961%, 17.254902%, 25.882353%)" fill-opacity="1" d="M 4.761719 9.128906 L 4.761719 9.390625 L 6.878906 9.390625 L 6.878906 9.128906 Z M 4.761719 9.921875 L 4.761719 10.1875 L 6.878906 10.1875 L 6.878906 9.921875 Z M 4.761719 10.714844 L 4.761719 10.980469 L 6.878906 10.980469 L 6.878906 10.714844 Z M 4.761719 10.714844 "/>
+<path fill-rule="nonzero" fill="rgb(70.196078%, 70.196078%, 70.196078%)" fill-opacity="1" d="M 7.410156 10.714844 L 7.410156 10.980469 L 12.171875 10.980469 L 12.171875 10.714844 Z M 7.410156 10.714844 "/>
+</svg>

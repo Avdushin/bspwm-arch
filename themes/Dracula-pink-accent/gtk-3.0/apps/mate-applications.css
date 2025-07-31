@@ -1,9 +1,7 @@
 
-/********
- * Caja *
- ********/
 
-/* caja sidebar */
+
+
 CajaWindow FMTreeView .view,
 CajaWindow CajaNotesViewer .view,
 CajaWindow CajaPlacesSidebar .view,

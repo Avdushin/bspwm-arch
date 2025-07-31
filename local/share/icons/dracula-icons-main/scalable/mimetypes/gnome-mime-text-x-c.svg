@@ -1,1 +1,35 @@
-text-x-c.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-11968" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAZElEQVR4nO3UsQmAQBAEwPXRCuy/QztQ0PwFQZB/1JnwuGDvgk0AAOCXhpu7YzXbkuzPxWmvPujKlGSuZkuS9bk47ZXeAXrzgN4BertTgiXnzljz8hIEAAAAAAAAAAAAAIAPOgAqJQYMcQtPkAAAAABJRU5ErkJggg=="/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-11968"/>
+</g>
+</mask>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="49.570999" y1="52.714001" x2="51.714001" y2="54.856998" gradientTransform="matrix(0.617345, 0, 0, 0.617345, -18.167915, -19.050026)">
+<stop offset="0" stop-color="rgb(0%, 0%, 0%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(0%, 0%, 0%)" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-11967" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="url(#linear-pattern-0)" d="M 14.816406 12.171875 L 11.113281 15.875 L 13.492188 15.875 C 14.226562 15.875 14.816406 15.285156 14.816406 14.550781 Z M 14.816406 12.171875 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-11970" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-11967"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(95.686275%, 95.686275%, 95.686275%)" fill-opacity="1" d="M 3.441406 1.058594 L 13.492188 1.058594 C 14.222656 1.058594 14.816406 1.652344 14.816406 2.382812 L 14.816406 14.550781 C 14.816406 15.28125 14.222656 15.875 13.492188 15.875 L 3.441406 15.875 C 2.707031 15.875 2.117188 15.28125 2.117188 14.550781 L 2.117188 2.382812 C 2.117188 1.652344 2.707031 1.058594 3.441406 1.058594 Z M 3.441406 1.058594 "/>
+<use xlink:href="#source-11970"/>
+<path fill-rule="nonzero" fill="rgb(18.431373%, 37.254902%, 86.666667%)" fill-opacity="1" d="M 11.476562 9.632812 C 11.453125 10.132812 11.316406 10.578125 11.070312 10.964844 C 10.820312 11.347656 10.472656 11.644531 10.023438 11.855469 C 9.578125 12.066406 9.070312 12.171875 8.496094 12.171875 C 7.550781 12.171875 6.804688 11.863281 6.257812 11.246094 C 5.714844 10.628906 5.441406 9.757812 5.441406 8.632812 L 5.441406 8.277344 C 5.441406 7.570312 5.566406 6.953125 5.808594 6.425781 C 6.054688 5.894531 6.410156 5.484375 6.871094 5.199219 C 7.335938 4.90625 7.867188 4.761719 8.476562 4.761719 C 9.351562 4.761719 10.054688 4.992188 10.585938 5.457031 C 11.117188 5.914062 11.417969 6.546875 11.488281 7.355469 L 9.757812 7.355469 C 9.746094 6.917969 9.632812 6.601562 9.425781 6.410156 C 9.21875 6.21875 8.902344 6.125 8.476562 6.125 C 8.042969 6.125 7.726562 6.285156 7.527344 6.609375 C 7.324219 6.929688 7.21875 7.449219 7.210938 8.15625 L 7.210938 8.667969 C 7.210938 9.433594 7.304688 9.984375 7.496094 10.316406 C 7.691406 10.644531 8.023438 10.808594 8.496094 10.808594 C 8.894531 10.808594 9.199219 10.714844 9.410156 10.527344 C 9.621094 10.339844 9.734375 10.039062 9.746094 9.632812 Z M 11.476562 9.632812 "/>
+</svg>

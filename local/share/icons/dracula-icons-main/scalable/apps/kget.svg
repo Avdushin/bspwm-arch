@@ -1,9 +1,6 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <g transform="matrix(1.35 0 0 1.35 -519.57 -675.13)" stroke-opacity=".55" stroke-width="2.0741">
-  <rect transform="scale(-1,1)" x="-428.57" y="503.8" width="40" height="40" rx="20" fill="#e6e6e6"/>
-  <g fill="#1b91f4">
-   <path d="m399.57 525.8 7 7h-7v2h18v-2h-7l7-7h-3l-6 6-6-6z"/>
-   <path d="m404.57 510.8v10h-5l9 9 9-9h-5v-10z"/>
-  </g>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<path fill-rule="nonzero" fill="rgb(90.196078%, 90.196078%, 90.196078%)" fill-opacity="1" d="M 32 5 C 17.085938 5 5 17.089844 5 32 C 5 46.910156 17.085938 59 32 59 C 46.910156 59 59 46.910156 59 32 C 59 17.089844 46.910156 5 32 5 Z M 32 5 "/>
+<path fill-rule="nonzero" fill="rgb(10.588235%, 56.862745%, 95.686275%)" fill-opacity="1" d="M 19.847656 34.699219 L 29.300781 44.148438 L 19.847656 44.148438 L 19.847656 46.851562 L 44.148438 46.851562 L 44.148438 44.148438 L 34.699219 44.148438 L 44.148438 34.699219 L 40.097656 34.699219 L 32 42.800781 L 23.898438 34.699219 Z M 19.847656 34.699219 "/>
+<path fill-rule="nonzero" fill="rgb(10.588235%, 56.862745%, 95.686275%)" fill-opacity="1" d="M 26.597656 14.449219 L 26.597656 27.949219 L 19.847656 27.949219 L 32 40.101562 L 44.148438 27.949219 L 37.398438 27.949219 L 37.398438 14.449219 Z M 26.597656 14.449219 "/>
 </svg>

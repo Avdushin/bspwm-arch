@@ -1,14 +1,29 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient id="a" x1="49.571" x2="51.714" y1="52.714" y2="54.857" gradientTransform="matrix(2.3333,0,0,2.3333,-68.667,-72.001)" gradientUnits="userSpaceOnUse">
-   <stop offset="0"/>
-   <stop stop-opacity="0" offset="1"/>
-  </linearGradient>
- </defs>
- <rect x="8" y="4" width="48" height="56" ry="5" fill="#f63163" style="paint-order:stroke fill markers"/>
- <path d="m56 46-14 14h9c2.77 0 5-2.23 5-5z" fill="url(#a)" fill-rule="evenodd" opacity=".15" stroke-width="8.8191" style="paint-order:stroke fill markers"/>
- <g transform="matrix(3.7796,0,0,3.7796,-101.04,4.424)" fill="#fff">
-  <path d="m34.671 7.0315v1.7198c0 0.07329 0.059 0.13229 0.13229 0.13229h0.79374c0.07329 0 0.13229-0.059 0.13229-0.13229v-1.7198zm0.26458 1.0583h0.52916v0.52916h-0.52916z" color="#000000"/>
-  <path d="m35.2-0.11215v0.52916h0.52916v-0.52916zm0 0.52916h-0.52916v0.52916h0.52916zm0 0.52916v0.52916h0.52916v-0.52916zm0 0.52916h-0.52916v0.52916h0.52916zm0 0.52916v0.52916h0.52916v-0.52916zm0 0.52916h-0.52916v0.52916h0.52916zm0 0.52916v0.52916h0.52916v-0.52916zm0 0.52916h-0.52916v0.52916h0.52916zm0 0.52916v0.52916h0.52916v-0.52916zm0 0.52916h-0.52916v0.52916h0.52916zm0 0.52916v0.52916h0.52916v-0.52916zm0 0.52916h-0.52916v0.52916h0.52916zm0 0.52916v0.52916h0.52916v-0.52916z" color="#000000"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.15"/>
+</g>
+</mask>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="49.570999" y1="52.714001" x2="51.714001" y2="54.856998" gradientTransform="matrix(2.3333, 0, 0, 2.3333, -68.667, -72.000999)">
+<stop offset="0" stop-color="rgb(0%, 0%, 0%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(0%, 0%, 0%)" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-632" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="url(#linear-pattern-0)" d="M 56 46 L 42 60 L 51 60 C 53.769531 60 56 57.769531 56 55 Z M 56 46 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(96.470588%, 19.215686%, 38.823529%)" fill-opacity="1" d="M 13 4 L 51 4 C 53.761719 4 56 6.238281 56 9 L 56 55 C 56 57.761719 53.761719 60 51 60 L 13 60 C 10.238281 60 8 57.761719 8 55 L 8 9 C 8 6.238281 10.238281 4 13 4 Z M 13 4 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-632"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 30.003906 31 L 30.003906 37.5 C 30.003906 37.777344 30.226562 38 30.503906 38 L 33.503906 38 C 33.78125 38 34.003906 37.777344 34.003906 37.5 L 34.003906 31 Z M 31.003906 35 L 33.003906 35 L 33.003906 37 L 31.003906 37 Z M 31.003906 35 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 32 4 L 32 6 L 34 6 L 34 4 Z M 32 6 L 30 6 L 30 8 L 32 8 Z M 32 8 L 32 10 L 34 10 L 34 8 Z M 32 10 L 30 10 L 30 12 L 32 12 Z M 32 12 L 32 14 L 34 14 L 34 12 Z M 32 14 L 30 14 L 30 16 L 32 16 Z M 32 16 L 32 18 L 34 18 L 34 16 Z M 32 18 L 30 18 L 30 20 L 32 20 Z M 32 20 L 32 22 L 34 22 L 34 20 Z M 32 22 L 30 22 L 30 24 L 32 24 Z M 32 24 L 32 26 L 34 26 L 34 24 Z M 32 26 L 30 26 L 30 28 L 32 28 Z M 32 28 L 32 30 L 34 30 L 34 28 Z M 32 28 "/>
 </svg>

@@ -1,6 +1,4 @@
-/*******
- * OSD *
- *******/
+
 .background.osd {
     color: @osd_fg;
     background-color: @osd_bg;

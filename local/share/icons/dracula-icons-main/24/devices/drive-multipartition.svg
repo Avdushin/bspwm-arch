@@ -1,12 +1,37 @@
-<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#727272; } .ColorScheme-Highlight { color:#5294e2; }</style>
- </defs>
- <g class="ColorScheme-Text" transform="translate(4,-2)" color="#727272" fill="currentColor">
-  <path d="m8 7a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7zm0 2v5h5a5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 0.025391-0.5 5 5 0 0 1 4.9746-4.5z"/>
-  <g transform="translate(0,6)">
-   <path d="m3 8a5 5 0 0 0 5 5v-5z" opacity=".35"/>
-   <path d="m13 8a5 5 0 0 1-5 5v-5z" opacity=".75"/>
-  </g>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-2.4" y="-2.4" width="28.8" height="28.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="24" height="24"/>
+</clipPath>
+<g id="source-5255" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 7 12 C 7 14.761719 9.238281 17 12 17 L 12 12 Z M 7 12 "/>
+</g>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<rect x="-2.4" y="-2.4" width="28.8" height="28.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.75"/>
+</g>
+</mask>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="24" height="24"/>
+</clipPath>
+<g id="source-5259" clip-path="url(#clip-1)">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 17 12 C 17 14.761719 14.761719 17 12 17 L 12 12 Z M 17 12 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 12 5 C 8.132812 5 5 8.132812 5 12 C 5 15.867188 8.132812 19 12 19 C 15.867188 19 19 15.867188 19 12 C 19 8.132812 15.867188 5 12 5 Z M 12 7 L 12 12 L 17 12 C 17 14.761719 14.761719 17 12 17 C 9.238281 17 7 14.761719 7 12 C 7 11.832031 7.007812 11.667969 7.027344 11.5 C 7.28125 8.945312 9.433594 7 12 7 Z M 12 7 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-5255"/>
+</g>
+<g mask="url(#mask-1)">
+<use xlink:href="#source-5259"/>
+</g>
 </svg>

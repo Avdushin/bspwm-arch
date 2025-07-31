@@ -1,28 +1,251 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <circle cx="8.4665" cy="8.4665" r="7.1436" fill="#f9f9f9" style="paint-order:stroke fill markers"/>
- <g transform="matrix(1.0012 0 0 .99475 .78861 -.7241)" fill-rule="evenodd">
-  <path d="m4.7918 3.9196c-0.30944 8e-7 -0.55855 0.24911-0.55855 0.55855v8.192c0 0.30944 0.24911 0.55855 0.55855 0.55855h7.0749c0.30944 0 0.55855-0.24911 0.55855-0.55855l5.7e-5 -6.3568-2.3783-2.3938z" fill="#f7d83f" stroke-width=".18618" style="paint-order:fill markers stroke"/>
-  <path d="m12.425 6.3134-2.3783-2.3938v1.7953c0 0.33154 0.26519 0.59844 0.5946 0.59844z" fill="#ffec8c" stroke-width=".75153" style="paint-order:fill markers stroke"/>
- </g>
- <g transform="matrix(1.0012 0 0 .99475 -.0051257 .069633)" fill-rule="evenodd">
-  <path d="m4.7918 3.9196c-0.30944 8e-7 -0.55855 0.24911-0.55855 0.55855v8.192c0 0.30944 0.24911 0.55855 0.55855 0.55855h7.0749c0.30944 0 0.55855-0.24911 0.55855-0.55855l5.7e-5 -6.3568-2.3783-2.3938z" fill="#638df5" stroke-width=".18618" style="paint-order:fill markers stroke"/>
-  <path d="m12.425 6.3134-2.3783-2.3938v1.7953c0 0.33154 0.26519 0.59844 0.5946 0.59844z" fill="#88aaf8" stroke-width=".75153" style="paint-order:fill markers stroke"/>
- </g>
- <rect x="8.4665" y="9.2602" width=".52916" height="1.0583" enable-background="new" fill="#fff" opacity=".5" stroke-width=".17639"/>
- <path d="m5.2916 6.0853v-0.26458h3.7041v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".22913" style="paint-order:normal"/>
- <path d="m5.2916 5.5561v-0.26458h3.7041v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".22913" style="paint-order:normal"/>
- <path d="m5.2916 6.879v-0.26458h6.0853v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".28983" style="paint-order:normal"/>
- <path d="m5.2916 7.4082v-0.26458h6.0853v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".28983" style="paint-order:normal"/>
- <path d="m5.2916 8.2019v-0.26458h1.852v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".16733" style="paint-order:normal"/>
- <path d="m5.2916 8.7311v-0.26458h1.852v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".16733" style="paint-order:normal"/>
- <path d="m5.2916 9.2602v-0.26458h1.852v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".16733" style="paint-order:normal"/>
- <path d="m5.2916 9.7894v-0.26458h1.852v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".16733" style="paint-order:normal"/>
- <path d="m5.2916 10.319v-0.26458h1.852v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".16733" style="paint-order:normal"/>
- <path d="m5.2916 10.848v-0.26458h1.0583v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".13229" style="paint-order:normal"/>
- <path d="m5.2916 11.641v-0.26458h6.0853v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".28983" style="paint-order:normal"/>
- <path d="m5.2916 12.171v-0.26458h4.4978v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".251" style="paint-order:normal"/>
- <path d="m7.6728 7.9373h0.26458v2.9104h-0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".19622" style="paint-order:normal"/>
- <path d="m7.9373 10.848v-0.26458h3.4395v0.26458z" color="#000000" enable-background="new" fill="#fff" opacity=".35" stroke-width=".21331" style="paint-order:normal"/>
- <rect x="9.5248" y="7.9373" width=".52916" height="2.3812" enable-background="new" fill="#fff" opacity=".5" stroke-width=".26458"/>
- <rect x="10.583" y="8.7311" width=".52916" height="1.5875" enable-background="new" fill="#fff" opacity=".5" stroke-width=".21603"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.5"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9342" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 8.464844 9.261719 L 8.996094 9.261719 L 8.996094 10.320312 L 8.464844 10.320312 Z M 8.464844 9.261719 "/>
+</g>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9346" clip-path="url(#clip-1)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 6.085938 L 5.292969 5.820312 L 8.996094 5.820312 L 8.996094 6.085938 Z M 5.292969 6.085938 "/>
+</g>
+<mask id="mask-2">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-2">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9350" clip-path="url(#clip-2)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 5.554688 L 5.292969 5.292969 L 8.996094 5.292969 L 8.996094 5.554688 Z M 5.292969 5.554688 "/>
+</g>
+<mask id="mask-3">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-3">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9354" clip-path="url(#clip-3)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 6.878906 L 5.292969 6.613281 L 11.375 6.613281 L 11.375 6.878906 Z M 5.292969 6.878906 "/>
+</g>
+<mask id="mask-4">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-4">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9358" clip-path="url(#clip-4)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 7.40625 L 5.292969 7.144531 L 11.375 7.144531 L 11.375 7.40625 Z M 5.292969 7.40625 "/>
+</g>
+<mask id="mask-5">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-5">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9362" clip-path="url(#clip-5)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 8.203125 L 5.292969 7.9375 L 7.144531 7.9375 L 7.144531 8.203125 Z M 5.292969 8.203125 "/>
+</g>
+<mask id="mask-6">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-6">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9366" clip-path="url(#clip-6)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 8.730469 L 5.292969 8.464844 L 7.144531 8.464844 L 7.144531 8.730469 Z M 5.292969 8.730469 "/>
+</g>
+<mask id="mask-7">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-7">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9370" clip-path="url(#clip-7)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 9.261719 L 5.292969 8.996094 L 7.144531 8.996094 L 7.144531 9.261719 Z M 5.292969 9.261719 "/>
+</g>
+<mask id="mask-8">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-8">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9374" clip-path="url(#clip-8)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 9.789062 L 5.292969 9.523438 L 7.144531 9.523438 L 7.144531 9.789062 Z M 5.292969 9.789062 "/>
+</g>
+<mask id="mask-9">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-9">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9378" clip-path="url(#clip-9)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 10.320312 L 5.292969 10.054688 L 7.144531 10.054688 L 7.144531 10.320312 Z M 5.292969 10.320312 "/>
+</g>
+<mask id="mask-10">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-10">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9382" clip-path="url(#clip-10)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 10.847656 L 5.292969 10.582031 L 6.351562 10.582031 L 6.351562 10.847656 Z M 5.292969 10.847656 "/>
+</g>
+<mask id="mask-11">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-11">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9386" clip-path="url(#clip-11)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 11.640625 L 5.292969 11.375 L 11.375 11.375 L 11.375 11.640625 Z M 5.292969 11.640625 "/>
+</g>
+<mask id="mask-12">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-12">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9390" clip-path="url(#clip-12)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 12.171875 L 5.292969 11.90625 L 9.789062 11.90625 L 9.789062 12.171875 Z M 5.292969 12.171875 "/>
+</g>
+<mask id="mask-13">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-13">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9394" clip-path="url(#clip-13)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 7.671875 7.9375 L 7.9375 7.9375 L 7.9375 10.847656 L 7.671875 10.847656 Z M 7.671875 7.9375 "/>
+</g>
+<mask id="mask-14">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-14">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9398" clip-path="url(#clip-14)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 7.9375 10.847656 L 7.9375 10.582031 L 11.375 10.582031 L 11.375 10.847656 Z M 7.9375 10.847656 "/>
+</g>
+<mask id="mask-15">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.5"/>
+</g>
+</mask>
+<clipPath id="clip-15">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9402" clip-path="url(#clip-15)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 9.523438 7.9375 L 10.054688 7.9375 L 10.054688 10.320312 L 9.523438 10.320312 Z M 9.523438 7.9375 "/>
+</g>
+<mask id="mask-16">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.5"/>
+</g>
+</mask>
+<clipPath id="clip-16">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-9406" clip-path="url(#clip-16)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 10.582031 8.730469 L 11.113281 8.730469 L 11.113281 10.320312 L 10.582031 10.320312 Z M 10.582031 8.730469 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(97.647059%, 97.647059%, 97.647059%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 12.410156 12.410156 15.609375 8.464844 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.324219 8.464844 1.324219 C 12.410156 1.324219 15.609375 4.519531 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<path fill-rule="evenodd" fill="rgb(96.862745%, 84.705882%, 24.705882%)" fill-opacity="1" d="M 5.585938 3.175781 C 5.277344 3.175781 5.027344 3.421875 5.027344 3.730469 L 5.027344 11.878906 C 5.027344 12.1875 5.277344 12.433594 5.585938 12.433594 L 12.667969 12.433594 C 12.980469 12.433594 13.230469 12.1875 13.230469 11.878906 L 13.230469 5.554688 L 10.847656 3.175781 Z M 5.585938 3.175781 "/>
+<path fill-rule="evenodd" fill="rgb(100%, 92.54902%, 54.901961%)" fill-opacity="1" d="M 13.230469 5.554688 L 10.847656 3.175781 L 10.847656 4.960938 C 10.847656 5.289062 11.113281 5.554688 11.441406 5.554688 Z M 13.230469 5.554688 "/>
+<path fill-rule="evenodd" fill="rgb(38.823529%, 55.294118%, 96.078431%)" fill-opacity="1" d="M 4.792969 3.96875 C 4.484375 3.96875 4.234375 4.214844 4.234375 4.523438 L 4.234375 12.671875 C 4.234375 12.980469 4.484375 13.230469 4.792969 13.230469 L 11.875 13.230469 C 12.1875 13.230469 12.433594 12.980469 12.433594 12.671875 L 12.433594 6.351562 L 10.054688 3.96875 Z M 4.792969 3.96875 "/>
+<path fill-rule="evenodd" fill="rgb(53.333333%, 66.666667%, 97.254902%)" fill-opacity="1" d="M 12.433594 6.351562 L 10.054688 3.96875 L 10.054688 5.753906 C 10.054688 6.085938 10.320312 6.351562 10.648438 6.351562 Z M 12.433594 6.351562 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-9342"/>
+</g>
+<g mask="url(#mask-1)">
+<use xlink:href="#source-9346"/>
+</g>
+<g mask="url(#mask-2)">
+<use xlink:href="#source-9350"/>
+</g>
+<g mask="url(#mask-3)">
+<use xlink:href="#source-9354"/>
+</g>
+<g mask="url(#mask-4)">
+<use xlink:href="#source-9358"/>
+</g>
+<g mask="url(#mask-5)">
+<use xlink:href="#source-9362"/>
+</g>
+<g mask="url(#mask-6)">
+<use xlink:href="#source-9366"/>
+</g>
+<g mask="url(#mask-7)">
+<use xlink:href="#source-9370"/>
+</g>
+<g mask="url(#mask-8)">
+<use xlink:href="#source-9374"/>
+</g>
+<g mask="url(#mask-9)">
+<use xlink:href="#source-9378"/>
+</g>
+<g mask="url(#mask-10)">
+<use xlink:href="#source-9382"/>
+</g>
+<g mask="url(#mask-11)">
+<use xlink:href="#source-9386"/>
+</g>
+<g mask="url(#mask-12)">
+<use xlink:href="#source-9390"/>
+</g>
+<g mask="url(#mask-13)">
+<use xlink:href="#source-9394"/>
+</g>
+<g mask="url(#mask-14)">
+<use xlink:href="#source-9398"/>
+</g>
+<g mask="url(#mask-15)">
+<use xlink:href="#source-9402"/>
+</g>
+<g mask="url(#mask-16)">
+<use xlink:href="#source-9406"/>
+</g>
 </svg>

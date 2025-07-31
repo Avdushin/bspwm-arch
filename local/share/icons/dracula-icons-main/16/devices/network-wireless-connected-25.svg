@@ -1,11 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1" viewBox="0 0 16 16">
- <defs>
-  <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#727272; } .ColorScheme-Highlight { color:#5294e2; }
-  </style>
- </defs>
- <g style="fill:currentColor;" class="ColorScheme-Text">
-  <path d="m8.031 2.002c-3.034 0-5.766 1.078-8.031 2.75l8.031 8.75 7.969-8.782c-2.257-1.653-4.958-2.718-7.969-2.718z" opacity=".35" overflow="visible"/>
-  <path d="m8.031 8.002c-1.451 0-2.757 0.515-3.84 1.315l3.84 4.185 3.811-4.2c-1.079-0.79-2.37-1.3-3.81-1.3z" overflow="visible"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-1.6" y="-1.6" width="19.2" height="19.2" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="16" height="16"/>
+</clipPath>
+<g id="source-7151" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 8.03125 2.003906 C 4.996094 2.003906 2.265625 3.078125 0 4.753906 L 8.03125 13.503906 L 16 4.71875 C 13.742188 3.066406 11.042969 2.003906 8.03125 2.003906 Z M 8.03125 2.003906 "/>
+</g>
+</defs>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-7151"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(44.705882%, 44.705882%, 44.705882%)" fill-opacity="1" d="M 8.03125 8.003906 C 6.578125 8.003906 5.273438 8.515625 4.191406 9.316406 L 8.03125 13.503906 L 11.84375 9.300781 C 10.761719 8.511719 9.472656 8.003906 8.03125 8.003906 Z M 8.03125 8.003906 "/>
 </svg>

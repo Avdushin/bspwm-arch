@@ -1,1 +1,31 @@
-screenrecorder.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-10965" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAoklEQVR4nO3asQkCURQF0VGMxEQMLMP+u7EAQQQL2EgwNHgyLDsn+8njMvGHJEmSJNmgnT3gR0fgMnTrDTw/j8PQ0X87A7ehW3e+AuyHjq5WAewBtgLYA2wFsAfYCmAPsBXAHmArgD3AVgB7gK0A9gBbAewBtgLYA2wFsAfYCmAPsBXAHmArgD3AtvkAa/kfcAKuQ7dewGPoVpIkSZIkSVZnAa/zBlKcnRrZAAAAAElFTkSuQmCC"/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-10965"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-10964" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 53.902344 16.269531 L 43.230469 23.085938 L 44.832031 38.335938 L 56.730469 42.800781 C 58.222656 39.394531 58.996094 35.71875 59 32 C 58.988281 26.351562 57.207031 20.851562 53.902344 16.269531 Z M 53.902344 16.269531 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-10967" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-10964"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(100%, 39.215686%, 30.980392%)" fill-opacity="1" d="M 59 32 C 59 46.910156 46.910156 59 32 59 C 17.089844 59 5 46.910156 5 32 C 5 17.089844 17.089844 5 32 5 C 46.910156 5 59 17.089844 59 32 Z M 59 32 "/>
+<path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 36.644531 27.152344 L 44.617188 22.152344 C 45.269531 21.746094 45.867188 22.03125 45.949219 22.796875 L 47.601562 38.046875 C 47.683594 38.8125 47.160156 39.226562 46.4375 38.96875 L 37.558594 35.84375 L 37.75 37.675781 C 37.914062 39.207031 36.800781 40.582031 35.269531 40.742188 L 17.246094 42.636719 C 15.714844 42.800781 14.339844 41.691406 14.179688 40.152344 L 12.867188 27.679688 C 12.707031 26.148438 13.820312 24.773438 15.351562 24.613281 L 33.375 22.71875 C 34.90625 22.558594 36.277344 23.664062 36.441406 25.203125 Z M 36.644531 27.152344 L 29.277344 31.769531 C 28.625 32.179688 28.683594 32.71875 29.410156 32.972656 L 37.558594 35.84375 Z M 36.644531 27.152344 "/>
+<use xlink:href="#source-10967"/>
+</svg>

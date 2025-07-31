@@ -4,7 +4,7 @@
   --tabs-border: transparent !important; 
   --tab-border-radius: 0 !important; 
    
-  /* Color Variables */ 
+   
   --zproger-bg: #1a1b26;
   --zproger-icon-color: #e0fbfc;  
   --zproge-sidebar-color: #e0fbfc;
@@ -14,11 +14,11 @@
   --zproger-urlbar-results-color: #e0fbfc;
   --zproger-urlbar-results-url-color: #98c1d9;
   
-  /* Browser Fonts */
+  
   --zproger-urlbar-results-font-family: "JetBrainsMono Nerd Font", medium;
   --zproger-urlbar-results-font-weight: 700;
 
-  /* Overriden Firefox variables */
+  
   --autocomplete-popup-background: var(--zproger-bg) !important;
   --default-arrowpanel-background: var(--zproger-bg) !important;
   --default-arrowpanel-color: #fefefa !important;
@@ -32,41 +32,41 @@
   background: var(--zproger-tab-selected-bg) !important;
 }
 
-/* TODO: Some parameters are outdated, styles need to be rebuilt */
-/* .tabbrowser-tab::after,  */
-/* .tabbrowser-tab::before {  */
-/*   border-left: none !important;  */
-/* }  */
-/*  */
-/* .tab-background {  */
-/*   border: none !important;  */
-/* }  */
-/*  */
-/* .tabbrowser-arrowscrollbox {  */
-/*   margin-inline-start: 4px !important;  */
-/*   margin-inline-end: 0px !important;  */
-/* }  */
 
 
-/* Make all tabs small except selected one */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 .tabbrowser-tab[fadein]:not([selected]):not([pinned]) { 
     max-width: 150px !important; 
     min-width: 150px !important; 
 } 
 
-/* Make selected tabs to bigger */ 
+ 
 .tabbrowser-tab[selected][fadein]:not([pinned]) { 
     max-width: 200px !important; 
     min-width: 200px !important; 
 } 
 
 
-/* Reduce spacing between pinned and regular tabs */ 
+ 
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])>#tabbrowser-arrowscrollbox>.tabbrowser-tab[first-visible-unpinned-tab] { 
     margin-inline-start: initial !important; 
 } 
 
-/* Show the favicon for tabs that are pinned */ 
+ 
 hbox.tab-content[pinned=true] .tab-icon-image { 
   display: initial !important; 
 } 
@@ -83,7 +83,7 @@ hbox.tab-content[pinned=true] .tab-text {
   display: none !important; 
 } 
 
-/* Customize Browser Tabs */ 
+ 
 .tabbrowser-tab {
   border-radius: 8px !important; 
   height: 50px !important; 

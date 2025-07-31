@@ -11,17 +11,17 @@
     background-color: transparent;
 }
 
-/* top panel */
+
 .budgie-panel.top {
     border-top-color: transparent;
 }
 
-/* left panel */
+
 .budgie-panel.left {
     border-left-color: transparent;
 }
 
-/* right panel */
+
 .budgie-panel.right {
     border-right-color: transparent;
 }

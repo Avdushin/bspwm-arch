@@ -1,13 +1,28 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient id="a" x1="49.571" x2="51.714" y1="52.714" y2="54.857" gradientTransform="matrix(2.3333,0,0,2.3333,-68.667,-72.001)" gradientUnits="userSpaceOnUse">
-   <stop offset="0"/>
-   <stop stop-opacity="0" offset="1"/>
-  </linearGradient>
- </defs>
- <g transform="scale(1)">
-  <rect x="8" y="4" width="48" height="56" ry="5" fill="#4d4d4d" style="paint-order:stroke fill markers"/>
-  <path d="m56 46-14 14h9c2.77 0 5-2.23 5-5z" fill="url(#a)" fill-rule="evenodd" opacity=".35" stroke-width="8.8191" style="paint-order:stroke fill markers"/>
- </g>
- <path d="m40 24.505-8 4e-3 -4.441 7.691-1.555-2.695h-2v1h1.428l2.133 3.693 5.02-8.693h6.42v1h1zm-5 3c-1.662 0-3 1.338-3 3s1.338 3 3 3c0.773 0 1.469-0.298 2-0.775v0.775h1v-6h-1v0.775c-0.531-0.477-1.227-0.775-2-0.775m0 1c1.108 0 2 0.892 2 2s-0.892 2-2 2-2-0.892-2-2 0.892-2 2-2m-11.99 6.99c-6e-3 0-0.01 0.223-0.01 0.5s4e-3 0.5 0.01 0.5h17.98c6e-3 0 0.01-0.223 0.01-0.5s-4e-3 -0.5-0.01-0.5zm8 3c-6e-3 0-0.01 0.223-0.01 0.5s4e-3 0.5 0.01 0.5h1.98c6e-3 0 0.01-0.223 0.01-0.5s-4e-3 -0.5-0.01-0.5z" color="#000000" color-rendering="auto" fill="#afafaf" image-rendering="auto" shape-rendering="auto"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.35"/>
+</g>
+</mask>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="49.570999" y1="52.714001" x2="51.714001" y2="54.856998" gradientTransform="matrix(2.3333, 0, 0, 2.3333, -68.667, -72.000999)">
+<stop offset="0" stop-color="rgb(0%, 0%, 0%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(0%, 0%, 0%)" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-1784" clip-path="url(#clip-0)">
+<path fill-rule="evenodd" fill="url(#linear-pattern-0)" d="M 56 46 L 42 60 L 51 60 C 53.769531 60 56 57.769531 56 55 Z M 56 46 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(30.196078%, 30.196078%, 30.196078%)" fill-opacity="1" d="M 13 4 L 51 4 C 53.761719 4 56 6.238281 56 9 L 56 55 C 56 57.761719 53.761719 60 51 60 L 13 60 C 10.238281 60 8 57.761719 8 55 L 8 9 C 8 6.238281 10.238281 4 13 4 Z M 13 4 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-1784"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(68.627451%, 68.627451%, 68.627451%)" fill-opacity="1" d="M 40 24.503906 L 32 24.507812 L 27.558594 32.199219 L 26.003906 29.503906 L 24.003906 29.503906 L 24.003906 30.503906 L 25.433594 30.503906 L 27.566406 34.199219 L 32.585938 25.503906 L 39.003906 25.503906 L 39.003906 26.503906 L 40.003906 26.503906 Z M 35 27.503906 C 33.339844 27.503906 32 28.84375 32 30.503906 C 32 32.167969 33.339844 33.503906 35 33.503906 C 35.773438 33.503906 36.46875 33.207031 37 32.730469 L 37 33.503906 L 38 33.503906 L 38 27.503906 L 37 27.503906 L 37 28.28125 C 36.46875 27.804688 35.773438 27.503906 35 27.503906 M 35 28.503906 C 36.109375 28.503906 37 29.398438 37 30.503906 C 37 31.613281 36.109375 32.503906 35 32.503906 C 33.890625 32.503906 33 31.613281 33 30.503906 C 33 29.398438 33.890625 28.503906 35 28.503906 M 23.011719 35.496094 C 23.003906 35.496094 23 35.71875 23 35.996094 C 23 36.273438 23.003906 36.496094 23.011719 36.496094 L 40.988281 36.496094 C 40.996094 36.496094 41 36.273438 41 35.996094 C 41 35.71875 40.996094 35.496094 40.988281 35.496094 Z M 31.011719 38.496094 C 31.003906 38.496094 31 38.71875 31 38.996094 C 31 39.273438 31.003906 39.496094 31.011719 39.496094 L 32.988281 39.496094 C 32.996094 39.496094 33 39.273438 33 38.996094 C 33 38.71875 32.996094 38.496094 32.988281 38.496094 Z M 31.011719 38.496094 "/>
 </svg>

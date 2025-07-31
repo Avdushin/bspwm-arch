@@ -1,1 +1,12 @@
-<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><style type="text/css" id="current-color-scheme">.ColorScheme-NegativeText{color:#da4453;}</style><g style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-NegativeText"><path d="m5.0000117 4v7h1v-6h8.0000003v4h4v2h1v-3-.007813l-3.992188-3.992187-.0078.00977v-.00977z"/><path d="m4.0000234 12 15.9999886.000012-.000012.999988-15.9999883-.000012z"/><path d="m5.0000234 14 .9999883.000072-.0000117 5.999928-.9999883-.000072z"/><path d="m7.0000351 14 .9999883.000072-.0000117 5.999928-.9999883-.000072z"/><path d="m9.0000351 14 .9999879.000072-.000011 5.999928-.9999886-.000072z"/><path d="m11.000035 14 .999989.000072-.000012 5.999928-.999988-.000072z"/><path d="m13.000035 14 .999989.000072-.000012 5.999928-.999988-.000072z"/><path d="m15.000035 14 .999989.000072-.000012 5.999928-.999988-.000072z"/><path d="m17.000035 14 .999989.000072-.000012 5.999928-.999988-.000072z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+<path fill-rule="nonzero" fill="rgb(85.490196%, 26.666667%, 32.54902%)" fill-opacity="1" d="M 5 4 L 5 11 L 6 11 L 6 5 L 14 5 L 14 9 L 18 9 L 18 11 L 19 11 L 19 7.992188 L 15.007812 4 L 15 4.011719 L 15 4 Z M 5 4 "/>
+<path fill-rule="nonzero" fill="rgb(85.490196%, 26.666667%, 32.54902%)" fill-opacity="1" d="M 4 12 L 20 12 L 20 13 L 4 13 Z M 4 12 "/>
+<path fill-rule="nonzero" fill="rgb(85.490196%, 26.666667%, 32.54902%)" fill-opacity="1" d="M 5 14 L 6 14 L 6 20 L 5 20 Z M 5 14 "/>
+<path fill-rule="nonzero" fill="rgb(85.490196%, 26.666667%, 32.54902%)" fill-opacity="1" d="M 7 14 L 8 14 L 8 20 L 7 20 Z M 7 14 "/>
+<path fill-rule="nonzero" fill="rgb(85.490196%, 26.666667%, 32.54902%)" fill-opacity="1" d="M 9 14 L 10 14 L 10 20 L 9 20 Z M 9 14 "/>
+<path fill-rule="nonzero" fill="rgb(85.490196%, 26.666667%, 32.54902%)" fill-opacity="1" d="M 11 14 L 12 14 L 12 20 L 11 20 Z M 11 14 "/>
+<path fill-rule="nonzero" fill="rgb(85.490196%, 26.666667%, 32.54902%)" fill-opacity="1" d="M 13 14 L 14 14 L 14 20 L 13 20 Z M 13 14 "/>
+<path fill-rule="nonzero" fill="rgb(85.490196%, 26.666667%, 32.54902%)" fill-opacity="1" d="M 15 14 L 16 14 L 16 20 L 15 20 Z M 15 14 "/>
+<path fill-rule="nonzero" fill="rgb(85.490196%, 26.666667%, 32.54902%)" fill-opacity="1" d="M 17 14 L 18 14 L 18 20 L 17 20 Z M 17 14 "/>
+</svg>

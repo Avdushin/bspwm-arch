@@ -1,15 +1,12 @@
-<svg width="64" height="64" enable-background="new" version="1.0" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <title>Adwaita Icon Template</title>
- <circle cx="32" cy="32" r="27" fill="#241f31" stroke-width="3.7796" style="paint-order:stroke fill markers"/>
- <text x="43.500004" y="13.000002" fill="#000000" font-family="sans-serif" font-size="20px" letter-spacing="0px" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="43.500004" y="30.695314"/></text>
- <circle cx="32" cy="32" r="24" fill="#454050" stroke-width="3.3596" style="paint-order:stroke fill markers"/>
- <path d="m9.4043 24a24 24 0 0 0-1.4043 8 24 24 0 0 0 24 24 24 24 0 0 0 24-24 24 24 0 0 0-1.4004-8h-45.195z" fill="#ec8e12" stroke-width="3.3596" style="paint-order:stroke fill markers"/>
- <g transform="translate(0 -.9999)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2">
-  <path d="m17 34v-5h6" enable-background="new"/>
-  <path d="m47 34v-5h-6" enable-background="new"/>
-  <path d="m47 42v5h-6" enable-background="new"/>
-  <path d="m17 42v5h6" enable-background="new"/>
- </g>
- <circle cx="43" cy="15" r="2" enable-background="new" fill="#ed333b" stroke-width=".66667"/>
- <rect x="27" y="14" width="10" height="2" fill="#deddda"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<path fill-rule="nonzero" fill="rgb(14.117647%, 12.156863%, 19.215686%)" fill-opacity="1" d="M 59 32 C 59 46.910156 46.910156 59 32 59 C 17.089844 59 5 46.910156 5 32 C 5 17.089844 17.089844 5 32 5 C 46.910156 5 59 17.089844 59 32 Z M 59 32 "/>
+<path fill-rule="nonzero" fill="rgb(27.058824%, 25.098039%, 31.372549%)" fill-opacity="1" d="M 56 32 C 56 45.253906 45.253906 56 32 56 C 18.746094 56 8 45.253906 8 32 C 8 18.746094 18.746094 8 32 8 C 45.253906 8 56 18.746094 56 32 Z M 56 32 "/>
+<path fill-rule="nonzero" fill="rgb(92.54902%, 55.686275%, 7.058824%)" fill-opacity="1" d="M 9.40625 24 C 8.484375 26.566406 8.011719 29.273438 8 32 C 8 45.253906 18.746094 56 32 56 C 45.253906 56 56 45.253906 56 32 C 55.992188 29.273438 55.515625 26.566406 54.597656 24 Z M 9.40625 24 "/>
+<path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="4" d="M 17 33.9999 L 17 28.9999 L 23 28.9999 " transform="matrix(1, 0, 0, 1, 0, -0.9999)"/>
+<path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="4" d="M 47 33.9999 L 47 28.9999 L 41 28.9999 " transform="matrix(1, 0, 0, 1, 0, -0.9999)"/>
+<path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="4" d="M 47 41.9999 L 47 46.9999 L 41 46.9999 " transform="matrix(1, 0, 0, 1, 0, -0.9999)"/>
+<path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="4" d="M 17 41.9999 L 17 46.9999 L 23 46.9999 " transform="matrix(1, 0, 0, 1, 0, -0.9999)"/>
+<path fill-rule="nonzero" fill="rgb(92.941176%, 20%, 23.137255%)" fill-opacity="1" d="M 45 15 C 45 16.105469 44.105469 17 43 17 C 41.894531 17 41 16.105469 41 15 C 41 13.894531 41.894531 13 43 13 C 44.105469 13 45 13.894531 45 15 Z M 45 15 "/>
+<path fill-rule="nonzero" fill="rgb(87.058824%, 86.666667%, 85.490196%)" fill-opacity="1" d="M 27 14 L 37 14 L 37 16 L 27 16 Z M 27 14 "/>
 </svg>

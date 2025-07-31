@@ -1,6 +1,4 @@
-/************
- * notebook *
- ************/
+
 .notebook {
     padding: 0;
     background-color: @theme_base_color;
@@ -28,7 +26,7 @@
 
 .notebook tab:active {
     background-color: @theme_base_color;
-    /*border-left: 3px solid @selected_bg_color;*/
+    
 }
 
 .notebook tab.top:active {
@@ -79,7 +77,7 @@
     border-right: 0px;
 }
 
-/* close button styling */
+
 .notebook tab .button {
     transition: ease-in 150ms;
     padding: 2px;

@@ -1,6 +1,4 @@
-/*****************
- * Progress bars *
- *****************/
+
 GtkProgressBar {
     padding: 0;
     border-width: 0px;
@@ -107,9 +105,7 @@ GtkProgressBar.trough.osd {
     color: @text_color;
 }
 
-/*************
- * Level Bar *
- *************/
+
 .level-bar {
     -GtkLevelBar-min-block-width: 34;
     -GtkLevelBar-min-block-height: 3;
@@ -161,9 +157,7 @@ GtkProgressBar.trough.osd {
     box-shadow: none;
 }
 
-/************
- * GtkScale *
- ************/
+
 .scale {
     padding: 0;
     border-width: 0px;

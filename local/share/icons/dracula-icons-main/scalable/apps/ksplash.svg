@@ -1,1 +1,46 @@
-preferences-system-splash.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-11369" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAnklEQVR4nO3aIQ4CQRBFwYYQHIr7HxHBDVDgUKTzIFSpVbM/b+zMAPyxQz3gjcvMHBfPvz8/Tos/+cR1Zs6L578CbFb+CQLUA2oC1ANqAtQDagLUA2oC1ANqAtQDagLUA2oC1ANqAtQDagLUA2oC1ANqAtQDagLUA2oC1ANqAtQDagLUA2oC1ANqAtQDagLUA2rf+k7wNi4HAAAAYMcDdi4DUVcQFqwAAAAASUVORK5CYII="/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-11369"/>
+</g>
+</mask>
+<linearGradient id="linear-pattern-0" gradientUnits="userSpaceOnUse" x1="39.153999" y1="26" x2="59" y2="26">
+<stop offset="0" stop-color="rgb(0%, 0%, 0%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(0%, 0%, 0%)" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-11368" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="url(#linear-pattern-0)" d="M 55.117188 9 C 54.824219 22.078125 49.027344 34.421875 39.152344 43 L 59 43 L 59 9 Z M 55.117188 9 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-11371" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-11368"/>
+</g>
+</g>
+<linearGradient id="linear-pattern-1" gradientUnits="userSpaceOnUse" x1="19.514" y1="15.555" x2="15" y2="11" gradientTransform="matrix(2, 0, 0, 2, 0, 1.900024)">
+<stop offset="0" stop-color="rgb(95.294118%, 95.294118%, 95.294118%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(98.823529%, 98.823529%, 98.823529%)" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="linear-pattern-2" gradientUnits="userSpaceOnUse" x1="16" y1="18" x2="16" y2="6" gradientTransform="matrix(2, 0, 0, 2, 0, 1.900024)">
+<stop offset="0" stop-color="rgb(94.117647%, 94.117647%, 94.117647%)" stop-opacity="1"/>
+<stop offset="1" stop-color="rgb(98.823529%, 98.823529%, 98.823529%)" stop-opacity="1"/>
+</linearGradient>
+</defs>
+<path fill-rule="nonzero" fill="rgb(76.862745%, 78.039216%, 80%)" fill-opacity="1" d="M 25.898438 43.835938 C 25.378906 43.835938 25 44.210938 25 44.667969 L 25 55.621094 L 20.921875 56 L 20.898438 56 C 20.378906 56 20 56.378906 20 56.835938 L 20 58 L 44 58 L 44 56.835938 C 44 56.378906 43.617188 56 43.101562 56 L 43.074219 56 L 39 55.621094 L 39 44.667969 C 39 44.210938 38.621094 43.835938 38.101562 43.835938 Z M 25.898438 43.835938 "/>
+<path fill-rule="nonzero" fill="rgb(18.431373%, 20%, 21.568627%)" fill-opacity="1" d="M 4 6 L 60 6 C 61.105469 6 62 6.894531 62 8 L 62 44 C 62 45.105469 61.105469 46 60 46 L 4 46 C 2.894531 46 2 45.105469 2 44 L 2 8 C 2 6.894531 2.894531 6 4 6 Z M 4 6 "/>
+<path fill-rule="evenodd" fill="rgb(32.156863%, 58.039216%, 88.627451%)" fill-opacity="1" d="M 5 9 L 59 9 L 59 43 L 5 43 Z M 5 9 "/>
+<use xlink:href="#source-11371"/>
+<path fill-rule="nonzero" fill="url(#linear-pattern-1)" d="M 32 13.898438 C 25.371094 13.898438 20 19.273438 20 25.898438 C 20 32.527344 25.371094 37.898438 32 37.898438 C 38.628906 37.898438 44 32.527344 44 25.898438 C 44 19.273438 38.628906 13.898438 32 13.898438 Z M 32 15.898438 C 37.523438 15.898438 42 20.378906 42 25.898438 C 42 31.421875 37.523438 35.898438 32 35.898438 C 26.476562 35.898438 22 31.421875 22 25.898438 C 22 20.378906 26.476562 15.898438 32 15.898438 Z M 32 15.898438 "/>
+<path fill-rule="nonzero" fill="url(#linear-pattern-2)" d="M 32 13.898438 C 25.371094 13.898438 20 19.273438 20 25.898438 C 20 32.527344 25.371094 37.898438 32 37.898438 C 35.15625 37.898438 38.1875 36.648438 40.429688 34.425781 L 39.027344 33.007812 C 37.15625 34.859375 34.632812 35.898438 32 35.898438 C 26.476562 35.898438 22 31.421875 22 25.898438 C 22 20.378906 26.476562 15.898438 32 15.898438 Z M 32 13.898438 "/>
+</svg>

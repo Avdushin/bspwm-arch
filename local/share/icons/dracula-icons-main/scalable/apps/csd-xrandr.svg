@@ -1,1 +1,52 @@
-csd-orientation.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-14963" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAXUlEQVR4nO3SMQqAQAwEwPWwsfH/n/QBKoiNoMWB3QnnTBWWFCFsAgDwU0Mlmx7zmuRodMsnxko2JynXvCTZ2p3TXnlf6VutAXvux3RdfwAAAAAAAAAAAAAAAOjQCTpVBf7ZWoxoAAAAAElFTkSuQmCC"/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-14963"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-14962" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 4.328125 9.890625 L 6.957031 9.890625 L 6.957031 12.515625 L 4.332031 12.515625 Z M 4.328125 9.890625 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-14965" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-14962"/>
+</g>
+</g>
+<image id="source-14980" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAXklEQVR4nO3UIQ6AMBAEwIWg+QT//xkCBwkGX+oIreiMXLW34hIAGNZUybZKfiTZ/6/T3lLJ1iRzkV0NunRRHjocA/Qu0FvtB5x5D3M36AIAAAAAAAAAAAAAAAB89wAuWAUMFZv6tQAAAABJRU5ErkJggg=="/>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-14980"/>
+</g>
+</mask>
+<clipPath id="clip-2">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-14979" clip-path="url(#clip-2)">
+<path fill="none" stroke-width="0.853" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-dasharray="0.852958 0.852958" stroke-dashoffset="1" stroke-miterlimit="4" d="M 0.00176319 288.266759 L 7.40638 288.266759 L 7.40638 295.677672 L 0.00176319 295.677672 Z M 0.00176319 288.266759 " transform="matrix(0.62039, 0, 0, 0.62039, 4.495, -171.080002)"/>
+</g>
+<clipPath id="clip-3">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-14982" clip-path="url(#clip-3)">
+<g mask="url(#mask-1)">
+<use xlink:href="#source-14979"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(30.196078%, 30.196078%, 30.196078%)" fill-opacity="1" d="M 15.609375 8.460938 C 15.609375 12.40625 12.410156 15.605469 8.464844 15.605469 C 4.519531 15.605469 1.324219 12.40625 1.324219 8.460938 C 1.324219 4.515625 4.519531 1.316406 8.464844 1.316406 C 12.410156 1.316406 15.609375 4.515625 15.609375 8.460938 Z M 15.609375 8.460938 "/>
+<use xlink:href="#source-14965"/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.316406 4.308594 L 4.332031 6.433594 C 4.488281 6.34375 4.664062 6.28125 4.84375 6.238281 L 5.320312 10.875 L 5.796875 6.234375 C 5.976562 6.277344 6.144531 6.34375 6.300781 6.433594 Z M 10.578125 10.546875 C 10.667969 10.703125 10.730469 10.878906 10.773438 11.058594 L 5.972656 11.535156 L 10.777344 12.015625 C 10.734375 12.191406 10.667969 12.359375 10.578125 12.515625 L 12.703125 11.53125 Z M 10.578125 10.546875 "/>
+<use xlink:href="#source-14982"/>
+</svg>

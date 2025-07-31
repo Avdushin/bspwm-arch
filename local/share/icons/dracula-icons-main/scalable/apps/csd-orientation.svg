@@ -1,10 +1,38 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(0 -280.07)">
-  <circle cx="8.4665" cy="288.53" r="7.1436" fill="#4d4d4d" style="paint-order:stroke markers fill"/>
-  <g stroke-width="1.612">
-   <path d="M4.33 289.96h2.627v2.626H4.331z" fill="#fff" opacity=".1"/>
-   <path d="M5.316 284.38l-.985 2.124c.159-.09.332-.154.512-.196l.477 4.637.478-4.639c.177.042.348.108.503.198zM10.578 290.617c.09.158.154.332.196.51l-4.801.479 4.803.478a1.84 1.84 0 0 1-.198.503l2.125-.985z" fill="#fff"/>
-   <path transform="translate(4.495 108.99) scale(.62039)" d="M0 288.269h7.408v7.408H0z" fill="none" opacity=".2" stroke="#fff" stroke-dasharray=".85295759,.85295759" stroke-dashoffset="1" stroke-width=".853"/>
-  </g>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.1"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-12516" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 4.328125 9.890625 L 6.957031 9.890625 L 6.957031 12.515625 L 4.332031 12.515625 Z M 4.328125 9.890625 "/>
+</g>
+<mask id="mask-1">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.2"/>
+</g>
+</mask>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-12521" clip-path="url(#clip-1)">
+<path fill="none" stroke-width="0.853" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-dasharray="0.852958 0.852958" stroke-dashoffset="1" stroke-miterlimit="4" d="M 0.00176319 288.266772 L 7.40638 288.266772 L 7.40638 295.677685 L 0.00176319 295.677685 Z M 0.00176319 288.266772 " transform="matrix(0.62039, 0, 0, 0.62039, 4.495, -171.080009)"/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(30.196078%, 30.196078%, 30.196078%)" fill-opacity="1" d="M 15.609375 8.460938 C 15.609375 12.40625 12.410156 15.605469 8.464844 15.605469 C 4.519531 15.605469 1.324219 12.40625 1.324219 8.460938 C 1.324219 4.515625 4.519531 1.316406 8.464844 1.316406 C 12.410156 1.316406 15.609375 4.515625 15.609375 8.460938 Z M 15.609375 8.460938 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-12516"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.316406 4.308594 L 4.332031 6.433594 C 4.488281 6.34375 4.664062 6.28125 4.84375 6.238281 L 5.320312 10.875 L 5.796875 6.234375 C 5.976562 6.277344 6.144531 6.34375 6.300781 6.433594 Z M 10.578125 10.546875 C 10.667969 10.703125 10.730469 10.878906 10.773438 11.058594 L 5.972656 11.535156 L 10.777344 12.015625 C 10.734375 12.191406 10.667969 12.359375 10.578125 12.515625 L 12.703125 11.53125 Z M 10.578125 10.546875 "/>
+<g mask="url(#mask-1)">
+<use xlink:href="#source-12521"/>
+</g>
 </svg>

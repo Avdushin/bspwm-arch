@@ -1,1 +1,12 @@
-<?xml version="1.0" standalone="no"?><!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 13 13" width="13" height="13"><path d=" M 0.5 6.5 C 0.5 3.189 3.189 0.5 6.5 0.5 C 9.811 0.5 12.5 3.189 12.5 6.5 C 12.5 9.811 9.811 12.5 6.5 12.5 C 3.189 12.5 0.5 9.811 0.5 6.5 Z " fill="rgb(248,248,242)"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 13 13">
+<defs>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="13" height="13"/>
+</clipPath>
+<g id="source-1609" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(97.254902%, 97.254902%, 94.901961%)" fill-opacity="1" d="M 0.5 6.5 C 0.5 3.1875 3.1875 0.5 6.5 0.5 C 9.8125 0.5 12.5 3.1875 12.5 6.5 C 12.5 9.8125 9.8125 12.5 6.5 12.5 C 3.1875 12.5 0.5 9.8125 0.5 6.5 Z M 0.5 6.5 "/>
+</g>
+</defs>
+<use xlink:href="#source-1609"/>
+</svg>

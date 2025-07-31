@@ -1,6 +1,4 @@
-/**************
- * List boxes *
- **************/
+
 .list,
 .list-row {
     font-weight: normal;
@@ -41,7 +39,7 @@
     color: @selected_fg_color;
 }
 
-/*selected-row buttons*/
+
 .list-row.button:selected .button:hover,
 .list-row.button:selected .button:active {
     color: @selected_fg_color;

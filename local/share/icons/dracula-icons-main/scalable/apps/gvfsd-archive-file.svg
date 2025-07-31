@@ -1,1 +1,31 @@
-file-roller.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-10989" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAASklEQVR4nO3QoQ0AIBRDQYJGsAj7r8cIfEMayJ2ueGlrZ6OweVYvbNb1iqDKAV9zQDogzQHpgBfMdAAAAAAAAAAAAAAAAAAAQMUGxKEAVtJUQskAAAAASUVORK5CYII="/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-10989"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-10988" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 8.464844 1.324219 C 8.378906 1.324219 8.289062 1.328125 8.203125 1.332031 L 8.203125 6.746094 L 8.730469 6.746094 L 8.730469 1.335938 C 8.644531 1.332031 8.554688 1.324219 8.464844 1.324219 Z M 8.464844 1.324219 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-10991" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-10988"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(54.509804%, 76.470588%, 29.019608%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 12.410156 12.410156 15.609375 8.464844 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.324219 8.464844 1.324219 C 12.410156 1.324219 15.609375 4.519531 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<use xlink:href="#source-10991"/>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 8.46875 6.351562 C 7.882812 6.351562 7.410156 6.824219 7.40625 7.40625 L 7.40625 9.523438 C 7.410156 10.109375 7.882812 10.582031 8.46875 10.582031 C 9.050781 10.582031 9.523438 10.109375 9.523438 9.523438 L 9.523438 7.40625 C 9.523438 6.824219 9.050781 6.351562 8.46875 6.351562 Z M 8.46875 6.878906 C 8.757812 6.878906 8.996094 7.089844 8.996094 7.40625 C 8.996094 7.671875 8.757812 7.9375 8.464844 7.9375 C 8.175781 7.929688 7.945312 7.695312 7.9375 7.40625 C 7.9375 7.089844 8.175781 6.878906 8.46875 6.878906 Z M 8.46875 8.464844 C 8.757812 8.464844 8.996094 8.703125 8.996094 8.996094 L 8.996094 9.523438 C 8.984375 9.808594 8.75 10.03125 8.464844 10.03125 C 8.183594 10.03125 7.949219 9.808594 7.9375 9.523438 L 7.9375 8.996094 C 7.9375 8.703125 8.175781 8.464844 8.46875 8.464844 Z M 8.46875 8.464844 "/>
+</svg>

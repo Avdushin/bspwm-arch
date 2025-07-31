@@ -1,6 +1,4 @@
-/****************
- * content view *
- ****************/
+
 .content-view.view {
     background-color: @theme_base_color;
 }

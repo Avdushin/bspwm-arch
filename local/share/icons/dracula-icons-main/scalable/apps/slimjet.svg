@@ -1,4 +1,13 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <circle cx="8.467" cy="8.466" r="7.144" fill="#1cd2ac" style="paint-order:stroke markers fill"/>
- <path d="m12.755 8.4996-2.9102 0.78699-3.7935 2.9107 1.6693-2.9108-2.375-0.26466-1.0585 1.0585 0.52927-1.5878-0.52927-1.5878 1.0585 1.0585 2.3882-0.26443-1.6825-2.911 3.7922 2.9109 2.9114 0.801z" fill="#fff" stroke-width=".26458" style="isolation:isolate"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="17" height="17"/>
+</clipPath>
+<g id="source-8684" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 12.753906 8.5 L 9.84375 9.285156 L 6.050781 12.199219 L 7.71875 9.285156 L 5.34375 9.023438 L 4.285156 10.082031 L 4.816406 8.492188 L 4.285156 6.90625 L 5.34375 7.964844 L 7.734375 7.699219 L 6.050781 4.789062 L 9.84375 7.699219 Z M 12.753906 8.5 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(10.980392%, 82.352941%, 67.45098%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 12.410156 12.414062 15.609375 8.46875 15.609375 C 4.519531 15.609375 1.324219 12.410156 1.324219 8.464844 C 1.324219 4.519531 4.519531 1.320312 8.46875 1.320312 C 12.414062 1.320312 15.609375 4.519531 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<use xlink:href="#source-8684"/>
 </svg>

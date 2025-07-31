@@ -1,16 +1,17 @@
-<svg width="22" height="22" version="1.1" viewBox="0 0 5.821 5.821" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <radialGradient id="d" cx="4.062" cy="291.63" r="7.276" gradientTransform="matrix(2.2066 0 0 2.2066 12.283 -619.24)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#ca564d" stop-opacity=".019" offset="0"/>
-   <stop stop-color="#f35e4d" offset="1"/>
-  </radialGradient>
-  <radialGradient id="f" cx="4.062" cy="291.63" r="7.276" gradientTransform="matrix(2.2066 0 0 2.2066 -5.7145 -623.23)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#ca564d" stop-opacity=".019" offset="0"/>
-   <stop stop-color="#fd5c4f" offset="1"/>
-  </radialGradient>
- </defs>
- <rect x=".529" y="1.058" width="4.762" height="3.704" rx=".529" ry=".529" fill="#ef746d" style="paint-order:stroke markers fill"/>
- <path transform="scale(.26459)" d="m19.996 12.031a16.055 16.055 0 0 0-11.498 5.9668h9.5c1.1076 0 1.998-0.89238 1.998-2v-3.9668z" fill="url(#d)" stroke-width="3.7794" style="paint-order:stroke markers fill"/>
- <circle cx="4.233" cy="2.116" r=".529" fill="#ffdb8a" style="paint-order:stroke markers fill"/>
- <path transform="scale(.26459)" d="m3 7.998a16.055 16.055 0 0 0-1 0.035156v7.9648c0 1.1076 0.89043 2 1.998 2h13.861a16.055 16.055 0 0 0-14.859-10z" fill="url(#f)" stroke-width="3.7794" style="paint-order:stroke markers fill"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+<defs>
+<radialGradient id="radial-pattern-0" gradientUnits="userSpaceOnUse" cx="4.062" cy="291.630005" fx="4.062" fy="291.630005" r="7.276" gradientTransform="matrix(0.583844, 0, 0, 0.583844, 3.249959, -163.844706)">
+<stop offset="0" stop-color="rgb(79.215686%, 33.72549%, 30.196078%)" stop-opacity="0.019"/>
+<stop offset="1" stop-color="rgb(95.294118%, 36.862745%, 30.196078%)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="radial-pattern-1" gradientUnits="userSpaceOnUse" cx="4.062" cy="291.630005" fx="4.062" fy="291.630005" r="7.276" gradientTransform="matrix(0.583844, 0, 0, 0.583844, -1.512, -164.900418)">
+<stop offset="0" stop-color="rgb(79.215686%, 33.72549%, 30.196078%)" stop-opacity="0.019"/>
+<stop offset="1" stop-color="rgb(99.215686%, 36.078431%, 30.980392%)" stop-opacity="1"/>
+</radialGradient>
+</defs>
+<path fill-rule="nonzero" fill="rgb(93.72549%, 45.490196%, 42.745098%)" fill-opacity="1" d="M 1.058594 1.058594 L 4.761719 1.058594 C 5.054688 1.058594 5.289062 1.292969 5.289062 1.585938 L 5.289062 4.234375 C 5.289062 4.523438 5.054688 4.761719 4.761719 4.761719 L 1.058594 4.761719 C 0.765625 4.761719 0.527344 4.523438 0.527344 4.234375 L 0.527344 1.585938 C 0.527344 1.292969 0.765625 1.058594 1.058594 1.058594 Z M 1.058594 1.058594 "/>
+<path fill-rule="nonzero" fill="url(#radial-pattern-0)" d="M 5.289062 3.183594 C 4.101562 3.257812 2.996094 3.832031 2.25 4.761719 L 4.761719 4.761719 C 5.054688 4.761719 5.289062 4.527344 5.289062 4.234375 Z M 5.289062 3.183594 "/>
+<path fill-rule="nonzero" fill="rgb(100%, 85.882353%, 54.117647%)" fill-opacity="1" d="M 4.761719 2.117188 C 4.761719 2.40625 4.523438 2.644531 4.234375 2.644531 C 3.941406 2.644531 3.703125 2.40625 3.703125 2.117188 C 3.703125 1.824219 3.941406 1.585938 4.234375 1.585938 C 4.523438 1.585938 4.761719 1.824219 4.761719 2.117188 Z M 4.761719 2.117188 "/>
+<path fill-rule="nonzero" fill="url(#radial-pattern-1)" d="M 0.792969 2.117188 C 0.707031 2.117188 0.617188 2.121094 0.527344 2.125 L 0.527344 4.234375 C 0.527344 4.527344 0.765625 4.761719 1.058594 4.761719 L 4.726562 4.761719 C 4.074219 3.164062 2.519531 2.117188 0.792969 2.117188 Z M 0.792969 2.117188 "/>
 </svg>

@@ -1,1 +1,31 @@
-abiword.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<image id="source-13560" x="0" y="0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAdElEQVR4nO3XMQqDQBQE0DGksvT+15RUgRSuBzBIBuN7sPxqYZhukpubxp3HO2pN8jovzu89x52TLF/8f+fiBTzaAdoU0A7QpoB2gDYFtAO0KaAdoE0B7QBtty9gH0NrtmFz1KWHEAAAAAAAAAAAAAAA8J8+QKgHG1AMYHcAAAAASUVORK5CYII="/>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<use xlink:href="#source-13560"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-13559" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 14.289062 8.460938 C 14.289062 5.246094 11.683594 2.636719 8.46875 2.636719 C 5.253906 2.636719 2.644531 5.246094 2.644531 8.460938 C 2.644531 11.675781 5.253906 14.28125 8.46875 14.28125 C 11.683594 14.28125 14.289062 11.675781 14.289062 8.460938 Z M 14.289062 8.460938 "/>
+</g>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-13562" clip-path="url(#clip-1)">
+<g mask="url(#mask-0)">
+<use xlink:href="#source-13559"/>
+</g>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(29.803922%, 38.431373%, 49.803922%)" fill-opacity="1" d="M 15.609375 8.464844 C 15.609375 4.519531 12.410156 1.324219 8.464844 1.324219 C 4.519531 1.324219 1.324219 4.519531 1.324219 8.464844 C 1.324219 12.410156 4.519531 15.609375 8.464844 15.609375 C 12.410156 15.609375 15.609375 12.410156 15.609375 8.464844 Z M 15.609375 8.464844 "/>
+<use xlink:href="#source-13562"/>
+<path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 5.292969 10.972656 C 5.289062 9.449219 7.492188 5.046875 8.519531 5.023438 C 9.03125 5.011719 9.800781 5.988281 10.445312 7.246094 C 11.09375 8.507812 11.617188 10.050781 11.640625 11.179688 C 11.640625 11.179688 9.160156 6.328125 8.539062 6.316406 C 7.910156 6.300781 6.199219 9.730469 6.402344 10.113281 C 6.601562 10.488281 10.289062 9.285156 10.289062 9.285156 C 10.210938 9.40625 7.804688 11 5.996094 11.375 C 5.722656 11.363281 5.316406 11.375 5.292969 10.972656 M 5.292969 10.972656 "/>
+</svg>

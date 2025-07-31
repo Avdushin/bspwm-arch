@@ -8,6 +8,10 @@ alias n="nvim"
 alias v="vim"
 alias m="micro"
 
+# Top processes
+alias topcpu="topprocs --cpu"
+alias topmem="topprocs --mem"
+
 # Display critical errors
 alias syslog_emerg="sudo dmesg --level=emerg,alert,crit"
 
@@ -43,6 +47,8 @@ set -gx EDITOR vim
 set -gx VISUAL vim
 set -gx BROWSER /usr/bin/firefox
 
+# DOCKER
+set -gx DOCKER_HOST "unix:///var/run/docker.sock"
 
 # Places
 function pr

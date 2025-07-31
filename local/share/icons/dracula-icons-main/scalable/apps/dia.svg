@@ -1,28 +1,25 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <g transform="matrix(1.1739 0 0 1.1739 3.8261 -14.957)" stroke-width=".85185">
-  <g stroke-width=".85185">
-   <g transform="translate(0,16)">
-    <path d="m24 1c12.703 0 23 10.297 23 23s-10.297 23-23 23-23-10.297-23-23 10.297-23 23-23z" fill="#383838" stroke-width=".85185"/>
-   </g>
-   <g transform="translate(0,16)">
-    <g stroke-width=".85185">
-     <g transform="translate(1,1)" stroke-width=".85185">
-      <g opacity=".1" stroke-width=".85185">
-       <g stroke-width=".85185">
-        <path d="m16.5 11h2v1.996h-2"/>
-       </g>
-      </g>
-     </g>
-    </g>
-   </g>
-   <g transform="translate(1,16)">
-    <g stroke-width=".85185">
-     <g stroke-width=".85185">
-      <path d="m24 19-5 9h10m-3.2-2h-3.6l1.8-3.4" fill="#ff9409"/>
-     </g>
-    </g>
-   </g>
-  </g>
-  <path d="m15 26v3h1v1h-2v3h2v14h-2v3h2v0.877h-1l2 3.123 2-3.123h-1v-0.877h9c5.54 0 10-4.46 10-10s-4.46-10-10-10h-9v-1h1v-3zm3 7h9c3.878 0 7 3.122 7 7s-3.122 7-7 7h-9z" fill="#f9f9f9"/>
- </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-6.4" y="-6.4" width="76.8" height="76.8" fill="rgb(0%, 0%, 0%)" fill-opacity="0.1"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<rect x="0" y="0" width="64" height="64"/>
+</clipPath>
+<g id="source-7814" clip-path="url(#clip-0)">
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 24.371094 17.914062 L 26.71875 17.914062 L 26.71875 20.253906 L 24.371094 20.253906 "/>
+</g>
+</defs>
+<path fill-rule="nonzero" fill="rgb(21.960784%, 21.960784%, 21.960784%)" fill-opacity="1" d="M 32 5 C 46.910156 5 59 17.085938 59 32 C 59 46.910156 46.910156 59 32 59 C 17.085938 59 5 46.910156 5 32 C 5 17.085938 17.085938 5 32 5 Z M 32 5 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-7814"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(100%, 58.039216%, 3.529412%)" fill-opacity="1" d="M 33.171875 26.128906 L 27.304688 36.695312 L 39.042969 36.695312 M 35.285156 34.347656 L 31.0625 34.347656 L 33.171875 30.355469 "/>
+<path fill-rule="nonzero" fill="rgb(97.647059%, 97.647059%, 97.647059%)" fill-opacity="1" d="M 21.433594 15.5625 L 21.433594 19.085938 L 22.609375 19.085938 L 22.609375 20.261719 L 20.261719 20.261719 L 20.261719 23.78125 L 22.609375 23.78125 L 22.609375 40.214844 L 20.261719 40.214844 L 20.261719 43.738281 L 22.609375 43.738281 L 22.609375 44.765625 L 21.433594 44.765625 L 23.78125 48.433594 L 26.128906 44.765625 L 24.957031 44.765625 L 24.957031 43.738281 L 35.519531 43.738281 C 42.023438 43.738281 47.261719 38.503906 47.261719 32 C 47.261719 25.496094 42.023438 20.261719 35.519531 20.261719 L 24.957031 20.261719 L 24.957031 19.085938 L 26.128906 19.085938 L 26.128906 15.5625 Z M 24.957031 23.78125 L 35.519531 23.78125 C 40.074219 23.78125 43.738281 27.445312 43.738281 32 C 43.738281 36.550781 40.074219 40.214844 35.519531 40.214844 L 24.957031 40.214844 Z M 24.957031 23.78125 "/>
 </svg>
