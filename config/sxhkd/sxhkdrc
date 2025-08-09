@@ -29,10 +29,10 @@ Alt_L + shift
 
 Shift_L + alt
 	sh $HOME/bin/change_language.sh
-    
+
 # Launch Rofi Menu
-super + {d,x}
-    {rofi -show drun,sh $HOME/bin/powermenu}
+super + {d,x,c,semicolon}
+    {rofi -show drun, sh $HOME/bin/powermenu, rofi -show calc -modi calc, rofi -show emoji -modi emoji}
 
 # Launch Applications
 super + shift + {f,z,p,t,v,i,x,k,l}
@@ -59,7 +59,7 @@ super + {e,o,t,x}
 # lock screen
 super + l
 	sh $HOME/bin/screen-lock
-     
+
 # Select window to close
 ctrl + super + alt + k
 	{xkill}
@@ -133,11 +133,18 @@ super + {t,ctrl + t,f}
 # Change focus to next window, including floating window
 alt + {_,shift + }Tab
     bspc node -f {next.local,prev.local}
- 
+
 #
 # focus/swap
 #
 
+# Переключение фокуса (Super + Стрелки)
+super + {Left,Down,Up,Right}
+    bspc node -f {west,south,north,east}
+
+# Перемещение окон (Super + Shift + Стрелки)
+super + shift + {Left,Down,Up,Right}
+    bspc node -s {west,south,north,east}
 
 # focus the last node/desktop
 super + {grave,Tab}
@@ -169,14 +176,14 @@ super + ctrl + shift + space
 
 # Expanding windows
 super + control {h,j,k,l}
-    bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20} 
+    bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
 
 # Send the window to another edge of the screen
 super + {_,alt + }{h,j,k,l}
     bspc node -{f,s} {west,south,north,east}
 
 # move a floating window
-# TODO: Вызывает конфликт с другими комбинациями 
+# TODO: Вызывает конфликт с другими комбинациями
 #super + x + {h,j,k,l}
 # 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
